@@ -1,3 +1,6 @@
+// modular_z121：清单内种族所需的标识随种族定义加载。
+#define SPECIES_MOORMAN "moorman"
+
 /datum/species/moorman
 	name = "\improper Moorman"
 	id = SPECIES_MOORMAN

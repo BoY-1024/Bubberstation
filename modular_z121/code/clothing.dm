@@ -1,3 +1,8 @@
+// modular_z121：清单内礼服所需的护甲定义随服装加载。
+/datum/armor/z121_femformal
+	bio = 10
+	wound = 5
+
 /obj/item/clothing/suit/ran
 	name = "式神服装"
 	desc = "一套仿照某位式神设计的服装，毛茸茸的。"
