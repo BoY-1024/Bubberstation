@@ -10782,4 +10782,4 @@
 #include "modular_zubbers\modules\voskhod\code\mod_suit.dm"
 #include "modular_zubbers\modules\wood_walls\code\new_floors.dm"
 // END_INCLUDE
-#include "modular_zubbers\code\__HELPERS\chinese_display.dm"
+#include "modular_z121\include.dm" // modular_z121：统一加载 mod 内容及 display 汉化

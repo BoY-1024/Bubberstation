@@ -1,0 +1,5 @@
+modular_z121：按用户要求移除蓝红球及天武剑专用图标状态。
+pets.dmi：移除lanhongqiu、lanhongqiu_sword、lanhongqiu_dead、lanhongqiu_core和skysword。
+pets_held_lh.dmi、pets_held_rh.dmi：各移除lanhongqiu。
+保留其他宠物共32个状态、104帧；逐帧核对像素及状态元数据均与修改前一致。
+原文件和核对记录保存在工程外migration-z121-backup/remove-lanhongqiu目录。
