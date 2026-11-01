@@ -2,7 +2,7 @@ import { filter } from 'es-toolkit/compat';
 import { flow } from 'tgui-core/fp';
 
 import type { Supply, SupplyCategory } from './types';
-
+export { cargoCategoryDisplay, cargoSubcategoryDisplay } from './cargoDisplay'; // BUBBER EDIT
 /**
  * Take entire supplies tree
  * and return a flat supply pack list that matches search,
