@@ -109,16 +109,16 @@ GAME_VERB_PROC(/client, ClearCredits, "Stop End Titles", "OOC")
 	var/chunksize = 0
 	if(!GLOB.end_credits_title)
 		/* Establish a big-ass list of potential titles for the "episode". */
-		possible_titles += "《[pick("衰亡：", "崛起：", "麻烦：", "最后一战：", "阴暗面：", "荒芜：", "毁灭：", "危机：")]\
-							[pick("太空人", "人类", "尊严", "理智", "黑猩猩", "自动售货机的物价", "巨型装甲", "瓦斯清洁工",\
-							"超物质晶体", "医疗部", "工程部", "安保部", "科研部", "服务部", "指挥部", "小丑们", "货运部",\
-							"巴伯站")]》"
-		possible_titles += "船员们[pick("浑身发麻", "被腌了起来", "染上一种不治之症", "吃上披萨", "上了一堂宝贵的历史课", "获得一次休息", "嗨到飞起", "得以活下去", "重温童年", "卷入内战", "落下严重的宿醉", "认真对待[pick("药物滥用", "犯罪", "生产力", "古老美国卡通片", "太空球", "减压程序")]")]"
-		possible_titles += "船员们了解了[pick("爱情", "毒品", "洗钱的危害", "异种敏感度", "投资诈骗", "凯洛坦滥用", "辐射防护", "神圣几何", "弦理论", "抽象数学", "[pick("提兹拉人", "斯克雷尔人", "兔子", "猫科人", "沃克斯人", "兔兔")]的交配仪式", "古代中医")]"
-		possible_titles += "一场非常[pick("企业", "纳米传讯", "舰队", "兔兔", "小丑", "异星生物", "远征", "兔子", "等离子", "火星", "蛇人")]的[pick("圣诞节", "复活节", "节日", "周末", "星期四", "假期")]"
-		possible_titles += "[pick("枪，到处都是枪", "最小的阿玛利斯", "当维护无人机遇上商用级填充泡沫", "进攻！进攻！进攻！", "性爱炸弹", "外星神器传说：第 [pick("I","II","III","IV","V","VI","VII","VIII","IX", "X", "C", "M", "L")] 部")]"
-		possible_titles += "[pick("太空", "性感", "巨龙", "术士", "洗衣", "枪械", "广告", "狗狗", "一氧化碳", "忍者", "巫师", "苏格拉底式", "少年犯罪", "政治动机", "辐射到爆的恶心玩意")] [pick("任务", "力量", "冒险")]"
-		possible_titles += "[pick("[pick("纳米传讯", "辛迪加", "阿玛达因公司", "小丑",)] 静止的那一天", "追捕绿色小香肠", "异形大战自动售货机", "太空赛道")]"
+		possible_titles += "[pick("太空人", "人性", "荣誉", "理智", "猴王", "物价", "战甲", "清洁工",\
+							"超物质", "医疗部", "工程部", "安保部", "科研部", "服务部", "指挥部", "探索者", "寻路者",\
+							"太空站")]的\
+							 [pick("陨落", "崛起", "抉择", "终点", "黑暗", "毁灭", "复仇", "灾难", "困境")]"
+		possible_titles += "船员们 [pick("的PTSD", "深陷困境", "得了不可治愈疾病", "吃披萨", "上了一场宝贵的历史课", "带薪休假", "一起吸嗨", "成功逃命", "重返童年", "深陷内战", "的致命宿醉", "[pick("药物滥用", "犯罪", "暴力电子游戏", "远古美国动画片", "太空炮弹", "减压程序")]的危害")]"
+		possible_titles += "[pick("爱的", "禁毒", "洗钱的危害", "异种敏感", "投资诈骗", "药物滥用", "辐射保护", "神圣几何", "弦理论", "抽象数学", "[pick("乌纳西", "斯克雷尔", "狄奥娜", "卡尔玛尼", "沃克斯", "蛇形气体人", "特沙利")]交配仪式", "远古中药")]纪录片" // modular_z121：保留定制字幕并汉化种族名称。
+		possible_titles += "非常 [pick("企业化", "纳米传讯", "舰队", "猫", "异星生物", "探索", "疯狂", "美味", "火星人", "平凡")] 的 [pick("一天", "春节", "假日", "周末", "星期一", "假期")]"
+		possible_titles += "[pick("枪械泛滥", "动物世界", "当维护无人机遇上商用级填充泡沫", "杀杀杀杀杀杀杀", "性爱炸弹", "外星遗物传奇：[pick("I","II","III","IV","V","VI","VII","VIII","IX", "X", "C","M","L")]")]" // modular_z121：沿用已有汉化，保留源包定制片名。
+		possible_titles += "[pick("太空", "性感", "龙", "术士", "洗衣机", "枪", "宣传", "狗", "一氧化碳", "忍者", "巫师", "社会", "青少年犯罪", "政治动机", "癫火起飞")] [pick("的任务", "之力", "大冒险")]"
+		possible_titles += "[pick("[pick("纳米传讯", "辛迪加", "太阳系联邦")] 屹立之日", "猎杀绿毛肠", "异形大战贩卖机", "太空之旅", "13号空间站")]"
 		titles += "<center><h1>第 [rand(1,1000)] 集<br>[pick(possible_titles)]<h1></h1></h1></center>"
 	else
 		titles += "<center><h1>第 [rand(1,1000)] 集<br>[GLOB.end_credits_title]<h1></h1></h1></center>"
@@ -127,15 +127,15 @@ GAME_VERB_PROC(/client, ClearCredits, "Stop End Titles", "OOC")
 		if(!mind)
 			continue
 		if(!cast.len && !chunksize)
-			chunk += "演员表："
+			chunk += "演员:"
 		var/datum/job/job = mind?.assigned_role
-		var/jobtitle = job?.title || "无头衔"
+		var/jobtitle = chinese_job_display(job?.title) || "自己" // modular_z121：职业字幕使用现有中文显示入口。
 		var/used_name = mind?.current?.name
 		var/antag_string
 		for(var/datum/antagonist/antagonist as anything in mind?.antag_datums)
 			antag_string ? (antag_string += ", ") : (antag_string += "...")
 			antag_string += "[antagonist?.name]"
-		chunk += "[used_name] 饰 [mind?.antag_datums ? "[antag_string] 与 [jobtitle]" : jobtitle]"
+		chunk += "[used_name] 扮演 [mind?.antag_datums ? "[antag_string]与[jobtitle]" : jobtitle]" // modular_z121：保留演员字幕的中文连接词。
 		chunksize++
 
 		if(chunksize > 2)
@@ -157,41 +157,44 @@ GAME_VERB_PROC(/client, ClearCredits, "Stop End Titles", "OOC")
 		else if(H?.real_name)
 			corpses += H?.real_name
 	if(corpses.len)
-		titles += "<center>根据真实事件改编<br>谨以此纪念 [english_list(corpses)]。</center>"
+		titles += "<center>基于真实事件<br>以纪念 [english_list(corpses)].</center>"
 
-	var/list/staff = list("制作人员：")
-	var/static/list/staffjobs = list("端咖啡的", "摄影师", "咆哮担当", "椅子操作员", "编舞", "历史顾问", "服装设计师", "总编辑", "行政助理")
+	var/list/staff = list("制片方:")
+	var/list/static/staffjobs = list("端咖啡的", "摄影师", "专业喊叫师", "椅子操作员", "编舞", "历史顾问", "服装设计师", "总编辑", "行政助理", "盒饭派发员")
 	var/list/goodboys = list()
 	for(var/client/C)
 		if(!C?.holder)
 			continue
 		if(C?.holder)
-			staff += "[uppertext(pick(staffjobs))] 又名“[C?.key]”"
+			staff += "[uppertext(pick(staffjobs))] - '[C?.key]'"
 
 	titles += "<center>[jointext(staff,"<br>")]</center>"
 	if(goodboys.len)
-		titles += "<center>工作人员的乖狗狗：<br>[english_list(goodboys)]</center><br>"
+		titles += "<center>乖宝宝:<br>[english_list(goodboys)]</center><br>"
 
-	var/disclaimer = "<br>由 [pick("纳米传讯", "辛迪加", "阿玛达因公司", "你，也就是玩家")] 赞助。<br>保留所有权利。<br>\
-					本影片受银河联邦及银河系各国的版权法保护。<br>\
-					首次公映行星：[pick("火星", "月球", "地球", "金星", "火卫一", "谷神星", "提亚马特", "鲸鱼座ε", "厄俄斯", "冥王星", "欧埃雷", \
-					"洛达尼亚", "金斯顿", "西努", "尤克利德五号", "洛里曼", "特斯滕", "卡罗塔")]。<br>"
-	disclaimer += pick("禁止用于恶搞。绝对禁止。",
-					   "所有特技均由薪酬过低的实习生完成。请勿在家中尝试。",
-					   "[pick("纳米传讯", "辛迪加", "阿玛达因公司", )] 不认可片中展现的行为。尝试风险自负。",
-					   "未经授权放映、发行或复制本影片及其任何部分（包括配乐）<br>\
-						可能导致紧急响应小队被召来强攻你家，以武力将其收回。",
-						"本片中的故事、所有姓名、角色与事件均属虚构。无意暗示或应被推断为与任何实际<br>\
-						人物（在世或已故）、地点、建筑及产品有关。<br>\
-						本片改编自真实故事，片中所有人物均以真人为原型，尽管我们刚才才说过相反的话。",
-						"与本品相关的任何个人或实体均未因片中烟草产品的展示而获得任何款项或财物，或达成任何协议，<br>\
-						尽管片中有大量吸烟镜头。<br>\
-						（本免责声明由 [pick("纳米传讯！祝你拥有纳米级美好一天！", "猛虎合作社！先杀后问，永远别问！", "阿玛达因公司！我们怎么还活着？", "你，以及其他让我们的服务器持续运转的玩家！",)](TM) 赞助。）",
-						"本片制作过程中没有任何动物受到伤害，此前列为死亡者除外。未签署免责书前请勿在家中尝试。")
+	var/disclaimer = "<br>由 [pick("纳米传讯", "辛迪加", "太阳系联盟")] 赞助播出。<br>版权所有，不得转载。<br>\
+					 本影片受地球联邦政府著作权法及星系内各政权相关法律保护。<br>\
+					 首发地: [pick("火星", "月球", "地球", "金星", "火卫一", "木卫二", "谷神星", "提亚马特", "鯨魚座ε", "仙女座", "冥王星", "欧厄尔",\
+					 "洛达尼亚", "金斯顿", "西努", "尤克利德五号", "洛里曼", "特斯滕", "盖亚")].<br>" // modular_z121：首发地沿用已有译名并补充盖亚。
+	disclaimer += pick("禁止二次创作使用。严禁！",
+			"本节目适合宇宙中一切有知觉的物质观看，如果你认为该影片冒犯到了您的任何利益，<br>\
+			财产，人身安全，香蕉种子，合法权益，<br>\
+			请告诉我们您的个人信息和家庭住址，我们会亲自派律师上门用香蕉派砸死你！滑稽！！！", // modular_z121：汉化定制片尾笑料。
+					   "专业声明：拍摄涉及的特技表演均符合安全规范（含实习特技员），请勿模仿",
+					   "[pick("纳米传讯", "辛迪加", "太阳系联盟")] 对本片所示行为不予认可，模仿风险请自行承担。",
+					   "未经授权对本片及任何片段（含原声音轨）进行公开放映、传播或复制<br>\
+						可能导致ERT启动特别强制回收程序",
+						"本片所涉故事、人物名称、角色设定及情节均属虚构，<br>\
+						与任何实际存在的个人（在世或离世）、地点、机构、商业品牌等均无关联且不作暗示。<br>\
+						但本片确实源于真实事件，所有人物皆有现实原型。",
+						"严正声明：本片涉及烟草制品之场景展现，均未获任何个人或实体授权及利益输送<br>\
+						(本免责声明由癌多多集团独家冠名——专业致癌物质搬运工，百年老字号品质保证！).",
+						"本片拍摄过程中未有动物受到伤害（先前已声明的死亡案例除外）<br>\
+						危险动作请勿模仿。")
 	titles += "<hr>"
-	titles += "<center><span style='font-size:6pt;'>[JOINTEXT(disclaimer)]</span></center>"
-
+	titles += "<center><span style='font-size:24pt;'>[JOINTEXT(disclaimer)]</span></center>"
 	return titles
+// modular_z121：合入自定义片尾文本和字号，保留当前字幕接口及玩家偏好。
 
 /// Enables the choice of players disabling seeing the credits
 /datum/preference/toggle/see_credits

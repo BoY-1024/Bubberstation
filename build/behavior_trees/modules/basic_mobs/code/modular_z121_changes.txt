@@ -1,0 +1,2 @@
+modular_z121：保留源包提供的 magicfur.bt.compiled.json 行为树产物。
+此文件属于源码内容，未并入 mod 目录；当前 magicfur 的 DM AI 实现直接定义在 mod 中。
