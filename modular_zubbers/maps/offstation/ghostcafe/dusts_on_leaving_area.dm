@@ -24,4 +24,6 @@
 		return
 
 	living_source.investigate_log("因离开其合法区域而被化为尘埃。", INVESTIGATE_DEATHS)
-	living_source.dust(TRUE, force = TRUE)
+	do_sparks(10, TRUE, living_source, spark_type = /datum/effect_system/basic/spark_spread/quantum)
+	living_source.ghostize()
+	qdel(living_source)

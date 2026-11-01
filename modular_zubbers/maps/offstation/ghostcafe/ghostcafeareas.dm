@@ -10,6 +10,11 @@
 
 /area/centcom/holding/cafe
 	name = "幽灵咖啡厅"
+	area_flags = parent_type::area_flags | HIDDEN_AREA
+
+/area/centcom/holding/cafe/shuttle
+	name = "Ghost Cafe Arrival Shuttle"
+	area_flags = NOTELEPORT
 
 /area/centcom/holding/cafe/vox
 	name = "咖啡厅沃克斯包厢"

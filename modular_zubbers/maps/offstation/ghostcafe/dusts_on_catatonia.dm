@@ -28,5 +28,6 @@
 			continue
 
 		attached.investigate_log("因不再与任何玩家或幽灵关联而被化为尘埃。", INVESTIGATE_DEATHS)
-		attached.dust(TRUE, force = TRUE)
-		Detach(attached)
+		do_sparks(10, TRUE, attached, spark_type = /datum/effect_system/basic/spark_spread/quantum)
+		attached.ghostize()
+		qdel(attached)
