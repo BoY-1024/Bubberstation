@@ -243,3 +243,4 @@
 	return jointext(displayed, "、")
 
 #include "chinese/_includes.dm"
+#include "../../modular_zubbers/code/modules/cargo/cargo_crate_display.dm"

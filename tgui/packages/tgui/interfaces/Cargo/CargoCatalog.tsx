@@ -21,7 +21,7 @@ import { formatMoney } from 'tgui-core/format';
 
 import { useBackend, useSharedState } from '../../backend';
 import { SearchBar } from '../common/SearchBar';
-import { searchForSupplies } from './helpers';
+import { cargoCategoryDisplay, cargoSubcategoryDisplay, searchForSupplies } from './helpers'; // BUBBER EDIT
 import type { CargoData, Supply, SupplyCategory } from './types';
 
 type Props = {
@@ -182,7 +182,7 @@ function CatalogTabs(props: CatalogTabsProps & Props) {
   } = props;
   // BUBBER EDIT ADDITION
   const { self_paid, allow_private_purchases } = data;
-  const getSubcategoryLabel = (subcategory: string) => subcategory || '通用';
+  const getSubcategoryLabel = cargoSubcategoryDisplay; // BUBBER EDIT
   // BUBBER EDIT END
 
   const sorted = sortBy(categories, [(supply) => supply.name]);
@@ -230,7 +230,7 @@ function CatalogTabs(props: CatalogTabsProps & Props) {
                 }}
               >
                 <Stack justify="space-between">
-                  <span>{supply.name}</span>
+                  <span>{cargoCategoryDisplay(supply.name)}</span> {/* BUBBER EDIT */}
                   <span> {supply.packs.length}</span>
                 </Stack>
               </Tabs.Tab>
