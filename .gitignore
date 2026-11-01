@@ -150,9 +150,6 @@ $RECYCLE.BIN/
 
 # Icon must end with two \r
 Icon
-# modular_z121：保留模组资源目录，避免 Windows 将 icon 目录匹配为 macOS Icon 文件。
-!/modular_z121/**/icon/
-!/modular_z121/**/icon/**
 
 
 # Thumbnails
