@@ -209,6 +209,7 @@ const CrewTable = () => {
           <Table.Cell bold>姓名</Table.Cell>
           <Table.Cell bold collapsing textAlign="center" />
           <Table.Cell bold collapsing />
+          <Table.Cell bold collapsing textAlign="center" /> {/* BUBBER EDIT - ADDITION - Header placeholder for DNR status. */}
           <Table.Cell bold collapsing textAlign="center">
             生命体征
           </Table.Cell>

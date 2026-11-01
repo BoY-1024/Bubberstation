@@ -194,7 +194,7 @@
 	category = CAT_FURNITURE
 
 /datum/crafting_recipe/ghoulrack
-	name = "劝服刑架"
+	name = "劝化刑架"
 	result = /obj/structure/bloodsucker/ghoulrack
 	tool_behaviors = list(TOOL_WELDER, TOOL_WRENCH)
 	reqs = list(

@@ -64,7 +64,7 @@
 		ADD_TRAIT(who, personality_trait, PERSONALITY_TRAIT)
 	LAZYSET(who.personalities, type, TRUE)
 	if(processes)
-		SSpersonalities.processing_personalities[src] += who
+		SSpersonalities.processing_personalities[src] |= who // BUBBER EDIT - CHANGE - Prevent duplicate personality processing entries.
 
 /**
  * Called when removing this personality from a mob.
@@ -80,10 +80,19 @@
 		REMOVE_TRAIT(who, personality_trait, PERSONALITY_TRAIT)
 	LAZYREMOVE(who.personalities, type)
 	if(processes)
-		SSpersonalities.processing_personalities[src] -= who
+		// BUBBER EDIT - CHANGE - START - Clear all duplicate processing entries.
+		var/list/subjects = SSpersonalities.processing_personalities[src]
+		subjects.RemoveAll(who)
+		// BUBBER EDIT - CHANGE - END
 
 /datum/personality/process(seconds_per_tick)
 	for(var/mob/living/subject as anything in SSpersonalities.processing_personalities[src])
+		// BUBBER EDIT - ADDITION - START - Clean up invalid personality processing entries.
+		if(QDELETED(subject))
+			var/list/subjects = SSpersonalities.processing_personalities[src]
+			subjects.RemoveAll(subject)
+			continue
+		// BUBBER EDIT - ADDITION - END
 		if(IS_UNCONSCIOUS(subject) || HAS_TRAIT(subject, TRAIT_NO_TRANSFORM))
 			continue
 		if(on_tick(subject, seconds_per_tick) != PROCESS_KILL)
