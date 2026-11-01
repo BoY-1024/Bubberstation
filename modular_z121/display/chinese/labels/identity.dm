@@ -48,6 +48,9 @@
 	)
 	display_names |= chinese_skyrat_items_species_display(null, TRUE)
 	display_names |= chinese_batch_ten_species_display(null, TRUE)
+	var/list/species_labels = chinese_species_name_labels()
+	for(var/species_name in species_labels)
+		display_names[species_name] = species_labels[species_name]
 	display_names["hearthkin"] = "炉裔"
 	display_names["moorman"] = "荒原人"
 	display_names[lowertext("\improper Moorman")] = "荒原人"
