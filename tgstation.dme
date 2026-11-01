@@ -10781,5 +10781,6 @@
 #include "modular_zubbers\modules\taur_mechanics\taur_clothing_offset.dm"
 #include "modular_zubbers\modules\voskhod\code\mod_suit.dm"
 #include "modular_zubbers\modules\wood_walls\code\new_floors.dm"
+#include "modular_zubbers\modules\i18n\code\fonts.dm" // BUBBER EDIT ADDITION - CJK maptext fonts
 // END_INCLUDE
 #include "modular_z121\include.dm" // modular_z121：统一加载 mod 内容及 display 汉化
