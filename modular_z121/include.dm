@@ -99,6 +99,7 @@
 #include "code/petandPony.dm"
 #include "code/StackSpawner&Reskin.dm"
 #include "code/TeshariSoundFix.dm"
+#include "code/fixes/floorfood_disease_names.dm"
 #include "code/TrueTempFix.dm"
 #include "code/vending board.dm"
 #include "crafting/code/disassemble.dm"

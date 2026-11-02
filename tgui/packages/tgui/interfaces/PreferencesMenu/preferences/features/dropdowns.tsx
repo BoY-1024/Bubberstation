@@ -47,7 +47,7 @@ export function generateOptions(
   const newOptions: DropdownEntry[] = [];
 
   for (const choice of choices) {
-    const displayText: ReactNode = serverData.display_names
+    const displayText: ReactNode = serverData.display_names?.[choice] // 自定义修改：逐项检查译名，缺失时回退原名称以避免笑声等选项显示空白
       ? chineseDisplay(serverData.display_names[choice])
       : chineseDisplay(capitalizeFirst(choice));
 

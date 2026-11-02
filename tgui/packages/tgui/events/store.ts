@@ -10,7 +10,7 @@ export const kitchenSinkAtom = atom(false);
 export const sharedAtom = atom<Record<string, any>>({});
 export const suspendedAtom = atom<number | false>(Date.now()); // Start as suspended
 export const suspendingAtom = atom(false);
-
+export const resumeGenerationAtom = atom(0); // 自定义修改：保存窗口恢复次数，避免连续同类弹窗复用时仍处于隐藏状态
 export const backendStateAtom = atom((get) => ({
   config: get(configAtom),
   data: {

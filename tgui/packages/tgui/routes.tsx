@@ -6,7 +6,7 @@
 
 import { useAtomValue } from 'jotai';
 import { KitchenSink } from './debug/KitchenSink';
-import { backendStateAtom } from './events/store';
+import { backendStateAtom, resumeGenerationAtom } from './events/store'; // 自定义修改：引入窗口恢复计数供路由识别新的恢复周期
 import { LoadingScreen } from './interfaces/common/LoadingScreen';
 import { Window } from './layouts';
 
@@ -99,7 +99,7 @@ export function getRoutedComponent(name: string) {
 
 export function RoutedComponent() {
   const { suspended, config, debug } = useAtomValue(backendStateAtom);
-
+  const resumeGeneration = useAtomValue(resumeGenerationAtom); // 自定义修改：订阅恢复计数，使同一窗口重新打开时也能更新组件标识
   if (suspended) {
     return <SuspendedWindow />;
   }
@@ -121,7 +121,7 @@ export function RoutedComponent() {
   try {
     const Component = getRoutedComponent(name);
 
-    return <Component />;
+    return <Component key={resumeGeneration} />; // 自定义修改：每次恢复重新挂载业务界面，重新显示窗口并清除上一弹窗的局部状态
   } catch (err) {
     switch (err.message) {
       case 'notFound':

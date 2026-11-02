@@ -107,7 +107,7 @@ export const NaniteProgramHub = (props, context) => {
                   {map(programs, (cat_contents, category) => {
                     // Backend was sending stupid data that would have been
                     // annoying to fix
-                    const tabLabel = category.substring(0, category.length - 8);
+                    const tabLabel = category; // 自定义修改：使用完整分类名进行显示映射，避免固定截断导致目录名称为空
                     return (
                       <Tabs.Tab
                         key={category}
