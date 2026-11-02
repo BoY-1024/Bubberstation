@@ -8,7 +8,7 @@ import {
   gameStaticDataAtom,
   sharedAtom,
   store,
-  suspendedAtom,
+  suspendedAtom, resumeGenerationAtom, // 自定义修改：引入恢复计数以区分连续窗口的恢复周期
 } from '../store';
 import type { BackendState } from '../types';
 
@@ -20,7 +20,7 @@ type UpdatePayload = Omit<BackendState<Record<string, unknown>>, 'act'> & {
 
 export function update(payload: UpdatePayload): void {
   if (store.get(suspendedAtom)) {
-    resume(payload);
+    store.set(resumeGenerationAtom, (generation) => generation + 1); resume(payload); // 自定义修改：仅在挂起后恢复时递增计数，触发界面重新挂载而不影响普通刷新
     store.set(suspendedAtom, false);
   }
   updateData(payload);
