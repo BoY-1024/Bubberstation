@@ -259,8 +259,8 @@
 	contains = list(/obj/item/ammo_box/c310_cargo_box)
 
 /datum/supply_pack/goody/riflecrate
-	name = "Lanca Battle Rifle Single-Order"
-	desc = "Need some more reliable firepower than the standard Sakhno? Look no further than these bad boys. Featuring a more modern semi-automatic action, these bad babies will be sure to make anyone regret messing with you. Don't mind the fees..."
+	name = "骑枪战斗步枪箱"
+	desc = "嫌标准型萨赫诺不够可靠、火力不够猛？别往别处看了，就是这帮狠家伙。它们采用更现代的半自动结构，肯定能让任何招惹你的人后悔。别在意那点手续费……"
 	cost = 2500
 	contains = list(
 		/obj/item/gun/ballistic/automatic/lanca,

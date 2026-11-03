@@ -265,8 +265,8 @@
 	)
 
 /datum/supply_pack/security/armory/antimatcrate
-	name = "Wylom Anti-Material Rifle Crate"
-	desc = "Do you have a hard target that you need dead? That ion gun not stopping the bad guy with a mech? Buy this to aquire a singular Wylom, with two spare magazines."
+	name = "破阵反器材步枪箱"
+	desc = "有个棘手的目标非死不可？那把离子枪搞不定开着机甲的坏蛋？买这个，就能拿到一把破阵步枪，附两个备用弹匣。"
 	cost = 7500
 	contains = list(
 		/obj/item/gun/ballistic/automatic/wylom,
