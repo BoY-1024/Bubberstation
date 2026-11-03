@@ -8,7 +8,7 @@
 /obj/item/circuit_component/reagent_injector
 	display_name = "试剂注射"
 	desc = "可以从电路的试剂储存中注射试剂的元件。"
-	category = "实体"
+	category = "Entity" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	//SKYRAT EDIT CHANGE BEGIN - Add container type flag - This is required since we have two reagent components, and the BCI only allows one active
 	//circuit_flags = CIRCUIT_NO_DUPLICATES - SKYRAT EDIT - ORIGINAL
 	circuit_flags = CIRCUIT_NO_DUPLICATES|CIRCUIT_REAGENT_CONTAINER_TYPE

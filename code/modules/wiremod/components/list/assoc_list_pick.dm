@@ -7,7 +7,7 @@
 /obj/item/circuit_component/list_pick/assoc
 	display_name = "关联列表抽取"
 	desc = "让使用者从关联列表中抽取 1 个元素的元件。返回被选中的元素。"
-	category = "列表"
+	category = "List" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 /obj/item/circuit_component/list_pick/assoc/populate_options()
 	list_options = add_option_port("List Type", GLOB.wiremod_basic_types)

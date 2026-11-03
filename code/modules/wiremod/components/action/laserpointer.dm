@@ -6,7 +6,7 @@
 /obj/item/circuit_component/laserpointer
 	display_name = "激光指示器"
 	desc = "向目标照射高功率光束的元件。"
-	category = "动作"
+	category = "Action" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL|CIRCUIT_FLAG_OUTPUT_SIGNAL
 
 	/// The input port

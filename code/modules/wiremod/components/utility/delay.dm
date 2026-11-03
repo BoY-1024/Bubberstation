@@ -9,7 +9,7 @@
 /obj/item/circuit_component/delay
 	display_name = "延迟"
 	desc = "把信号延迟指定时长的元件。再次触发时计时器会重置。"
-	category = "实用工具"
+	category = "Utility" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// Amount to delay by
 	var/datum/port/input/delay_amount

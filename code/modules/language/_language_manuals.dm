@@ -13,7 +13,7 @@
 		return
 
 	if(user.has_language(language))
-		to_chat(user, span_boldwarning("你开始翻阅 [src]，但你已经掌握 [initial(language.name)] 了。"))
+		to_chat(user, span_boldwarning("你开始翻阅 [src]，但你已经掌握 [chinese_language_display(initial(language.name))] 了。"))
 		return
 
 	to_chat(user, span_bolddanger("你开始翻阅 [src]，[flavour_text]。"))
@@ -68,23 +68,23 @@
 	if(!language) //if a language is already set, use it instead.
 		var/list/available_languages = length(GLOB.uncommon_roundstart_languages) ? GLOB.uncommon_roundstart_languages : list(/datum/language/common)
 		language = pick(available_languages)
-	name = "[initial(language.name)] 手册"
-	desc = "书封上写着：“[initial(language.name)] 异种族专用版——几秒钟学会银河通用语。”"
-	flavour_text = "顿感自己已精通 [initial(language.name)]"
+	name = "[chinese_language_display(initial(language.name))] 手册"
+	desc = "书封上写着：“[chinese_language_display(initial(language.name))] 异种族专用版——几秒钟学会银河通用语。”"
+	flavour_text = "顿感自己已精通 [chinese_language_display(initial(language.name))]"
 
 /obj/item/language_manual/roundstart_species/unlimited
 	charges = INFINITY
 
 /obj/item/language_manual/roundstart_species/unlimited/Initialize(mapload)
 	. = ..()
-	name = "豪华版 [initial(language.name)] 手册"
+	name = "豪华版 [chinese_language_display(initial(language.name))] 手册"
 
 /obj/item/language_manual/roundstart_species/five
 	charges = 5
 
 /obj/item/language_manual/roundstart_species/five/Initialize(mapload)
 	. = ..()
-	name = "扩充版 [initial(language.name)] 手册"
+	name = "扩充版 [chinese_language_display(initial(language.name))] 手册"
 
 /obj/item/language_manual/roundstart_species/draconic
 	name = "龙语手册"

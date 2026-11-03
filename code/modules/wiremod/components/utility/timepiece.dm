@@ -12,7 +12,7 @@
 /obj/item/circuit_component/timepiece
 	display_name = "计时"
 	desc = "输出当前空间站时间的元件。文本输出端口用于时间格式，数字输出端口用于时间单位。"
-	category = "实用工具"
+	category = "Utility" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL|CIRCUIT_FLAG_OUTPUT_SIGNAL
 
 	/// The time format of the text output

@@ -16,7 +16,7 @@
 /obj/item/circuit_component/arithmetic
 	display_name = "算术"
 	desc = "具备各种算术运算能力的通用算术元件。"
-	category = "数学"
+	category = "Math" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	var/datum/port/input/option/arithmetic_option
 

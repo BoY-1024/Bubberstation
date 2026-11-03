@@ -10,7 +10,7 @@
 /obj/item/circuit_component/proccall
 	display_name = "过程调用"
 	desc = "在对象上调用一个过程的元件。"
-	category = "管理员"
+	category = "Admin" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL|CIRCUIT_FLAG_OUTPUT_SIGNAL|CIRCUIT_FLAG_ADMIN
 
 	var/datum/port/input/option/proccall_options

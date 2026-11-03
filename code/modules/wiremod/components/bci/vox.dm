@@ -8,7 +8,7 @@
 /obj/item/circuit_component/vox
 	display_name = "VOX 播报"
 	desc = "为使用者播放本地 VOX 播报的元件。需要脑机接口外壳。"
-	category = "脑机接口"
+	category = "BCI" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	required_shells = list(/obj/item/organ/cyberimp/bci)
 

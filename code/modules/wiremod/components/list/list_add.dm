@@ -6,7 +6,7 @@
 /obj/item/circuit_component/variable/list/listadd
 	display_name = "列表添加"
 	desc = "向列表变量添加一个元素。"
-	category = "列表"
+	category = "List" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// Element to add to the list
 	var/datum/port/input/to_add

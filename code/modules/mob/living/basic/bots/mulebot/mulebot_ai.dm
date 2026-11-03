@@ -72,7 +72,7 @@
 			if(atom_to_pick_up?.Adjacent(bot_pawn))
 				bot_pawn.load(atom_to_pick_up)
 				if(bot_pawn.mulebot_delivery_flags & MULEBOT_REPORT_DELIVERY_MODE)
-					bot_pawn.speak("正在 [RUNECHAT_BOLD("[get_area_name(bot_pawn)]")] 装载 [bot_pawn.load]。", bot_pawn.radio_channel)
+					bot_pawn.speak("正在 [RUNECHAT_BOLD("[chinese_area_display(get_area_name(bot_pawn))]")] 装载 [bot_pawn.load]。", bot_pawn.radio_channel)
 
 	if((bot_pawn.mulebot_delivery_flags & MULEBOT_RETURN_MODE) && controller.blackboard[BB_MULEBOT_HOME_BEACON] && controller.blackboard[BB_MULEBOT_HOME_BEACON] != beacon.location)
 		bot_pawn.update_bot_mode(new_mode = BOT_GO_HOME)

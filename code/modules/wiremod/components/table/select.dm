@@ -6,7 +6,7 @@
 /obj/item/circuit_component/select
 	display_name = "选择查询"
 	desc = "配合 USB 线缆使用的元件，可根据所选列名对列表执行选择查询，再把各值与比较输入进行比较。"
-	category = "列表"
+	category = "List" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL|CIRCUIT_FLAG_OUTPUT_SIGNAL
 
 	var/datum/port/input/option/comparison_options

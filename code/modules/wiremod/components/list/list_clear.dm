@@ -6,7 +6,7 @@
 /obj/item/circuit_component/variable/list/listclear
 	display_name = "列表清空"
 	desc = "清空列表变量。"
-	category = "列表"
+	category = "List" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL|CIRCUIT_FLAG_OUTPUT_SIGNAL
 

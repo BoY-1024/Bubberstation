@@ -6,7 +6,7 @@
 /obj/item/circuit_component/gps
 	display_name = "内部 GPS"
 	desc = "返回自身 xyz 坐标的元件。"
-	category = "实体"
+	category = "Entity" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// The result from the output
 	var/datum/port/output/x_pos

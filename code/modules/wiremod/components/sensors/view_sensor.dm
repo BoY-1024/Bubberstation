@@ -7,7 +7,7 @@
 /obj/item/circuit_component/view_sensor
 	display_name = "视野传感器"
 	desc = "输出其视野内所有可移动对象组成的列表。需要外壳。最大范围 5 格。"
-	category = "传感器"
+	category = "Sensor" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL|CIRCUIT_FLAG_OUTPUT_SIGNAL
 

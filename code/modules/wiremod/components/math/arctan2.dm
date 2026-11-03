@@ -5,7 +5,7 @@
 /obj/item/circuit_component/arctan2
 	display_name = "反正切 2"
 	desc = "双参数的 arctan2 元件，可计算你想要的任意角度。"
-	category = "数学"
+	category = "Math" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// The input port for the x-offset
 	var/datum/port/input/input_port_x

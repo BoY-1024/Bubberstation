@@ -6,7 +6,7 @@
 /obj/item/circuit_component/get_column
 	display_name = "获取列"
 	desc = "获取表格中的某一列，并将其作为普通列表返回。"
-	category = "列表"
+	category = "List" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL|CIRCUIT_FLAG_OUTPUT_SIGNAL
 
 	/// The list to perform the filter on

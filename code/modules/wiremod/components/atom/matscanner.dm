@@ -6,7 +6,7 @@
 /obj/item/circuit_component/matscanner
 	display_name = "材料扫描器"
 	desc = "输出输入实体的材料组成。"
-	category = "实体"
+	category = "Entity" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL|CIRCUIT_FLAG_OUTPUT_SIGNAL
 

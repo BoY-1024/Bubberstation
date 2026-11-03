@@ -6,7 +6,7 @@
 /obj/item/circuit_component/listin
 	display_name = "元素查找"
 	desc = "检查元素是否在列表中，若在则返回其索引；失败时索引为 0。"
-	category = "列表"
+	category = "List" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// The list type we're checking
 	var/datum/port/input/list_type

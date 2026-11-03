@@ -279,11 +279,11 @@
 
 /mob/living/basic/drone/proc/alarm_triggered(datum/source, alarm_type, area/source_area)
 	SIGNAL_HANDLER
-	to_chat(src, "--- 在 [source_area.name] 检测到 [alarm_type] 警报！")
+	to_chat(src, "--- 在 [chinese_area_display(source_area.name)] 检测到 [alarm_type] 警报！")
 
 /mob/living/basic/drone/proc/alarm_cleared(datum/source, alarm_type, area/source_area)
 	SIGNAL_HANDLER
-	to_chat(src, "--- [source_area.name] 的 [alarm_type] 警报已解除。")
+	to_chat(src, "--- [chinese_area_display(source_area.name)] 的 [alarm_type] 警报已解除。")
 
 /mob/living/basic/drone/proc/set_shy(new_shy)
 	shy = new_shy

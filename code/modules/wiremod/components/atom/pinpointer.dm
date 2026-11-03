@@ -6,7 +6,7 @@
 /obj/item/circuit_component/pinpointer
 	display_name = "近距离定位针"
 	desc = "只要目标在视野内，就返回其输入实体 xyz 坐标的元件。"
-	category = "实体"
+	category = "Entity" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	var/datum/port/input/target
 

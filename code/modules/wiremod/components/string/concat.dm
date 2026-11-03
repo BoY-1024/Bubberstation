@@ -6,7 +6,7 @@
 /obj/item/circuit_component/concat
 	display_name = "字符串连接"
 	desc = "把多个字符串拼接起来的元件。"
-	category = "字符串"
+	category = "String" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	var/list/datum/port/input/concat_ports = list()
 

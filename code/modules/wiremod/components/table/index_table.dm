@@ -6,7 +6,7 @@
 /obj/item/circuit_component/index_table
 	display_name = "索引表"
 	desc = "使用输入的索引获取表格中的某一行，并以关联列表返回。若索引无效或输入的不是有效表格，则不返回任何值。"
-	category = "列表"
+	category = "List" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL|CIRCUIT_FLAG_OUTPUT_SIGNAL
 
 	/// The list to perform the filter on

@@ -6,7 +6,7 @@
 /obj/item/circuit_component/self
 	display_name = "自身"
 	desc = "返回当前外壳的元件。"
-	category = "实体"
+	category = "Entity" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// The shell this component is attached to.
 	var/datum/port/output/output

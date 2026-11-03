@@ -9,7 +9,7 @@
 /obj/item/circuit_component/textcase
 	display_name = "文本大小写"
 	desc = "把输入文本转换为大写或小写的元件。"
-	category = "字符串"
+	category = "String" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	var/datum/port/input/option/textcase_options
 

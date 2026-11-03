@@ -9,7 +9,7 @@
 /obj/item/circuit_component/radio
 	display_name = "无线电"
 	desc = "一种可以监听并发送频率的元件。若设为私有，该元件只会接收同一所有者 ID 的电路板上其他元件发出的信号。"
-	category = "动作"
+	category = "Action" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// The publicity options. Controls whether it's public or private.
 	var/datum/port/input/option/public_options

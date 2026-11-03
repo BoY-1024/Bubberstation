@@ -6,7 +6,7 @@
 /obj/item/circuit_component/save_shell
 	display_name = "保存外壳"
 	desc = "保存外壳的元件。"
-	category = "管理员"
+	category = "Admin" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	circuit_flags = CIRCUIT_FLAG_ADMIN
 
 	/// Returns the output from the proccall

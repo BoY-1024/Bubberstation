@@ -9,7 +9,7 @@ import {
   Tooltip,
 } from 'tgui-core/components';
 import type { BooleanLike } from 'tgui-core/react';
-
+import { languageDisplay } from '../localization/zhCharacterDisplay';
 import { useBackend } from '../backend';
 import { Window } from '../layouts';
 
@@ -64,7 +64,7 @@ const LangUnderstandIcon = (props: LanguageProps) => {
   const { language } = props;
   if (!language.can_understand && language.partial_understanding > 0) {
     return (
-      <Tooltip content={`你只能部分理解${language.name}。`}>
+      <Tooltip content={`你只能部分理解${languageDisplay(language.name)}。`}>
         <Box
           inline
           style={{
@@ -89,11 +89,11 @@ const LanguageNameAndDesc = (props: LanguageProps) => {
           borderBottom: '2px dotted rgba(255, 255, 255, 0.8)',
         }}
       >
-        {language.name}
+        {languageDisplay(language.name)}
       </Box>
     </Tooltip>
   ) : (
-    <Box>{language.name}</Box>
+    <Box>{languageDisplay(language.name)}</Box>
   );
 };
 
@@ -123,10 +123,10 @@ const LanguageRow = (props: LanguageProps) => {
           <Tooltip
             content={
               language.can_speak
-                ? `尽管你懂得如何说${language.name}，
+                ? `尽管你懂得如何说${languageDisplay(language.name)}，
               但你的身体条件不允许你使用这种语言
               （通常是因为舌头）。`
-                : `即使你学会了如何说${language.name}，
+                : `即使你学会了如何说${languageDisplay(language.name)}，
               你的身体条件也不允许你使用这种语言
               （通常是因为舌头）。`
             }
@@ -146,7 +146,7 @@ const LanguageRow = (props: LanguageProps) => {
       <Table.Cell>
         <LangUnderstandIcon language={language} />
       </Table.Cell>
-      <Table.Cell>{language.key ? `,${language.key}` : 'N/A'}</Table.Cell>
+      <Table.Cell>{language.key ? `,${language.key}` : '无'}</Table.Cell>
       {!!is_living && (
         <Table.Cell>
           <Button.Checkbox

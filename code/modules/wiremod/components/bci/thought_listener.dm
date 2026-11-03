@@ -8,7 +8,7 @@
 /obj/item/circuit_component/thought_listener
 	display_name = "思维监听"
 	desc = "允许使用者用思维输入一段文字的元件。需要脑机接口外壳。"
-	category = "脑机接口"
+	category = "BCI" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	required_shells = list(/obj/item/organ/cyberimp/bci)
 

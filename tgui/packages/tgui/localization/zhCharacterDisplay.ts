@@ -28,6 +28,8 @@ const languageNames: Record<string, string> = {
   Interslavic: '斯拉夫共通语', 'Federation Legalese': '联邦法律语',
   "Siik'maas": '西克玛斯语', Enochian: '以诺语', 'Terran Uncommon': '地球异通用语',
   Schechi: '谢奇语',
+  'an unknown language': '未知语言',
+  Random: '随机',
 };
 
 export const characterDisplay = (value: string): string =>

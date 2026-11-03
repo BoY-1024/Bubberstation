@@ -1,7 +1,7 @@
 /obj/item/circuit_component/id_info_reader
 	display_name = "ID 信息读取"
 	desc = "读取 ID 上姓名、职业与年龄的元件。"
-	category = "ID 卡权限"
+	category = "ID" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// The input port
 	var/datum/port/input/target

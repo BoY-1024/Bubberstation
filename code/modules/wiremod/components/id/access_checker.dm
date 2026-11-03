@@ -1,7 +1,7 @@
 /obj/item/circuit_component/compare/access
 	display_name = "权限校验"
 	desc = "对两个字符串列表进行基础比较，并提供辅助功能，以便用它检查 ID 上的权限。"
-	category = "ID 卡权限"
+	category = "ID" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// A list of the accesses to check
 	var/datum/port/input/subject_accesses

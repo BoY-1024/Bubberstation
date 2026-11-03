@@ -9,7 +9,7 @@
 /obj/item/circuit_component/signal_handler
 	display_name = "信号处理器"
 	desc = "监听对象上信号的元件。"
-	category = "管理员"
+	category = "Admin" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	circuit_flags = CIRCUIT_FLAG_ADMIN|CIRCUIT_FLAG_INSTANT
 
 	/// Whether it is a global or object signal

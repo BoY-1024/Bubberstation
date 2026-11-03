@@ -12,7 +12,7 @@
 /obj/item/circuit_component/remotecam
 	display_name = "摄像头抽象类型"
 	desc = "这是抽象父类型——不要直接使用！"
-	category = "实体"
+	category = "Entity" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	circuit_flags = CIRCUIT_NO_DUPLICATES
 
 	/// Starts the cameraa
@@ -281,7 +281,7 @@
 /obj/item/circuit_component/remotecam/bci
 	display_name = "脑机接口摄像头"
 	desc = "把使用者的视觉数字化，以便随时随地进行监视。使用者的双眼必须功能完好，数字化器才能生效。摄像头范围输入为 0（近）或 1（远）。网络字段用于指定摄像头网络。"
-	category = "脑机接口"
+	category = "BCI" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	camera_prefix = "脑机接口"
 	required_shells = list(/obj/item/organ/cyberimp/bci)
 

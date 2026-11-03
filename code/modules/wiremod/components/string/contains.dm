@@ -6,7 +6,7 @@
 /obj/item/circuit_component/compare/contains
 	display_name = "字符串包含"
 	desc = "检查字符串中是否包含某个词或字母。"
-	category = "字符串"
+	category = "String" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	var/datum/port/input/needle
 	var/datum/port/input/haystack

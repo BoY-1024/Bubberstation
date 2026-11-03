@@ -9,7 +9,7 @@
 /obj/item/circuit_component/compare/typecheck
 	display_name = "类型校验"
 	desc = "检查输入类型的元件。"
-	category = "实用工具"
+	category = "Utility" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	var/datum/port/input/option/typecheck_options
 

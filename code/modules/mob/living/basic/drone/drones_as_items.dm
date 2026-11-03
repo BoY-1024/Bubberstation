@@ -27,7 +27,7 @@
 	var/area/area = get_area(src)
 	if(area)
 		notify_ghosts(
-			"\the [area.name] 中出现了一个无人机外壳。",
+			"[chinese_area_display(area.name)] 中出现了一个无人机外壳。",
 			source = src,
 			header = "无人机外壳已生成",
 			click_interact = TRUE,

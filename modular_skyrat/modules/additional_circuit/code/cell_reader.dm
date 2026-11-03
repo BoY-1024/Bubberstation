@@ -6,7 +6,7 @@
 /obj/item/circuit_component/cell_charge
 	display_name = "电池电量"
 	desc = "一种可以读取电池最大电量与当前电量的元件。"
-	category = "传感器"
+	category = "Sensor" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// max and current charge for the cell
 	var/datum/port/output/max_charge

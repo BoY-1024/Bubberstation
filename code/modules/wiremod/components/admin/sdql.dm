@@ -6,7 +6,7 @@
 /obj/item/circuit_component/sdql_operation
 	display_name = "SDQL 操作"
 	desc = "在被调用时执行一次 SDQL 操作的元件。"
-	category = "管理员"
+	category = "Admin" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL|CIRCUIT_FLAG_OUTPUT_SIGNAL|CIRCUIT_FLAG_ADMIN
 
 	/// SDQL Operation to invoke

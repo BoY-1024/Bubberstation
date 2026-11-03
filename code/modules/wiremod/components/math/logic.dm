@@ -10,7 +10,7 @@
 /obj/item/circuit_component/compare/logic
 	display_name = "逻辑"
 	desc = "具备“与”和“或”运算能力的元件。"
-	category = "数学"
+	category = "Math" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	var/datum/port/input/option/logic_options
 

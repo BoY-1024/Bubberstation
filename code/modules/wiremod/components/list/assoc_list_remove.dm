@@ -6,7 +6,7 @@
 /obj/item/circuit_component/variable/assoc_list/list_remove
 	display_name = "关联列表移除"
 	desc = "从关联列表变量中移除一个键。"
-	category = "列表"
+	category = "List" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// Key to remove to the list
 	var/datum/port/input/to_remove

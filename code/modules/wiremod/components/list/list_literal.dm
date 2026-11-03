@@ -6,7 +6,7 @@
 /obj/item/circuit_component/list_literal
 	display_name = "列表常量"
 	desc = "用你提供的任意输入创建列表的元件。"
-	category = "列表"
+	category = "List" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL|CIRCUIT_FLAG_OUTPUT_SIGNAL
 
 	/// The list type

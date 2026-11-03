@@ -6,7 +6,7 @@
 /obj/item/circuit_component/speech
 	display_name = "语音"
 	desc = "一种发送消息的元件。需要外壳。"
-	category = "动作"
+	category = "Action" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL|CIRCUIT_FLAG_OUTPUT_SIGNAL
 
 	/// The message to send

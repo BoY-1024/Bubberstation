@@ -594,7 +594,7 @@ GLOBAL_LIST_INIT(command_strings, list(
 
 /mob/living/basic/bot/proc/bot_control_message(command, user)
 	if(command == "summon")
-		return "优先警报：[user] 在 [get_area_name(user)]！"
+		return "优先警报：[user] 在 [chinese_area_display(get_area_name(user))]！"
 	return GLOB.command_strings[command] || "收到无法识别的控制序列：[command]"
 
 /mob/living/basic/bot/ui_data(mob/user)

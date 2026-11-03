@@ -6,7 +6,7 @@
 /obj/item/circuit_component/router
 	display_name = "路由器"
 	desc = "把由“Input Selector”选定的输入复制到由“Output Selector”选定的输出。"
-	category = "实用工具"
+	category = "Utility" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL|CIRCUIT_FLAG_OUTPUT_SIGNAL
 
 	var/datum/port/input/option/router_options

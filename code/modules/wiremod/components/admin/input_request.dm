@@ -10,7 +10,7 @@
 /obj/item/circuit_component/input_request
 	display_name = "输入请求"
 	desc = "把字符串转换为类型路径。在添加元件时很有用。"
-	category = "管理员"
+	category = "Admin" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL|CIRCUIT_FLAG_ADMIN
 
 	/// Options for input requests

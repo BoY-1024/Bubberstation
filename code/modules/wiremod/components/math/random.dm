@@ -6,7 +6,7 @@
 /obj/item/circuit_component/random
 	display_name = "随机数"
 	desc = "返回随机值的元件。"
-	category = "数学"
+	category = "Math" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// The minimum value that the random number can be
 	var/datum/port/input/minimum

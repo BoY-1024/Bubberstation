@@ -11,7 +11,7 @@
 /obj/item/circuit_component/reagent_injector_bluespace
 	display_name = "试剂注射（蓝空间）"
 	desc = "一种可以从脑机接口的蓝空间试剂储存中注射指定量试剂的元件。"
-	category = "脑机接口"
+	category = "BCI" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	circuit_flags = CIRCUIT_NO_DUPLICATES|CIRCUIT_REAGENT_CONTAINER_TYPE
 
 	required_shells = list(/obj/item/organ/cyberimp/bci)

@@ -6,7 +6,7 @@
 /obj/item/circuit_component/target_scanner
 	display_name = "目标扫描器"
 	desc = "根据相对于外壳的偏移量，生成指定位置内事物列表的元件。"
-	category = "动作"
+	category = "Action" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	// the offsets required for scanning
 	var/datum/port/input/x_pos
