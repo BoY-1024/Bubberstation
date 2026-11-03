@@ -6,7 +6,7 @@
 /obj/item/circuit_component/split
 	display_name = "拆分"
 	desc = "按分隔符拆分字符串，将其变为列表"
-	category = "列表"
+	category = "List" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// The input port
 	var/datum/port/input/input_port

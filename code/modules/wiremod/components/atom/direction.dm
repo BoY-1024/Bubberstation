@@ -6,7 +6,7 @@
 /obj/item/circuit_component/direction
 	display_name = "获取方向"
 	desc = "返回自身与某个实体之间方向的元件。"
-	category = "实体"
+	category = "Entity" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// The input port
 	var/datum/port/input/input_port

@@ -6,7 +6,7 @@
 /obj/item/circuit_component/pathfind
 	display_name = "寻路器"
 	desc = "触发时，输出通往目标位置的下一步实体。可与方向元件及无人机外壳配合，让它自行移动。ID 卡输入端口仅用于在寻路时考虑 ID 权限，并不会真正赋予外壳权限。"
-	category = "动作"
+	category = "Action" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL|CIRCUIT_FLAG_OUTPUT_SIGNAL
 
 	var/datum/port/input/input_X

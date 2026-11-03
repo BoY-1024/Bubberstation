@@ -6,7 +6,7 @@
 /obj/item/circuit_component/pull
 	display_name = "开始拖拽"
 	desc = "一种可强制外壳拖拽实体的元件。仅对无人机外壳有效。"
-	category = "动作"
+	category = "Action" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// Frequency input
 	var/datum/port/input/target

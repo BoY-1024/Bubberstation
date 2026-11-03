@@ -6,7 +6,7 @@
 /obj/item/circuit_component/health
 	display_name = "生命值"
 	desc = "返回生物生命值的元件。"
-	category = "实体"
+	category = "Entity" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// The input port
 	var/datum/port/input/input_port

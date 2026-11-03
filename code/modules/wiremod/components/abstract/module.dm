@@ -6,7 +6,7 @@
 /obj/item/circuit_component/module
 	display_name = "模块"
 	desc = "内部可容纳其他元件、作用类似函数的元件。在手中使用它可控制其输入与输出端口的数量，并访问其中包含的集成电路。"
-	category = "抽象"
+	category = "Abstract" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	var/obj/item/integrated_circuit/module/internal_circuit
 

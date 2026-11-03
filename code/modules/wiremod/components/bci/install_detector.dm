@@ -8,7 +8,7 @@
 /obj/item/circuit_component/install_detector
 	display_name = "安装检测"
 	desc = "检测电路何时被安装到使用者身上或从使用者身上移除的元件。"
-	category = "实体"
+	category = "Entity" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	required_shells = list(/obj/item/organ/cyberimp/bci, /obj/item/implant)
 

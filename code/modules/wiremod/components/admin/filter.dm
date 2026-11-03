@@ -144,7 +144,7 @@ GLOBAL_LIST_INIT(wiremod_flag_info, list(
 /obj/item/circuit_component/filter_helper
 	display_name = "滤镜参数辅助器"
 	desc = "根据输入构建滤镜参数列表。"
-	category = "管理员"
+	category = "Admin" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL|CIRCUIT_FLAG_OUTPUT_SIGNAL|CIRCUIT_FLAG_ADMIN
 
 	var/datum/port/input/option/filter_type_port
@@ -188,7 +188,7 @@ GLOBAL_LIST_INIT(wiremod_flag_info, list(
 /obj/item/circuit_component/filter_adder
 	display_name = "添加滤镜"
 	desc = "为目标实体添加一个滤镜。"
-	category = "管理员"
+	category = "Admin" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL|CIRCUIT_FLAG_OUTPUT_SIGNAL|CIRCUIT_FLAG_ADMIN
 
 	var/datum/port/input/target_port
@@ -240,7 +240,7 @@ GLOBAL_LIST_INIT(wiremod_flag_info, list(
 /obj/item/circuit_component/filter_remover
 	display_name = "移除滤镜"
 	desc = "从目标上移除指定的滤镜。"
-	category = "管理员"
+	category = "Admin" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL|CIRCUIT_FLAG_OUTPUT_SIGNAL|CIRCUIT_FLAG_ADMIN
 
 	var/datum/port/input/target_port
@@ -259,7 +259,7 @@ GLOBAL_LIST_INIT(wiremod_flag_info, list(
 
 /obj/item/circuit_component/bitflag_helper
 	display_name = "动画与滤镜位标志辅助器"
-	category = "管理员"
+	category = "Admin" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	desc = "让你无需手动查找对应数值，即可为 BYOND 动画与滤镜参数组合位标志。"
 
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL|CIRCUIT_FLAG_OUTPUT_SIGNAL|CIRCUIT_FLAG_ADMIN

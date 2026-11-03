@@ -6,7 +6,7 @@
 /obj/item/circuit_component/tostring
 	display_name = "转换为字符串"
 	desc = "把输入转换为文本的元件。"
-	category = "字符串"
+	category = "String" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// The input port
 	var/datum/port/input/input_port

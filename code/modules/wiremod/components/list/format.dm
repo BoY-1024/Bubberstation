@@ -7,7 +7,7 @@
 /obj/item/circuit_component/format
 	display_name = "格式化列表"
 	desc = "格式化列表的元件：把格式字符串中的 %n 替换为列表中对应的第 n 项。"
-	category = "列表"
+	category = "List" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	var/static/regex/format_component/list_param_regex = new(@"%([0-9]+)", "g")
 

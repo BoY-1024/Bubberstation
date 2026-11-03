@@ -1,4 +1,4 @@
-import { Component } from 'react'; import { chineseDisplay } from '../../localization/zhDisplay';
+import { Component } from 'react'; import { circuitCategoryDisplay } from '../../localization/zhCircuitCategoryDisplay';
 import {
   Button,
   Dropdown,
@@ -112,7 +112,7 @@ export class ComponentMenu extends Component {
           <Stack.Item>
             <Dropdown
               width="100%"
-              options={tabs.map((value) => ({ value, displayText: chineseDisplay(value) }))}
+              options={tabs.map((value) => ({ value, displayText: circuitCategoryDisplay(value) }))}
               onSelected={(value) =>
                 this.setState({
                   selectedTab: value,
@@ -120,7 +120,7 @@ export class ComponentMenu extends Component {
                   currentLimit: DEFAULT_COMPONENT_MENU_LIMIT,
                 })
               }
-              selected={selectedTab} displayText={chineseDisplay(selectedTab)}
+              selected={selectedTab} displayText={circuitCategoryDisplay(selectedTab)}
               placeholder="分类"
               color="transparent"
               className="IntegratedCircuit__BlueBorder"

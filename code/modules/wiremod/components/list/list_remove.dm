@@ -6,7 +6,7 @@
 /obj/item/circuit_component/variable/list/listremove
 	display_name = "列表移除"
 	desc = "从列表变量中移除一个元素。"
-	category = "列表"
+	category = "List" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// Element to remove to the list
 	var/datum/port/input/to_remove

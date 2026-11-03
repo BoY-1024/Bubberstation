@@ -10,7 +10,7 @@
 /obj/item/circuit_component/object_overlay
 	display_name = "物体叠加显示"
 	desc = "需要脑机接口外壳。在物体上方显示叠加层的元件。"
-	category = "脑机接口"
+	category = "BCI" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	required_shells = list(/obj/item/organ/cyberimp/bci)
 

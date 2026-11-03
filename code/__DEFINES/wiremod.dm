@@ -55,7 +55,7 @@
 
 #define COMPONENT_DEFAULT_NAME "组件"
 
-#define COMPONENT_DEFAULT_CATEGORY "未分类"
+#define COMPONENT_DEFAULT_CATEGORY "Unassigned" // 自定义修改：恢复默认分类内部键以匹配电路界面配色
 
 /// The minimum position of the x and y co-ordinates of the component in the UI
 #define COMPONENT_MIN_RANDOM_POS 200

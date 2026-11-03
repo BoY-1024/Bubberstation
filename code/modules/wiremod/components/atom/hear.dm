@@ -6,7 +6,7 @@
 /obj/item/circuit_component/hear
 	display_name = "语音激活"
 	desc = "监听消息的元件。需要外壳。"
-	category = "实体"
+	category = "Entity" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// The on/off port
 	var/datum/port/input/on

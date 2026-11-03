@@ -6,7 +6,7 @@
 /obj/item/circuit_component/concat_list
 	display_name = "连接列表"
 	desc = "用分隔符把列表连接成单个字符串的元件。"
-	category = "列表"
+	category = "List" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// The input port
 	var/datum/port/input/list_port

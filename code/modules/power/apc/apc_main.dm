@@ -199,7 +199,7 @@
 	if(!req_access)
 		req_access = list(ACCESS_ENGINE_EQUIP)
 	if(auto_name)
-		name = "\improper [get_area_name(area, TRUE)] APC"
+		name = "\improper [chinese_area_display(get_area_name(area, TRUE))] 区域电力控制器"
 
 	//Initialize its electronics
 	set_wires(new /datum/wires/apc(src))
@@ -293,7 +293,7 @@
 /obj/machinery/power/apc/update_name(updates)
 	. = ..()
 	if(auto_name)
-		name = "\improper [get_area_name(area, TRUE)] APC"
+		name = "\improper [chinese_area_display(get_area_name(area, TRUE))] 区域电力控制器"
 
 /obj/machinery/power/apc/proc/assign_to_area(area/target_area = get_area(src))
 	if(area == target_area)
@@ -765,7 +765,7 @@
 	take_damage(min(exposed_temperature/100, 10), BURN)
 
 /obj/machinery/power/apc/proc/report()
-	return "[area.name] : [equipment]/[lighting]/[environ] ([lastused_total]) : [cell? cell.percent() : "N/C"] ([charging])"
+	return "[chinese_area_display(area.name)] : [equipment]/[lighting]/[environ] ([lastused_total]) : [cell? cell.percent() : "无电池"] ([charging])"
 
 /obj/machinery/power/apc/proc/grey_tide(datum/source, list/grey_tide_areas)
 	SIGNAL_HANDLER

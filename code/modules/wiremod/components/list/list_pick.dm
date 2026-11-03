@@ -6,7 +6,7 @@
 /obj/item/circuit_component/list_pick
 	display_name = "列表抽取"
 	desc = "让使用者从列表中抽取 1 个元素的元件。返回被选中的元素。"
-	category = "列表"
+	category = "List" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// The data type of the input_list
 	var/datum/port/input/option/list_options

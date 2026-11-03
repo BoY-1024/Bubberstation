@@ -6,7 +6,7 @@
 /obj/item/circuit_component/not
 	display_name = "非运算"
 	desc = "将输入取反的元件。"
-	category = "数学"
+	category = "Math" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// The input port
 	var/datum/port/input/input_port

@@ -6,7 +6,7 @@
 /obj/item/circuit_component/compare/toggle
 	display_name = "切换"
 	desc = "被触发时在开与关之间切换的元件。除“Set Toggle State”外的所有输入端口都会触发该元件。"
-	category = "数学"
+	category = "Math" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// A signal to reset the toggle back to 0
 	var/datum/port/input/toggle_set

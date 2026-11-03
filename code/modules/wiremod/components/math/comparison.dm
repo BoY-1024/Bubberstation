@@ -6,7 +6,7 @@
 /obj/item/circuit_component/compare/comparison
 	display_name = "比较"
 	desc = "比较两个对象的元件。"
-	category = "数学"
+	category = "Math" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	var/datum/port/input/option/comparison_option
 

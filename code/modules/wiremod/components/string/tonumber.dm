@@ -6,7 +6,7 @@
 /obj/item/circuit_component/tonumber
 	display_name = "转换为数字"
 	desc = "把输入（字符串）转换为数字的元件。若输入中含有文本，则只有以数字开头时才会处理：取该数字并忽略其余部分。"
-	category = "字符串"
+	category = "String" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// The input port
 	var/datum/port/input/input_port

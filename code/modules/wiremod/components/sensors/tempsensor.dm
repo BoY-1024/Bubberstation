@@ -6,7 +6,7 @@
 /obj/item/circuit_component/tempsensor
 	display_name = "温度传感器"
 	desc = "输出所在格当前的温度。"
-	category = "传感器"
+	category = "Sensor" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL|CIRCUIT_FLAG_OUTPUT_SIGNAL
 

@@ -6,7 +6,7 @@
 /obj/item/circuit_component/clock
 	display_name = "时钟"
 	desc = "持续重复触发的元件。"
-	category = "实用工具"
+	category = "Utility" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// Whether the clock is on or not
 	var/datum/port/input/on

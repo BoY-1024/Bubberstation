@@ -8,7 +8,7 @@
 /obj/item/circuit_component/nfc_send
 	display_name = "NFC 发射器"
 	desc = "通过 NFC 发送数据包。若设置了加密密钥，则只有使用相同加密密钥的接收器才能收到发送的数据。"
-	category = "实用工具"
+	category = "Utility" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL
 

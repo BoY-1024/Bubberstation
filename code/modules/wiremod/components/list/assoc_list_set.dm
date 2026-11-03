@@ -6,7 +6,7 @@
 /obj/item/circuit_component/variable/assoc_list/list_set
 	display_name = "关联列表设置"
 	desc = "把关联列表中的字符串键设为指定值。"
-	category = "列表"
+	category = "List" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// Key to set
 	var/datum/port/input/key

@@ -4,7 +4,7 @@
 /obj/item/circuit_component/begin_animation
 	display_name = "开始动画"
 	desc = "在目标上开始一段动画。将“动画步骤”元件串联到“执行动画”端口上，即可创建动画步骤。"
-	category = "管理员"
+	category = "Admin" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL|CIRCUIT_FLAG_OUTPUT_SIGNAL|CIRCUIT_FLAG_INSTANT|CIRCUIT_FLAG_ADMIN
 
 	/// Whether we are animating an atom or a filter on the atom
@@ -97,7 +97,7 @@
 /obj/item/circuit_component/animation_step
 	display_name = "动画步骤"
 	desc = "执行一个动画步骤。此元件的输入端应直接或间接连接到“开始动画”元件的“执行动画”端口。"
-	category = "管理员"
+	category = "Admin" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL|CIRCUIT_FLAG_OUTPUT_SIGNAL|CIRCUIT_FLAG_ADMIN
 

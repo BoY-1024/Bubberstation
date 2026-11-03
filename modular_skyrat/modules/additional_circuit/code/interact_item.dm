@@ -6,7 +6,7 @@
 /obj/item/circuit_component/item_interact
 	display_name = "物品交互"
 	desc = "可迫使外壳与物品进行交互的元件。仅对无人机外壳有效，且仅对物品生效。必须紧邻目标物品。"
-	category = "动作"
+	category = "Action" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// Whether to use primary attack_self or secondary attack_self
 	var/datum/port/input/primary_interact

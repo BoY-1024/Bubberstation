@@ -66,8 +66,17 @@
 		"Marish" = "玛尔语", "Empathy" = "共感语", "Lesser Hivemind" = "次级蜂巢意识",
 		"Interslavic" = "斯拉夫共通语", "Federation Legalese" = "联邦法律语",
 		"Siik'maas" = "西克玛斯语", "Enochian" = "以诺语", "Terran Uncommon" = "地球异通用语",
+		"an unknown language" = "未知语言", "Random" = "随机",
 	)
 	return display_names[value] || chinese_batch_ten_language_display(value)
+
+/datum/preference/choiced/language/compile_constant_data()
+	var/list/data = ..()
+	var/list/display_names = list()
+	for(var/value in get_choices())
+		display_names[value] = chinese_language_display(value)
+	data[CHOICED_PREFERENCE_DISPLAY_NAMES] = display_names
+	return data
 
 /// Display department labels without changing access-control identifiers.
 /proc/chinese_department_display(value)

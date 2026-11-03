@@ -9,7 +9,7 @@
 /obj/item/circuit_component/nfc_receive
 	display_name = "NFC 接收器"
 	desc = "通过 NFC 接收数据包。若设置了加密密钥，则只会接收到使用相同加密密钥的信号。"
-	category = "实用工具"
+	category = "Utility" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	circuit_flags = CIRCUIT_FLAG_OUTPUT_SIGNAL //trigger_output
 

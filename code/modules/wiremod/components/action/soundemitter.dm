@@ -6,7 +6,7 @@
 /obj/item/circuit_component/soundemitter
 	display_name = "声音发生器"
 	desc = "一种在收到输入时发出声音的元件。频率是一个倍率，决定声音播放的速度。"
-	category = "动作"
+	category = "Action" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL|CIRCUIT_FLAG_OUTPUT_SIGNAL
 
 	/// Sound to play

@@ -284,11 +284,11 @@
 
 /mob/living/silicon/robot/proc/alarm_triggered(datum/source, alarm_type, area/source_area)
 	SIGNAL_HANDLER
-	queueAlarm("--- 在 [source_area.name] 检测到 [alarm_type] 警报！", alarm_type)
+	queueAlarm("--- 在 [chinese_area_display(source_area.name)] 检测到 [alarm_type] 警报！", alarm_type)
 
 /mob/living/silicon/robot/proc/alarm_cleared(datum/source, alarm_type, area/source_area)
 	SIGNAL_HANDLER
-	queueAlarm("--- [source_area.name] 的 [alarm_type] 警报已解除。", alarm_type, FALSE)
+	queueAlarm("--- [chinese_area_display(source_area.name)] 的 [alarm_type] 警报已解除。", alarm_type, FALSE)
 
 /mob/living/silicon/robot/can_interact_with(atom/A)
 	if (A == modularInterface)

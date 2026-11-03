@@ -6,7 +6,7 @@
 /obj/item/circuit_component/typecast
 	display_name = "类型转换"
 	desc = "在值符合指定类型时将其转换，否则输出空值的元件。"
-	category = "实用工具"
+	category = "Utility" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL|CIRCUIT_FLAG_OUTPUT_SIGNAL
 
 	var/datum/port/input/option/typecast_options

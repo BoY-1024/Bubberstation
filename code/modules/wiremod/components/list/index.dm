@@ -6,7 +6,7 @@
 /obj/item/circuit_component/index
 	display_name = "索引"
 	desc = "返回列表在指定索引处值的元件。"
-	category = "列表"
+	category = "List" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// The list type
 	var/datum/port/input/option/list_options

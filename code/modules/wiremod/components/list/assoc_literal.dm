@@ -6,7 +6,7 @@
 /obj/item/circuit_component/assoc_literal
 	display_name = "关联列表常量"
 	desc = "返回由各项输入组成的关联列表的元件。"
-	category = "列表"
+	category = "List" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL|CIRCUIT_FLAG_OUTPUT_SIGNAL
 
 	/// The list type

@@ -1,7 +1,7 @@
 /obj/item/circuit_component/wire_bundle
 	display_name = "线束"
 	desc = "一束裸露的电线，可在此挂载组装件。只有电路装入外壳后才会出现端口。"
-	category = "实用工具"
+	category = "Utility" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	circuit_flags = CIRCUIT_FLAG_REFUSE_MODULE
 
 	var/datum/wires/wire_bundle_component/tracked_wires

@@ -1,7 +1,7 @@
 /obj/item/circuit_component/list_literal/wirenet_send
 	display_name = "线路网列表常量发射器"
 	desc = "创建一个列表常量数据包，并通过已连接的电缆网络发送。若设置了加密密钥，则只有使用相同加密密钥的接收器才能接收到所发送的数据。"
-	category = "实用工具"
+	category = "Utility" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	ui_buttons = list(
 		"1" = CABLE_LAYER_1_NAME,

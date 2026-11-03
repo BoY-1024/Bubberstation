@@ -15,7 +15,7 @@
 /obj/item/circuit_component/trigonometry
 	display_name = "三角学"
 	desc = "包含常用三角函数与反三角函数的通用三角学元件。"
-	category = "数学"
+	category = "Math" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	var/datum/port/input/option/trigonometric_function
 

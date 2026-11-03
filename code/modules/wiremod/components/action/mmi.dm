@@ -21,7 +21,7 @@
 /obj/item/circuit_component/mmi
 	display_name = "人机接口"
 	desc = "此元件允许将人机接口或 B.O.R.I.S. 模块装入外壳，让大脑或人工智能输出信号。"
-	category = "动作"
+	category = "Action" // 自定义修改：恢复分类内部键以匹配电路界面配色
 	circuit_flags = CIRCUIT_FLAG_REFUSE_MODULE
 
 	/// The message to send to the MMI in the shell.

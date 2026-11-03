@@ -4,6 +4,7 @@
 	if(isnull(display_names))
 		display_names = list(
 		"Space" = "太空",
+		"Ghost Cafe Arrival Shuttle" = "幽灵咖啡厅到站穿梭机",
 		"Golem Territory" = "魔像领地",
 		"Strange Location" = "奇异地点",
 		"Nanotrasen Museum" = "纳米传讯博物馆",

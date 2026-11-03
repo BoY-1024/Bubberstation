@@ -8,7 +8,7 @@
 /obj/item/circuit_component/target_intercept
 	display_name = "脑机接口目标截取器"
 	desc = "需要脑机接口外壳。激活后，使用者可以用大脑指定一个物体，元件会输出该物体的引用。"
-	category = "脑机接口"
+	category = "BCI" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	required_shells = list(/obj/item/organ/cyberimp/bci)
 

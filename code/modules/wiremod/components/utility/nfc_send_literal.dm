@@ -9,7 +9,7 @@
 /obj/item/circuit_component/list_literal/nfc_send
 	display_name = "NFC 发射器列表常量"
 	desc = "创建一个列表常量数据包，并通过 NFC 发送。若设置了加密密钥，则只有使用相同加密密钥的接收器才能收到发送的数据。"
-	category = "实用工具"
+	category = "Utility" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// Encryption key
 	var/datum/port/input/enc_key

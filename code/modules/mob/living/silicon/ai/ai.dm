@@ -291,7 +291,7 @@ GAME_VERB_DESC(/mob/living/silicon/ai, pick_status_display, "设置 AI 状态显
 		. += list(list("[connected_robot.name]：",
 			"结构完整性：[connected_robot.health]% | \
 			电池：[connected_robot.cell ? "[display_energy(connected_robot.cell.charge)]/[display_energy(connected_robot.cell.maxcharge)]" : "空"] | \
-			型号：[connected_robot.designation] | 位置：[get_area_name(connected_robot, TRUE)] | \
+			型号：[connected_robot.designation] | 位置：[chinese_area_display(get_area_name(connected_robot, TRUE))] | \
 			状态：[robot_status]",
 			"src=[REF(src)];track_cyborg=[text_ref(connected_robot)]",
 		))
@@ -302,7 +302,7 @@ GAME_VERB_DESC(/mob/living/silicon/ai, pick_status_display, "设置 AI 状态显
 		for(var/mob/living/carbon/human/connected_ipc in connected_ipcs)
 			var/robot_status = (IS_UNCONSCIOUS_OR_CRIT(connected_ipc) || !connected_ipc.client) ? "离线" : "正常"
 			//Name. Area, and Status! Everything an AI wants to know about it's hacked synthetics!
-			. += "[connected_ipc.name] | 结构完整性：[connected_ipc.health]% | 位置：[get_area_name(connected_ipc, TRUE)] | 状态：[robot_status]"
+			. += "[connected_ipc.name] | 结构完整性：[connected_ipc.health]% | 位置：[chinese_area_display(get_area_name(connected_ipc, TRUE))] | 状态：[robot_status]"
 	// Bubber Edit End
 	. += "检测到 AI 外壳信标：[LAZYLEN(GLOB.available_ai_shells)]" //Count of total AI shells
 
@@ -560,7 +560,7 @@ GAME_VERB_PROC_DESC(/mob/living/silicon/ai, botcall, "访问机器人控制", "�
 /mob/living/silicon/ai/proc/alarm_triggered(datum/source, alarm_type, area/source_area)
 	SIGNAL_HANDLER
 	var/list/cameras = source_area.cameras
-	var/home_name = source_area.name
+	var/home_name = chinese_area_display(source_area.name)
 
 	if (length(cameras))
 		var/obj/machinery/camera/cam = cameras[1]
@@ -579,7 +579,7 @@ GAME_VERB_PROC_DESC(/mob/living/silicon/ai, botcall, "访问机器人控制", "�
 
 /mob/living/silicon/ai/proc/alarm_cleared(datum/source, alarm_type, area/source_area)
 	SIGNAL_HANDLER
-	queueAlarm("--- [source_area.name] 的 [alarm_type] 警报已解除。", alarm_type, 0)
+	queueAlarm("--- [chinese_area_display(source_area.name)] 的 [alarm_type] 警报已解除。", alarm_type, 0)
 
 //Replaces /mob/living/silicon/ai/verb/change_network() in ai.dm & camera.dm
 //Adds in /mob/living/silicon/ai/proc/ai_network_change() instead

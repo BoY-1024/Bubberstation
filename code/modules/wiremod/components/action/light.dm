@@ -6,7 +6,7 @@
 /obj/item/circuit_component/light
 	display_name = "灯光"
 	desc = "发出指定亮度和颜色光线的元件。需要外壳。"
-	category = "动作"
+	category = "Action" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// The colours of the light
 	var/datum/port/input/red

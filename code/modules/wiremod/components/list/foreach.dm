@@ -6,7 +6,7 @@
 /obj/item/circuit_component/foreach
 	display_name = "逐项遍历"
 	desc = "遍历列表中每个元素的元件。"
-	category = "列表"
+	category = "List" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// The list type
 	var/datum/port/input/option/list_options

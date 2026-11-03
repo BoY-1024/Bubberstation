@@ -6,7 +6,7 @@
 /obj/item/circuit_component/species
 	display_name = "获取种族"
 	desc = "返回其输入对象所属种族的元件。"
-	category = "实体"
+	category = "Entity" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// The input port
 	var/datum/port/input/input_port

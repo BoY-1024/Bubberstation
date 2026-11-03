@@ -6,7 +6,7 @@
 /obj/item/circuit_component/decimal_conversion
 	display_name = "十进制转换"
 	desc = "把由 1 和 0 表示的二进制位（比特）数组合并成一个十进制数的元件；这些位常用于布尔运算或二进制运算。"
-	category = "数学"
+	category = "Math" // 自定义修改：恢复分类内部键以匹配电路界面配色
 
 	/// One number
 	var/datum/port/output/number
