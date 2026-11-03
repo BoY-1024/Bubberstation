@@ -1,6 +1,6 @@
 /datum/job/roboticist
 	title = JOB_ROBOTICIST
-	description = "建造和维修人工智能与半机械人，制造机甲。"
+	description = "建造和维修人工智能与赛博，制造机甲。"
 	faction = FACTION_STATION
 	total_positions = 2
 	spawn_positions = 2

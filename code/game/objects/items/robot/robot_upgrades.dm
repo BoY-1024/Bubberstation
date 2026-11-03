@@ -2,7 +2,7 @@
 // Contains various borg upgrades.
 
 /obj/item/borg/upgrade
-	name = "半机械人升级模块"
+	name = "赛博升级模块"
 	desc = "由 FRM 保护。"
 	icon = 'icons/mob/silicon/robot_items.dmi'
 	icon_state = "module_general"
@@ -26,7 +26,7 @@
 
 /obj/item/borg/upgrade/proc/action(mob/living/silicon/robot/borg, mob/living/user = usr)
 	if(borg.stat == DEAD)
-		to_chat(user, span_warning("[src]无法在已死亡的半机械人身上运作！"))
+		to_chat(user, span_warning("[src]无法在已死亡的赛博身上运作！"))
 		return FALSE
 	if(model_type && !is_type_in_list(borg.model, model_type))
 		to_chat(borg, span_alert("升级安装错误！未检测到合适的挂载点。"))
@@ -71,8 +71,8 @@
 	return TRUE
 
 /obj/item/borg/upgrade/rename
-	name = "半机械人重新分类板"
-	desc = "用于给半机械人重命名。"
+	name = "赛博重新分类板"
+	desc = "用于给赛博重命名。"
 	icon = 'icons/obj/devices/circuitry_n_data.dmi'
 	icon_state = "cyborg_upgrade1"
 	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 2.5)
@@ -80,11 +80,11 @@
 	var/heldname = ""
 
 /obj/item/borg/upgrade/rename/attack_self(mob/user)
-	var/new_heldname = sanitize_name(tgui_input_text(user, "输入新的机器人名称", "半机械人重新分类", heldname, MAX_NAME_LEN), allow_numbers = TRUE)
+	var/new_heldname = sanitize_name(tgui_input_text(user, "输入新的机器人名称", "赛博重新分类", heldname, MAX_NAME_LEN), allow_numbers = TRUE)
 	if(!new_heldname || !user.is_holding(src))
 		return
 	heldname = new_heldname
-	user.log_message("在半机械人重新分类板上将 \"[heldname]\" 设为名称，位置：[loc_name(user)]", LOG_GAME)
+	user.log_message("在赛博重新分类板上将 \"[heldname]\" 设为名称，位置：[loc_name(user)]", LOG_GAME)
 
 /obj/item/borg/upgrade/rename/action(mob/living/silicon/robot/borg, mob/living/user = usr)
 	. = ..()
@@ -96,10 +96,10 @@
 	borg.updatename()
 	if(oldname == borg.real_name)
 		borg.notify_ai(AI_NOTIFICATION_CYBORG_RENAMED, oldname, borg.real_name)
-	user.log_message("使用半机械人重新分类板将 [oldkeyname] 重命名为 [key_name(borg)]", LOG_GAME)
+	user.log_message("使用赛博重新分类板将 [oldkeyname] 重命名为 [key_name(borg)]", LOG_GAME)
 
 /obj/item/borg/upgrade/disablercooler
-	name = "半机械人快速干扰枪冷却模块"
+	name = "赛博快速干扰枪冷却模块"
 	desc = "用于冷却已挂载的干扰枪，提高其电流上限，从而提升充能速率。"
 	icon_state = "module_security"
 	require_model = TRUE
@@ -136,7 +136,7 @@
 
 /obj/item/borg/upgrade/thrusters
 	name = "离子推进器升级"
-	desc = "为半机械人设计的能量驱动推进器系统。"
+	desc = "为赛博设计的能量驱动推进器系统。"
 	icon_state = "module_general"
 	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 5, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 3, /datum/material/uranium = SHEET_MATERIAL_AMOUNT * 3, /datum/material/plasma = SHEET_MATERIAL_AMOUNT * 2.5)
 
@@ -158,7 +158,7 @@
 	borg.ionpulse = FALSE
 
 /obj/item/borg/upgrade/diamond_drill
-	name = "采矿半机械人钻石钻头"
+	name = "采矿赛博钻石钻头"
 	desc = "用于替换采矿型号标准钻头的钻石钻头。"
 	icon_state = "module_miner"
 	require_model = TRUE
@@ -170,8 +170,8 @@
 	items_to_remove = list(/obj/item/pickaxe/drill, /obj/item/shovel)
 
 /obj/item/borg/upgrade/soh
-	name = "采矿半机械人次元挎包"
-	desc = "用于替换采矿半机械人矿石挎包模块的次元挎包。"
+	name = "采矿赛博次元挎包"
+	desc = "用于替换采矿赛博矿石挎包模块的次元挎包。"
 	icon_state = "module_miner"
 	require_model = TRUE
 	model_type = list(/obj/item/robot_model/miner)
@@ -182,8 +182,8 @@
 	items_to_remove = list(/obj/item/storage/bag/ore/cyborg)
 
 /obj/item/borg/upgrade/tboh
-	name = "清洁半机械人次元垃圾袋"
-	desc = "用于替换清洁半机械人标准垃圾袋的次元垃圾袋。"
+	name = "清洁赛博次元垃圾袋"
+	desc = "用于替换清洁赛博标准垃圾袋的次元垃圾袋。"
 	icon_state = "module_janitor"
 	require_model = TRUE
 	model_type = list(/obj/item/robot_model/janitor)
@@ -194,8 +194,8 @@
 	items_to_remove = list(/obj/item/storage/bag/trash)
 
 /obj/item/borg/upgrade/amop
-	name = "清洁半机械人高级拖把"
-	desc = "用于替换清洁半机械人标准拖把的高级拖把。"
+	name = "清洁赛博高级拖把"
+	desc = "用于替换清洁赛博标准拖把的高级拖把。"
 	icon_state = "module_janitor"
 	require_model = TRUE
 	model_type = list(/obj/item/robot_model/janitor)
@@ -206,7 +206,7 @@
 	items_to_remove = list(/obj/item/mop)
 
 /obj/item/borg/upgrade/prt
-	name = "清洁半机械人装甲板修补工具"
+	name = "清洁赛博装甲板修补工具"
 	desc = "一个小型加热装置，用于修补烧焦和受损的船体装甲板。"
 	icon_state = "module_janitor"
 	require_model = TRUE
@@ -217,8 +217,8 @@
 	items_to_add = list(/obj/item/cautery/prt)
 
 /obj/item/borg/upgrade/plunger
-	name = "清洁半机械人搋子工具"
-	desc = "集成式半机械人可伸缩搋子。就是用来搋东西的，这还用说。"
+	name = "清洁赛博搋子工具"
+	desc = "集成式赛博可伸缩搋子。就是用来搋东西的，这还用说。"
 	icon_state = "module_janitor"
 	require_model = TRUE
 	model_type = list(/obj/item/robot_model/janitor)
@@ -228,7 +228,7 @@
 	items_to_add = list(/obj/item/plunger)
 
 /obj/item/borg/upgrade/high_capacity_light_replacer
-	name = "清洁半机械人大容量灯泡更换器"
+	name = "清洁赛博大容量灯泡更换器"
 	desc = "增加灯泡更换器可储存的灯泡数量。"
 	icon_state = "module_janitor"
 	require_model = TRUE
@@ -241,7 +241,7 @@
 
 /obj/item/borg/upgrade/syndicate
 	name = "非法装备模块"
-	desc = "解锁半机械人隐藏的致命功能。"
+	desc = "解锁赛博隐藏的致命功能。"
 	icon_state = "module_illegal"
 	require_model = TRUE
 	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 7.5, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 7.5, /datum/material/diamond = SHEET_MATERIAL_AMOUNT * 5)
@@ -270,8 +270,8 @@
 	borg.SetEmagged(FALSE)
 
 /obj/item/borg/upgrade/lavaproof
-	name = "采矿半机械人防熔岩底盘"
-	desc = "一套升级套件，可为采矿半机械人的底盘加装专用冷却系统与隔热层，使其能够承受熔岩和液态等离子体的侵蚀。"
+	name = "采矿赛博防熔岩底盘"
+	desc = "一套升级套件，可为采矿赛博的底盘加装专用冷却系统与隔热层，使其能够承受熔岩和液态等离子体的侵蚀。"
 	icon_state = "module_miner"
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | FREEZE_PROOF
 	require_model = TRUE
@@ -293,7 +293,7 @@
 
 /obj/item/borg/upgrade/selfrepair
 	name = "自我修复模块"
-	desc = "该模块会随时间逐步修复半机械人。"
+	desc = "该模块会随时间逐步修复赛博。"
 	icon_state = "module_general"
 	require_model = TRUE
 	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 7.5, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 7.5)
@@ -392,8 +392,8 @@
 		deactivate_sr()
 
 /obj/item/borg/upgrade/hypospray
-	name = "医疗半机械人喷雾器高级合成器"
-	desc = "医疗型号半机械人喷雾器的升级，使其 \
+	name = "医疗赛博喷雾器高级合成器"
+	desc = "医疗型号赛博喷雾器的升级，使其 \
 		能够生产更高级、更复杂的医疗试剂。"
 	icon_state = "module_medical"
 	require_model = TRUE
@@ -416,14 +416,14 @@
 		hypo.remove_hypo_upgrade()
 
 /obj/item/borg/upgrade/hypospray/expanded
-	name = "医疗半机械人扩展喷雾器"
+	name = "医疗赛博扩展喷雾器"
 	desc = "医疗型号喷雾器的升级，使其 \
 		能够治疗更多种类的病症与问题。"
 	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 7.5, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 7.5, /datum/material/plasma = SHEET_MATERIAL_AMOUNT * 4, /datum/material/uranium = SHEET_MATERIAL_AMOUNT * 4)
 
 /obj/item/borg/upgrade/piercing_hypospray
-	name = "半机械人穿透喷雾器"
-	desc = "半机械人喷雾器的升级，使其能够 \
+	name = "赛博穿透喷雾器"
+	desc = "赛博喷雾器的升级，使其能够 \
 		穿透护甲和厚重材料。"
 	icon_state = "module_medical"
 	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 7.5, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 7.5, /datum/material/titanium = SHEET_MATERIAL_AMOUNT * 2.5, /datum/material/diamond = SHEET_MATERIAL_AMOUNT * 1.5)
@@ -457,7 +457,7 @@
 		hypo.bypass_protection = initial(hypo.bypass_protection)
 
 /obj/item/borg/upgrade/surgery_omnitool
-	name = "半机械人手术全能工具升级"
+	name = "赛博手术全能工具升级"
 	desc = "医疗型号的升级，将内置的 \
 		手术全能工具提升至与高级手术工具相当的水平，从而加快手术速度。 \
 		它还会升级其扫描仪。"
@@ -487,7 +487,7 @@
 		omnitool.set_upgraded(FALSE)
 
 /obj/item/borg/upgrade/engineering_omnitool
-	name = "半机械人工程全能工具升级"
+	name = "赛博工程全能工具升级"
 	desc = "工程型号的升级，将内置的 \
 		工程全能工具提升至与高级工程工具相当的水平"
 	icon_state = "module_engineer"
@@ -515,7 +515,7 @@
 		welder.toolspeed = initial(welder.toolspeed)
 
 /obj/item/borg/upgrade/defib
-	name = "医疗半机械人除颤器"
+	name = "医疗赛博除颤器"
 	desc = "医疗型号的升级，安装内置的 \
 		除颤器，以便在现场实施复苏。"
 	icon_state = "module_medical"
@@ -564,7 +564,7 @@
 	defib_instance?.forceMove(borg.drop_location()) // [on_defib_instance_qdel_or_moved()] handles the rest.
 
 /obj/item/borg/upgrade/processor
-	name = "医疗与科研半机械人手术处理器" // BUBBER EDIT Research borgs
+	name = "医疗与科研赛博手术处理器" // BUBBER EDIT Research borgs
 	desc = "医疗与科研型号的升级，安装一个能够扫描 \
 		手术磁盘并执行 \
 		手术流程的处理器"
@@ -578,7 +578,7 @@
 
 /obj/item/borg/upgrade/ai
 	name = "B.O.R.I.S. 模块"
-	desc = "蓝空间优化远程智能同步。一种上行链路设备，用于在半机械人内骨骼中替代人机接口，制造出由 AI 控制的机械壳体。"
+	desc = "蓝空间优化远程智能同步。一种上行链路设备，用于在赛博内骨骼中替代人机接口，制造出由 AI 控制的机械壳体。"
 	icon = 'icons/obj/devices/circuitry_n_data.dmi'
 	icon_state = "boris"
 	custom_materials = list(/datum/material/glass = SMALL_MATERIAL_AMOUNT * 7.5, /datum/material/iron = SMALL_MATERIAL_AMOUNT * 6, /datum/material/gold = SMALL_MATERIAL_AMOUNT * 2)
@@ -602,8 +602,8 @@
 	borg.notify_ai(AI_NOTIFICATION_AI_SHELL)
 
 /obj/item/borg/upgrade/expand
-	name = "半机械人扩容装置"
-	desc = "一种半机械人体型调整器，能让半机械人变得巨大。"
+	name = "赛博扩容装置"
+	desc = "一种赛博体型调整器，能让赛博变得巨大。"
 	icon_state = "module_general"
 	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 1, /datum/material/titanium = SHEET_MATERIAL_AMOUNT * 2.5) //Bubber edit 100 iron -> 1 iron
 
@@ -647,8 +647,8 @@
 		borg.update_transform(0.625) // SKYRAT EDIT CHANGE - ORIGINAL: borg.update_transform(0.5)
 
 /obj/item/borg/upgrade/rped
-	name = "工程半机械人 RPED（扩展型）"
-	desc = "为工程半机械人设计的扩展型快速零件更换装置。"
+	name = "工程赛博 RPED（扩展型）"
+	desc = "为工程赛博设计的扩展型快速零件更换装置。"
 	icon_state = "module_engineer"
 	require_model = TRUE
 	model_type = list(/obj/item/robot_model/engineering, /obj/item/robot_model/saboteur)
@@ -658,8 +658,8 @@
 	items_to_add = list(/obj/item/storage/part_replacer/cyborg)
 
 /obj/item/borg/upgrade/smallrped
-	name = "工程半机械人 RPED"
-	desc = "工程半机械人的常规版快速零件更换装置。"
+	name = "工程赛博 RPED"
+	desc = "工程赛博的常规版快速零件更换装置。"
 	icon_state = "module_engineer"
 	require_model = TRUE
 	model_type = list(/obj/item/robot_model/engineering, /obj/item/robot_model/saboteur)
@@ -680,7 +680,7 @@
 
 /obj/item/borg/upgrade/inducer
 	name = "工程集成式电力感应器"
-	desc = "一种集成式感应器，可利用半机械人提供的电量为设备内置电池充电。"
+	desc = "一种集成式感应器，可利用赛博提供的电量为设备内置电池充电。"
 	icon_state = "module_engineer"
 	require_model = TRUE
 	model_type = list(/obj/item/robot_model/engineering, /obj/item/robot_model/saboteur)
@@ -689,8 +689,8 @@
 	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 5, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 2.5, /datum/material/silver = SHEET_MATERIAL_AMOUNT * 2)
 
 /obj/item/borg/upgrade/pinpointer
-	name = "医疗半机械人船员定位仪"
-	desc = "医疗半机械人的船员定位仪模块，可远程访问船员监视器。"
+	name = "医疗赛博船员定位仪"
+	desc = "医疗赛博的船员定位仪模块，可远程访问船员监视器。"
 	icon_state = "module_medical"
 	require_model = TRUE
 	model_type = list(/obj/item/robot_model/medical, /obj/item/robot_model/syndicate_medical)
@@ -728,8 +728,8 @@
 	button_icon =  "scanner"
 
 /obj/item/borg/upgrade/transform
-	name = "半机械人型号选择器（标准）"
-	desc = "允许你将半机械人转换为标准半机械人。"
+	name = "赛博型号选择器（标准）"
+	desc = "允许你将赛博转换为标准赛博。"
 	icon_state = "module_general"
 	var/obj/item/robot_model/new_model = null
 
@@ -739,15 +739,15 @@
 		borg.model.transform_to(new_model)
 
 /obj/item/borg/upgrade/transform/clown
-	name = "半机械人型号选择器（小丑）"
-	desc = "允许你将半机械人转换为小丑，HONK。"
+	name = "赛博型号选择器（小丑）"
+	desc = "允许你将赛博转换为小丑，HONK。"
 	icon_state = "module_honk"
 	new_model = /obj/item/robot_model/clown
 	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 7.5, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 7.5, /datum/material/bananium = SMALL_MATERIAL_AMOUNT * 5)
 
 /obj/item/borg/upgrade/engineering_app
 	name = "工程操作装置"
-	desc = "一种工程半机械人升级，可操作电路板及其他工程物件。"
+	desc = "一种工程赛博升级，可操作电路板及其他工程物件。"
 	icon_state = "module_engineer"
 	require_model = TRUE
 	model_type = list(/obj/item/robot_model/engineering, /obj/item/robot_model/saboteur)
@@ -758,7 +758,7 @@
 
 /obj/item/borg/upgrade/beaker_app
 	name = "烧杯储存装置"
-	desc = "为医疗半机械人提供的附加烧杯储存装置。"
+	desc = "为医疗赛博提供的附加烧杯储存装置。"
 	icon_state = "module_medical"
 	require_model = TRUE
 	model_type = list(/obj/item/robot_model/medical)
@@ -769,7 +769,7 @@
 
 /obj/item/borg/upgrade/bs_syringe
 	name = "高级注射器"
-	desc = "蓝空间技术，可扩展半机械人标准注射器的容量。"
+	desc = "蓝空间技术，可扩展赛博标准注射器的容量。"
 	icon_state = "module_medical"
 	require_model = TRUE
 	model_type = list(/obj/item/robot_model/medical)
@@ -781,7 +781,7 @@
 
 /obj/item/borg/upgrade/drink_app
 	name = "杯子储存装置"
-	desc = "为服务半机械人提供的附加饮水杯储存装置。"
+	desc = "为服务赛博提供的附加饮水杯储存装置。"
 	icon_state = "module_service"
 	require_model = TRUE
 	model_type = list(/obj/item/robot_model/service)
@@ -802,8 +802,8 @@
 	items_to_add = list(/obj/item/pushbroom)
 
 /obj/item/borg/upgrade/condiment_synthesizer
-	name = "服务半机械人调味品合成器"
-	desc = "服务型号半机械人的升级，使其能够生产固体调味品。"
+	name = "服务赛博调味品合成器"
+	desc = "服务型号赛博的升级，使其能够生产固体调味品。"
 	icon_state = "module_service"
 	require_model = TRUE
 	model_type = list(/obj/item/robot_model/service)
@@ -813,8 +813,8 @@
 	items_to_add = list(/obj/item/reagent_containers/borghypo/condiment_synthesizer)
 
 /obj/item/borg/upgrade/silicon_knife
-	name = "服务半机械人厨房工具套件"
-	desc = "服务型号半机械人的升级，有助于加工食材。"
+	name = "服务赛博厨房工具套件"
+	desc = "服务型号赛博的升级，有助于加工食材。"
 	icon_state = "module_service"
 	require_model = TRUE
 	model_type = list(/obj/item/robot_model/service)
@@ -824,8 +824,8 @@
 	items_to_add = list(/obj/item/knife/kitchen/silicon)
 
 /obj/item/borg/upgrade/service_apparatus
-	name = "服务半机械人服务装置"
-	desc = "服务型号半机械人的升级，有助于处理食物和纸张。"
+	name = "服务赛博服务装置"
+	desc = "服务型号赛博的升级，有助于处理食物和纸张。"
 	icon_state = "module_service"
 	require_model = TRUE
 	model_type = list(/obj/item/robot_model/service)
@@ -835,8 +835,8 @@
 	items_to_add = list(/obj/item/borg/apparatus/service)
 
 /obj/item/borg/upgrade/rolling_table
-	name = "服务半机械人移动桌对接装置"
-	desc = "服务型号半机械人的升级，有助于提供移动服务。"
+	name = "服务赛博移动桌对接装置"
+	desc = "服务型号赛博的升级，有助于提供移动服务。"
 	icon_state = "module_service"
 	require_model = TRUE
 	model_type = list(/obj/item/robot_model/service)
@@ -846,8 +846,8 @@
 	items_to_add = list(/obj/item/rolling_table_dock)
 
 /obj/item/borg/upgrade/service_cookbook
-	name = "服务半机械人食谱"
-	desc = "服务型号半机械人的升级，使其能够制作更多食物。"
+	name = "服务赛博食谱"
+	desc = "服务型号赛博的升级，使其能够制作更多食物。"
 	icon_state = "module_service"
 	require_model = TRUE
 	model_type = list(/obj/item/robot_model/service)
@@ -857,8 +857,8 @@
 	items_to_add = list(/obj/item/borg/cookbook)
 
 /obj/item/borg/upgrade/botany_upgrade
-	name = "服务半机械人植物学工具"
-	desc = "服务型号半机械人的升级，使其能够进行园艺和植物加工。"
+	name = "服务赛博植物学工具"
+	desc = "服务型号赛博的升级，使其能够进行园艺和植物加工。"
 	icon_state = "module_service"
 	require_model = TRUE
 	model_type = list(/obj/item/robot_model/service)
@@ -868,8 +868,8 @@
 	items_to_add = list(/obj/item/storage/bag/plants/cyborg, /obj/item/borg/cyborg_omnitool/botany, /obj/item/plant_analyzer)
 
 /obj/item/borg/upgrade/shuttle_blueprints
-	name = "工程半机械人穿梭机蓝图数据库"
-	desc = "工程型号半机械人的升级，可用于建造和扩建穿梭机。"
+	name = "工程赛博穿梭机蓝图数据库"
+	desc = "工程型号赛博的升级，可用于建造和扩建穿梭机。"
 	icon_state = "module_engineer"
 	require_model = TRUE
 	model_type = list(/obj/item/robot_model/engineering, /obj/item/robot_model/saboteur)
@@ -881,8 +881,8 @@
 ///This isn't an upgrade or part of the same path, but I'm gonna just stick it here because it's a tool used on cyborgs.
 //A reusable tool that can bring borgs back to life. They gotta be repaired first, though.
 /obj/item/borg_restart_board
-	name = "半机械人紧急重启模块"
-	desc = "一种可重复使用的固件重置工具，可强制重启已修复但停机的半机械人，使其重新上线。"
+	name = "赛博紧急重启模块"
+	desc = "一种可重复使用的固件重置工具，可强制重启已修复但停机的赛博，使其重新上线。"
 	w_class = WEIGHT_CLASS_SMALL
 	icon = 'icons/obj/devices/circuitry_n_data.dmi'
 	icon_state = "cyborg_upgrade1"
@@ -892,13 +892,13 @@
 	if(!istype(borgo))
 		return ..()
 	if(!borgo.opened)
-		to_chat(user, span_warning("你必须先打开半机械人的内部结构！"))
+		to_chat(user, span_warning("你必须先打开赛博的内部结构！"))
 		return ..()
 	if(borgo.health < 0)
-		to_chat(user, span_warning("使用该模块前，你必须先修复半机械人！"))
+		to_chat(user, span_warning("使用该模块前，你必须先修复赛博！"))
 		return ..()
 	if(!(borgo.stat & DEAD))
-		to_chat(user, span_warning("该半机械人已经在运行中！"))
+		to_chat(user, span_warning("该赛博已经在运行中！"))
 		return ..()
 
 	if(borgo.mind)

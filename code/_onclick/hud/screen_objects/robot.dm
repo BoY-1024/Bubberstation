@@ -3,7 +3,7 @@
 	mouse_over_pointer = MOUSE_HAND_POINTER
 
 /atom/movable/screen/robot/module
-	name = "半机械人模块"
+	name = "赛博模块"
 	icon_state = "nomod"
 
 /atom/movable/screen/robot/Click(location, control, params)

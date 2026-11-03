@@ -7,13 +7,13 @@
 
 /datum/bounty/item/mining/goliath_boat
 	name = "歌利亚皮艇"
-	description = "门科夫指挥官想参加一年一度的熔岩地帆船赛。他请你们的船匠建造一艘人类已知最快的船。"
+	description = "门科夫指挥官想参加一年一度的拉瓦兰帆船赛。他请你们的船匠建造一艘人类已知最快的船。"
 	reward = CARGO_CRATE_VALUE * 20
 	wanted_types = list(/obj/vehicle/ridden/lavaboat = TRUE)
 
 /datum/bounty/item/mining/bone_oar
 	name = "骨制船桨"
-	description = "门科夫指挥官需要船桨来参加一年一度的熔岩地帆船赛。运一对过去。"
+	description = "门科夫指挥官需要船桨来参加一年一度的拉瓦兰帆船赛。运一对过去。"
 	reward = CARGO_CRATE_VALUE * 8
 	required_count = 2
 	wanted_types = list(/obj/item/oar = TRUE)

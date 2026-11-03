@@ -115,7 +115,7 @@
 	// Protagonist - The mind of who was just cyborgized
 
 /datum/memory/was_cyborged/get_names()
-	return list("[protagonist_name]被改造成了半机械人。")
+	return list("[protagonist_name]被改造成了赛博。")
 
 /datum/memory/was_cyborged/get_starts()
 	return list(

@@ -43,15 +43,15 @@
 /obj/machinery/transformer_rp/examine(mob/user)
 	. = ..()
 	if(issilicon(user) || isobserver(user))
-		. += "<br>其中储备了[stored_cyborgs]台半机械人。"
+		. += "<br>其中储备了[stored_cyborgs]台赛博。"
 		if(!is_operational)
 			. += span_warning("它没有电！")
 			return
 		if(cooldown && cooldown_timer)
-			. += "<br>再过[DisplayTimeText(max(0, cooldown_timer))]即可部署一台储备的半机械人。"
+			. += "<br>再过[DisplayTimeText(max(0, cooldown_timer))]即可部署一台储备的赛博。"
 		if(stored_cyborgs >= max_stored_cyborgs)
 			return
-		. += "<br>再过[DisplayTimeText(max(0, stored_timer))]将储备一台新的半机械人。"
+		. += "<br>再过[DisplayTimeText(max(0, stored_timer))]将储备一台新的赛博。"
 
 /obj/machinery/transformer_rp/Destroy()
 	QDEL_NULL(countdown)
@@ -83,10 +83,10 @@
 		return
 
 	stored_cyborgs++
-	notify_ghosts("[src]制造了一具新的半机械人躯壳",
+	notify_ghosts("[src]制造了一具新的赛博躯壳",
 		source = src,
 		notify_flags = NOTIFY_CATEGORY_NOFLASH,
-		header = "新的失控半机械人已制造！",
+		header = "新的失控赛博已制造！",
 	)
 
 /obj/machinery/transformer_rp/proc/create_a_cyborg(mob/dead/observer/target_ghost)
@@ -97,7 +97,7 @@
 	if(cooldown)
 		return
 
-	var/cyborg_ask = tgui_alert(target_ghost, "成为半机械人？", "你是终结者吗？", list("是", "否"))
+	var/cyborg_ask = tgui_alert(target_ghost, "成为赛博？", "你是终结者吗？", list("是", "否"))
 	if(cyborg_ask == "否" || !src || QDELETED(src))
 		return FALSE
 

@@ -37,7 +37,7 @@
 
 /mob/living/silicon/robot/shell/get_status_tab_items()
 	. = ..()
-	. += "已连接半机械人：[length(mainframe.connected_robots)]"
+	. += "已连接赛博：[length(mainframe.connected_robots)]"
 	for(var/r in mainframe.connected_robots)
 		var/mob/living/silicon/robot/connected_robot = r
 		var/robot_status = "正常"

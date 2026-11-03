@@ -447,7 +447,7 @@
 	base_icon_state = "ninjapaddles"
 
 /obj/item/reagent_containers/borghypo/syndicate/ninja
-	name = "改装半机械人无针注射器"
+	name = "改装赛博无针注射器"
 	desc = "一种实验性技术装置，可生成强效修复纳米机器人，用于极快地治疗各类损伤。它会代谢碘化钾以应对辐射中毒、代谢复聪素以治疗耳部损伤、代谢吗啡以供战斗之需，并为外勤特工提供营养。"
 	icon = 'modular_skyrat/modules/borgs/icons/robot_items.dmi'
 	icon_state = "borghypo_n"
@@ -459,7 +459,7 @@
 /// Engineering Modules ///
 /obj/item/crowbar/cyborg/power
 	name = "模块化撬棍"
-	desc = "一种半机械人装配的模块，外形类似生命之钳。"
+	desc = "一种赛博装配的模块，外形类似生命之钳。"
 	icon = 'modular_skyrat/modules/borgs/icons/robot_items.dmi'
 	icon_state = "jaws_pry_cyborg"
 	usesound = 'sound/items/tools/jaws_pry.ogg'
@@ -485,7 +485,7 @@
 
 /obj/item/screwdriver/cyborg/power
 	name =	"自动钻头"
-	desc = "一种半机械人装配的模块，外形类似手钻。"
+	desc = "一种赛博装配的模块，外形类似手钻。"
 	icon = 'modular_skyrat/modules/borgs/icons/robot_items.dmi'
 	icon_state = "drill_screw_cyborg"
 	hitsound = 'sound/items/tools/drill_hit.ogg'
@@ -510,7 +510,7 @@
 
 /// Shapeshifter
 /obj/item/borg_shapeshifter
-	name = "半机械人变色龙投影器"
+	name = "赛博变色龙投影器"
 	icon = 'icons/obj/devices/syndie_gadget.dmi'
 	icon_state = "shield0"
 	obj_flags = CONDUCTS_ELECTRICITY
@@ -850,7 +850,7 @@
 
 /obj/item/borg/forging_setup
 	name = "集成锻造分配器"
-	desc = "让半机械人消耗电力生成锻造所需的结构。"
+	desc = "让赛博消耗电力生成锻造所需的结构。"
 	icon = 'modular_skyrat/modules/borgs/icons/robot_items.dmi'
 	icon_state = "forge_dispense"
 	/// how much charge the item will use per use
@@ -859,7 +859,7 @@
 /obj/item/borg/forging_setup/attack_self(mob/user, modifiers)
 	var/mob/living/silicon/robot/robot_user = user
 	if(!istype(robot_user)) //you have to be a borg to use this item
-		to_chat(user, span_warning("必须由半机械人使用 [src]！"))
+		to_chat(user, span_warning("必须由赛博使用 [src]！"))
 		return
 
 	if(robot_user.cell.charge < charge_cost)

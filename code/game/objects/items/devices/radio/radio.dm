@@ -687,7 +687,7 @@
 //Giving borgs their own radio to have some more room to work with -Sieve
 
 /obj/item/radio/borg
-	name = "半机械人无线电"
+	name = "赛博无线电"
 	subspace_transmission = TRUE
 	subspace_switchable = TRUE
 	dog_fashion = null

@@ -5,8 +5,8 @@
  *
  */
 /mob/living/silicon/robot
-	name = "半机械人"
-	real_name = "半机械人"
+	name = "赛博"
+	real_name = "赛博"
 	icon = 'icons/mob/silicon/robots.dmi' //SKYRAT EDIT - Modified in modular_skyrat\modules\altborgs\code\robot_defines.dm (to allow for custom transformation animations)
 	icon_state = "robot"
 	maxHealth = 100
@@ -188,9 +188,9 @@
 	lawupdate = FALSE
 	scrambledcodes = TRUE // These are rogue borgs.
 	ionpulse = TRUE
-	var/playstyle_string = "<span class='big bold'>你是一名辛迪加突击半机械人！</span><br>\
+	var/playstyle_string = "<span class='big bold'>你是一名辛迪加突击赛博！</span><br>\
 		<b>你配备了强大的攻击工具来协助完成任务：帮助特工们取得核认证磁盘。\
-		你的半机械人轻机枪会以电力缓慢生成弹药，你的特工指针会找到并定位其他核爆特工。\
+		你的赛博轻机枪会以电力缓慢生成弹药，你的特工指针会找到并定位其他核爆特工。\
 		<i>不惜一切代价帮助特工们取得磁盘！</i></b>"
 	set_model = /obj/item/robot_model/syndicate
 	cell = /obj/item/stock_parts/power_store/cell/hyper
@@ -219,7 +219,7 @@
 
 /mob/living/silicon/robot/model/syndicate/medical
 	icon_state = "synd_medical"
-	playstyle_string = "<span class='big bold'>你是一名辛迪加医疗半机械人！</span><br>\
+	playstyle_string = "<span class='big bold'>你是一名辛迪加医疗赛博！</span><br>\
 		<b>你配备了强大的医疗工具来协助完成任务：帮助特工们取得核认证磁盘。\
 		你的催眠喷雾会生成修复纳米机器人，这种神奇药物能治愈大多数身体损伤，包括脑损伤；它还能生成吗啡用于进攻。\
 		你的除颤电极可以隔着特工服将他们救活，也可以在伤害意图下用来电击敌人！\
@@ -229,11 +229,11 @@
 
 /mob/living/silicon/robot/model/syndicate/saboteur
 	icon_state = "synd_engi"
-	playstyle_string = "<span class='big bold'>你是一名辛迪加破坏半机械人！</span><br>\
+	playstyle_string = "<span class='big bold'>你是一名辛迪加破坏赛博！</span><br>\
 		<b>你配备了坚固的工程工具来协助完成任务：帮助特工们取得核认证磁盘。\
 		你的目的地标签器能让你隐秘地穿越空间站的垃圾处理管网。\
-		你的焊接工具可以修理特工的外骨骼，也能修理你自己和其他半机械人。\
-		你的半机械人变色投影器能让你呈现出纳米传讯工程半机械人的外观与注册名，并在空间站上开展秘密行动。\
+		你的焊接工具可以修理特工的外骨骼，也能修理你自己和其他赛博。\
+		你的赛博变色投影器能让你呈现出纳米传讯工程赛博的外观与注册名，并在空间站上开展秘密行动。\
 		请注意，几乎任何身体接触或附带损伤都会破坏你的伪装。\
 		<i>不惜一切代价帮助特工们取得磁盘！</i></b>"
 	set_model = /obj/item/robot_model/saboteur

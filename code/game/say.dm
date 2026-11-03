@@ -418,7 +418,7 @@ INITIALIZE_IMMEDIATE(/atom/movable/virtualspeaker)
 		job = "AI"
 	else if(iscyborg(M))  // Cyborg
 		var/mob/living/silicon/robot/B = M
-		job = "[B.designation] 半机械人"
+		job = "[B.designation] 赛博"
 	else if(ispAI(M))  // Personal AI (pAI)
 		job = JOB_PERSONAL_AI
 	else if(isobj(M))  // Cold, emotionless machines

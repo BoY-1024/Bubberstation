@@ -332,7 +332,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/departments/telecomms/alt, 32)
 /obj/structure/sign/departments/aiupload
 	name = "\improper AI 上传室标牌"
 	sign_change_name = "Location - AI Upload"
-	desc = "标示向空间站 AI 与半机械人上传法则区域的标牌。"
+	desc = "标示向空间站 AI 与赛博上传法则区域的标牌。"
 	icon_state = "aiupload"
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/departments/aiupload, 32)

@@ -6,4 +6,4 @@
 	nukeop_outfit = /datum/outfit/syndicate/reinforcement
 
 /datum/antagonist/nukeop/reinforcement/cyborg
-	name = "核爆特工支援半机械人"
+	name = "核爆特工支援赛博"

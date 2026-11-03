@@ -64,7 +64,7 @@
 
 /datum/voucher_set/mining_suit/winter
 	name = "冬季套装"
-	description = "啊！好冷！虽然这身在熔岩地带撑不了多久，但非常适合更寒冷的地方！附赠免费热可可！"
+	description = "啊！好冷！虽然这身在拉瓦兰撑不了多久，但非常适合更寒冷的地方！附赠免费热可可！"
 	icon = 'icons/obj/clothing/suits/wintercoat.dmi'
 	icon_state = "coatminer"
 	set_items = list(

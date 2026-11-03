@@ -9,21 +9,21 @@
 	icon = 'modular_skyrat/modules/ashwalkers/icons/uniforms.dmi'
 	worn_icon = 'modular_skyrat/modules/ashwalkers/icons/uniform.dmi'
 	name = "灰行者破布"
-	desc = "来自熔岩地带的破布，覆盖着一层薄灰。这一件似乎是给部落里的年幼者穿的。赞美死灵之都。"
+	desc = "来自拉瓦兰的破布，覆盖着一层薄灰。这一件似乎是给部落里的年幼者穿的。赞美死灵之都。"
 	icon_state = "tribalrags"
 
 /obj/item/clothing/under/costume/gladiator/ash_walker/chiefrags
 	icon = 'modular_skyrat/modules/ashwalkers/icons/uniforms.dmi'
 	worn_icon = 'modular_skyrat/modules/ashwalkers/icons/uniform.dmi'
 	name = "陈旧灰行者破布"
-	desc = "来自熔岩地带的破布，覆盖着厚厚的灰烬。这一件似乎是给部落里的长者穿的。赞美死灵之都。"
+	desc = "来自拉瓦兰的破布，覆盖着厚厚的灰烬。这一件似乎是给部落里的长者穿的。赞美死灵之都。"
 	icon_state = "chiefrags"
 
 /obj/item/clothing/under/costume/gladiator/ash_walker/shaman
 	icon = 'modular_skyrat/modules/ashwalkers/icons/uniforms.dmi'
 	worn_icon = 'modular_skyrat/modules/ashwalkers/icons/uniform.dmi'
 	name = "装饰灰行者破布"
-	desc = "来自熔岩地带的破布，浸透了灰烬，脖颈周围缝着镶嵌精美珠宝的骨头。这一件似乎是给部落的萨满穿的。赞美死灵之都。"
+	desc = "来自拉瓦兰的破布，浸透了灰烬，脖颈周围缝着镶嵌精美珠宝的骨头。这一件似乎是给部落的萨满穿的。赞美死灵之都。"
 	icon_state = "shamanrags"
 
 /obj/item/clothing/under/costume/gladiator/ash_walker/robe

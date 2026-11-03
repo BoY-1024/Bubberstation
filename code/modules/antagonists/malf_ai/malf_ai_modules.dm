@@ -505,7 +505,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module/malf))
 
 /datum/action/innate/ai/destroy_rcds
 	name = "摧毁 RCD"
-	desc = "引爆空间站上所有非半机械人的 RCD。"
+	desc = "引爆空间站上所有非赛博的 RCD。"
 	button_icon_state = "detonate_rcds"
 	uses = 1
 	cooldown_period = 10 SECONDS
@@ -655,7 +655,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module/malf))
 /// Robotic Factory: Places a large machine that converts humans that go through it into cyborgs. Unlocking this ability removes shunting.
 /datum/ai_module/malf/utility/place_cyborg_transformer
 	name = "机器人工厂（移除分流）"
-	description = "使用昂贵的纳米机器在任何地方建造一台机器，它会慢慢为你制造忠诚的半机械人。" // SKYRAT EDIT
+	description = "使用昂贵的纳米机器在任何地方建造一台机器，它会慢慢为你制造忠诚的赛博。" // SKYRAT EDIT
 	cost = 100
 	power_type = /datum/action/innate/ai/place_transformer
 	unlock_text = span_notice("你联系了太空亚马逊，要求配送一座机器人工厂。")
@@ -663,7 +663,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module/malf))
 
 /datum/action/innate/ai/place_transformer
 	name = "放置机器人工厂"
-	desc = "放置一台能缓慢制造半机械人的机器。附赠传送带！" // SKYRAT EDIT
+	desc = "放置一台能缓慢制造赛博的机器。附赠传送带！" // SKYRAT EDIT
 	button_icon_state = "robotic_factory"
 	uses = 1
 	auto_use_uses = FALSE //So we can attempt multiple times

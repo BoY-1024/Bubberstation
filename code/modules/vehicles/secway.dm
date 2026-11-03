@@ -1,7 +1,7 @@
 
 /obj/vehicle/ridden/secway
 	name = "安保平衡车"
-	desc = "一位勇敢的安保半机械人献出了生命，只为让你看起来像个十足的工具人。"
+	desc = "一位勇敢的安保赛博献出了生命，只为让你看起来像个十足的工具人。"
 	icon_state = "secway"
 	max_integrity = 60
 	armor_type = /datum/armor/ridden_secway

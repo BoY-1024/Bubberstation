@@ -277,7 +277,7 @@ GAME_VERB_DESC(/mob/living/silicon/ai, pick_status_display, "设置 AI 状态显
 	. += "系统完整性：[(health + 100) * 0.5]%"
 	if(isturf(loc)) //only show if we're "in" a core
 		. += "备用电力：[battery * 0.5]%"
-	. += "已连接半机械人：[length(connected_robots)]"
+	. += "已连接赛博：[length(connected_robots)]"
 	for(var/r in connected_robots)
 		var/mob/living/silicon/robot/connected_robot = r
 		var/robot_status = "正常"
@@ -1030,7 +1030,7 @@ GAME_VERB_DESC(/mob/living/silicon/ai, deploy_to_shell, "部署到外壳", "转�
 
 /datum/action/innate/deploy_shell
 	name = "部署到 AI 外壳"
-	desc = "无线控制一具特制的半机械人外壳。"
+	desc = "无线控制一具特制的赛博外壳。"
 	button_icon = 'icons/mob/actions/actions_AI.dmi'
 	button_icon_state = "ai_shell"
 

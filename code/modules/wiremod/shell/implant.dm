@@ -223,7 +223,7 @@
 		to_chat(owner, span_boldwarning("[circuit_component.parent] 没有电池。"))
 	else
 		to_chat(owner, span_info("[circuit_component.parent] 的 [cell.name] 剩余 <b>[cell.percent()]%</b> 电量。"))
-		to_chat(owner, span_info("你可以使用半机械人充电站为其充电。"))
+		to_chat(owner, span_info("你可以使用赛博充电站为其充电。"))
 
 /datum/action/innate/implant_charge_action/process(seconds_per_tick)
 	build_all_button_icons(UPDATE_BUTTON_STATUS)

@@ -1,7 +1,7 @@
 //Cyborg
 
 /datum/design/borg_suit
-	name = "半机械人内骨骼"
+	name = "赛博内骨骼"
 	build_type = MECHFAB
 	build_path = /obj/item/robot_suit
 	materials = list(/datum/material/iron=SHEET_MATERIAL_AMOUNT*7.5)
@@ -11,7 +11,7 @@
 	)
 
 /datum/design/borg_chest
-	name = "半机械人躯干"
+	name = "赛博躯干"
 	build_type = MECHFAB
 	build_path = /obj/item/bodypart/chest/robot
 	materials = list(/datum/material/iron= SHEET_MATERIAL_AMOUNT*20)
@@ -21,7 +21,7 @@
 	)
 
 /datum/design/borg_head
-	name = "半机械人头部"
+	name = "赛博头部"
 	build_type = MECHFAB
 	build_path = /obj/item/bodypart/head/robot
 	materials = list(/datum/material/iron=SHEET_MATERIAL_AMOUNT * 2.5)
@@ -31,7 +31,7 @@
 	)
 
 /datum/design/borg_l_arm
-	name = "半机械人左臂"
+	name = "赛博左臂"
 	build_type = MECHFAB
 	build_path = /obj/item/bodypart/arm/left/robot
 	materials = list(/datum/material/iron=SHEET_MATERIAL_AMOUNT*5)
@@ -41,7 +41,7 @@
 	)
 
 /datum/design/borg_r_arm
-	name = "半机械人右臂"
+	name = "赛博右臂"
 	build_type = MECHFAB
 	build_path = /obj/item/bodypart/arm/right/robot
 	materials = list(/datum/material/iron=SHEET_MATERIAL_AMOUNT*5)
@@ -51,7 +51,7 @@
 	)
 
 /datum/design/borg_l_leg
-	name = "半机械人左腿"
+	name = "赛博左腿"
 	build_type = MECHFAB
 	build_path = /obj/item/bodypart/leg/left/robot
 	materials = list(/datum/material/iron=SHEET_MATERIAL_AMOUNT*5)
@@ -61,7 +61,7 @@
 	)
 
 /datum/design/borg_r_leg
-	name = "半机械人右腿"
+	name = "赛博右腿"
 	build_type = MECHFAB
 	build_path = /obj/item/bodypart/leg/right/robot
 	materials = list(/datum/material/iron=SHEET_MATERIAL_AMOUNT*5)
@@ -1524,7 +1524,7 @@
 	)
 
 /datum/design/boris_ai_controller
-	name = "B.O.R.I.S. AI 半机械人远程控制"
+	name = "B.O.R.I.S. AI 赛博远程控制"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/ai
 	materials = list(
@@ -1552,7 +1552,7 @@
 	)
 
 /datum/design/borg_upgrade_inducer
-	name = "半机械人感应充电器"
+	name = "赛博感应充电器"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/inducer
 	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 5, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 2.5, /datum/material/silver = SHEET_MATERIAL_AMOUNT * 2)

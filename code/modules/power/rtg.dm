@@ -134,7 +134,7 @@
 
 /obj/machinery/power/rtg/lavaland
 	name = "熔岩动力 " + parent_type::name
-	desc = "一种利用熔岩地带的热量和大气发电的发电机。在其他地方一点电也发不出来。"
+	desc = "一种利用拉瓦兰的热量和大气发电的发电机。在其他地方一点电也发不出来。"
 	circuit = null
 	power_gen = 20 KILO WATTS
 	anchored = TRUE

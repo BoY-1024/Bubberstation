@@ -124,7 +124,7 @@
 		. += span_notice("标签用完了。")
 
 /obj/item/hand_labeler/borg
-	name = "半机械人手持标签机"
+	name = "赛博手持标签机"
 
 /obj/item/hand_labeler/borg/apply_label(atom/interacting_with, mob/living/silicon/robot/user, list/modifiers)
 	if(!istype(user))

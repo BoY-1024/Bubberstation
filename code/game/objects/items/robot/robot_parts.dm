@@ -1,7 +1,7 @@
 //The robot bodyparts have been moved to code/module/surgery/bodyparts/robot_bodyparts.dm
 
 /obj/item/robot_suit
-	name = "半机械人内骨骼"
+	name = "赛博内骨骼"
 	desc = "一副复杂的金属脊骨，带有标准的肢体插槽与假肌锚点。"
 	icon = 'icons/mob/augmentation/augments.dmi'
 	icon_state = "robo_suit"
@@ -105,7 +105,7 @@
 	if(l_leg || r_leg || chest || l_arm || r_arm || head)
 		if(I.use_tool(src, user, 5, volume=50))
 			drop_all_parts(T)
-			to_chat(user, span_notice("你拆解了半机械人外壳。"))
+			to_chat(user, span_notice("你拆解了赛博外壳。"))
 	else
 		to_chat(user, span_warning("内骨骼上没有可拆卸的部件！"))
 	update_appearance()
@@ -387,7 +387,7 @@
 /obj/item/robot_suit/ui_interact(mob/user, datum/tgui/ui)
 	ui = SStgui.try_update_ui(user, src, ui)
 	if(!ui)
-		ui = new(user, src, "CyborgBootDebug", "半机械人启动调试")
+		ui = new(user, src, "CyborgBootDebug", "赛博启动调试")
 		ui.open()
 
 /obj/item/robot_suit/ui_data(mob/user)

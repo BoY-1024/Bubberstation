@@ -2,7 +2,7 @@
 //Consumable or one-use items like the magic D20 and gluttony's blessing are omitted
 /datum/export/lavaland
 	abstract_type = /datum/export/lavaland
-	unit_name = "熔岩行星遗物"
+	unit_name = "拉瓦兰遗物"
 	/// Prefix to add to our unit name after generation
 	var/prefix = null
 
@@ -12,7 +12,7 @@
 		if (MINETYPE_NONE)
 			unit_name = "未知遗物"
 		if (MINETYPE_LAVALAND)
-			unit_name = "熔岩行星遗物"
+			unit_name = "拉瓦兰遗物"
 		if (MINETYPE_ICE)
 			unit_name = "冰月遗物"
 

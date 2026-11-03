@@ -8,7 +8,7 @@
 
 /datum/opposing_force_equipment/implants/roboticist
 	item_type = /obj/item/skillchip/job/roboticist
-	description = "安装后能让使用者一眼识别半机械人线缆布局及功能的技能芯片。"
+	description = "安装后能让使用者一眼识别赛博线缆布局及功能的技能芯片。"
 
 /datum/opposing_force_equipment/implants/tacticool
 	item_type = /obj/item/skillchip/chameleon/reload

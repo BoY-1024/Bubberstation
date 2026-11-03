@@ -719,7 +719,7 @@
 /datum/glass_style/drinking_glass/mauna_loa
 	required_drink_type = /datum/reagent/consumable/ethanol/mauna_loa
 	name = "莫纳罗亚"
-	desc = "熔岩地带装进了一杯……马克杯……火山……反正是这么个东西里面。"
+	desc = "拉瓦兰装进了一杯……马克杯……火山……反正是这么个东西里面。"
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "mauna_loa"
 

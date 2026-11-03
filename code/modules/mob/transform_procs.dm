@@ -154,10 +154,10 @@
 	return new_borg
 
 /mob/living/silicon/robot/proc/replace_banned_cyborg()
-	to_chat(src, "<b>你已被禁止担任半机械人！如果想避免今后再发生这种情况，请申诉解除职业封禁！</b>")
+	to_chat(src, "<b>你已被禁止担任赛博！如果想避免今后再发生这种情况，请申诉解除职业封禁！</b>")
 	ghostize(FALSE)
 
-	var/mob/chosen_one = SSpolling.poll_ghosts_for_target("你想扮演 [span_notice(name)] 吗？", check_jobban = JOB_CYBORG, poll_time = 5 SECONDS, checked_target = src, alert_pic = src, role_name_text = "半机械人")
+	var/mob/chosen_one = SSpolling.poll_ghosts_for_target("你想扮演 [span_notice(name)] 吗？", check_jobban = JOB_CYBORG, poll_time = 5 SECONDS, checked_target = src, alert_pic = src, role_name_text = "赛博")
 	if(chosen_one)
 		message_admins("[key_name_admin(chosen_one)] 已接管（[key_name_admin(src)]），以替补一名被封禁的玩家。")
 		key = chosen_one.key

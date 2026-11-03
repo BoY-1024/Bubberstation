@@ -1,5 +1,5 @@
 /obj/item/book/granter/crafting_recipe/boneyard_notes
-	name = "熔岩地带骨质建筑全集"
+	name = "拉瓦兰骨质建筑全集"
 	desc = "从首席考古学家冰冷僵硬的手中撬出的书，似乎讲述了远古时代骨质建筑的建造方式。"
 	crafting_recipe_types = list(
 		/datum/crafting_recipe/rib,

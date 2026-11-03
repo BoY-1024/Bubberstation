@@ -139,7 +139,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/computer/cryopod, 32)
 // Cryopods themselves.
 /obj/machinery/cryopod
 	name = "低温冷冻舱"
-	desc = "这种休眠舱适合半机械人与类人生物使用，是受太空睡眠障碍困扰的人员休息的安全场所。"
+	desc = "这种休眠舱适合赛博与类人生物使用，是受太空睡眠障碍困扰的人员休息的安全场所。"
 	icon = 'modular_skyrat/modules/cryosleep/icons/cryogenics.dmi'
 	icon_state = "cryopod-open"
 	base_icon_state = "cryopod"

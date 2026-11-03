@@ -51,7 +51,7 @@
 
 /obj/item/clothing/head/helmet/space/eva/examine(mob/user)
 	. = ..()
-	. += span_notice("你可以用[span_bold("半机械人腿部")]开始组装一台小型机甲。")
+	. += span_notice("你可以用[span_bold("赛博腿部")]开始组装一台小型机甲。")
 
 /obj/item/clothing/head/helmet/space/eva/item_interaction(mob/living/user, obj/item/tool, list/modifiers)
 	if(!istype(tool, /obj/item/bodypart/leg/left/robot) && !istype(tool, /obj/item/bodypart/leg/right/robot))

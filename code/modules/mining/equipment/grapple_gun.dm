@@ -2,7 +2,7 @@
 
 /obj/item/grapple_gun
 	name = "抓钩枪"
-	desc = "一把小型特制气枪，能将攀爬钩发射到远处的岩壁上，并通过电动滑索将使用者拉向目标。是穿越熔岩地带崎岖地形的便利工具！"
+	desc = "一把小型特制气枪，能将攀爬钩发射到远处的岩壁上，并通过电动滑索将使用者拉向目标。是穿越拉瓦兰崎岖地形的便利工具！"
 	icon = 'icons/obj/mining.dmi'
 	icon_state = "grapple_gun"
 	lefthand_file = 'icons/mob/inhands/weapons/guns_lefthand.dmi'

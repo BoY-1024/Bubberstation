@@ -117,7 +117,7 @@
 	worn_y_offset = 1
 
 /obj/item/clothing/head/costume/cardborg
-	name = "纸板半机械人头盔"
+	name = "纸板赛博头盔"
 	desc = "用纸箱做的头盔。"
 	icon_state = "cardborg_h"
 	inhand_icon_state = "cardborg_h"

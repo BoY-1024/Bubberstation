@@ -238,7 +238,7 @@
 		INVOKE_ASYNC(src, PROC_REF(pickup_ore), new_atom, listening_to)
 
 /obj/item/storage/bag/ore/cyborg
-	name = "半机械人采矿挎包"
+	name = "赛博采矿挎包"
 
 /obj/item/storage/bag/ore/holding //miners, your messiah has arrived
 	name = "次元采矿挎包"
@@ -285,7 +285,7 @@
 	return CLICK_ACTION_SUCCESS
 
 /obj/item/storage/bag/plants/cyborg
-	name = "半机械人植物袋"
+	name = "赛博植物袋"
 
 /obj/item/storage/bag/sheetsnatcher
 	name = "板材抓取袋"

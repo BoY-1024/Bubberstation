@@ -43,7 +43,7 @@
 		audible_message("<blink><font face='Franklin Gothic Medium' size='6'>[alarm_phrase]</font></blink>")
 		playsound(get_turf(src), 'modular_zubbers/sound/ai/alan_davies.ogg', 70)
 		COOLDOWN_START(src, alarm_cooldown, HARM_ALARM_SAFETY_COOLDOWN)
-		user.log_message("使用了半机械人危险警报器", LOG_ATTACK)
+		user.log_message("使用了赛博危险警报器", LOG_ATTACK)
 		if(iscyborg(user))
 			var/mob/living/silicon/robot/robot_user = user
 			to_chat(robot_user.connected_ai, "<br>[span_notice("通知——[user]使用了危险警报器")]<br>")
@@ -63,7 +63,7 @@
 					carbon.adjust_jitter(50 SECONDS)
 		playsound(get_turf(src), 'sound/machines/warning-buzzer.ogg', 130, 3)
 		COOLDOWN_START(src, alarm_cooldown, HARM_ALARM_NO_SAFETY_COOLDOWN)
-		user.log_message("使用了被电磁卡破解的半机械人危险警报器", LOG_ATTACK)
+		user.log_message("使用了被电磁卡破解的赛博危险警报器", LOG_ATTACK)
 
 #undef HARM_ALARM_NO_SAFETY_COOLDOWN
 #undef HARM_ALARM_SAFETY_COOLDOWN

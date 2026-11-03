@@ -228,7 +228,7 @@
 
 		// Mining
 		else if(is_mining_level(their_z))
-			balloon_message = "在熔岩地带！"
+			balloon_message = "在拉瓦兰！"
 
 		// In the gateway
 		else if(is_away_level(their_z) || is_secret_level(their_z))

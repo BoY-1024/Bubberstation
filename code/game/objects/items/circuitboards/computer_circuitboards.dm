@@ -705,7 +705,7 @@
 	build_path = /obj/machinery/computer/shuttle/mining
 
 /obj/item/circuitboard/computer/mining_shuttle/common
-	name = "熔岩地带穿梭机"
+	name = "拉瓦兰穿梭机"
 	build_path = /obj/machinery/computer/shuttle/mining/common
 
 /obj/item/circuitboard/computer/emergency_pod

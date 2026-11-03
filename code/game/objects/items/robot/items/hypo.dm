@@ -99,7 +99,7 @@
 
 ///Borg Hypospray
 /obj/item/reagent_containers/borghypo
-	name = "半机械人无针注射器"
+	name = "赛博无针注射器"
 	desc = "一套先进的化学合成与注射系统，专为重型医疗设备而设计。"
 	icon = 'icons/obj/medical/syringe.dmi'
 	inhand_icon_state = "hypo"
@@ -315,7 +315,7 @@ SKYRAT EDIT REMOVAL END */
 
 /// Syndicate medborg hypospray
 /obj/item/reagent_containers/borghypo/syndicate
-	name = "辛迪加半机械人无针注射器"
+	name = "辛迪加赛博无针注射器"
 	desc = "一件实验性的辛迪加科技产品，可生成强效的纳米修复机器人，能在极短时间内治愈各种伤势。\
 		同时还能代谢碘化钾以治疗辐射中毒、代谢耳复宁以治疗耳部损伤、代谢吗啡以用于进攻。"
 	icon_state = "borghypo_s"
@@ -327,7 +327,7 @@ SKYRAT EDIT REMOVAL END */
 
 /// Borg Shaker for the serviceborgs
 /obj/item/reagent_containers/borghypo/borgshaker
-	name = "半机械人摇酒器"
+	name = "赛博摇酒器"
 	desc = "一台先进的饮品合成与调配装置。"
 	icon = 'icons/obj/drinks/bottles.dmi'
 	icon_state = "shaker"
@@ -485,7 +485,7 @@ SKYRAT EDIT REMOVAL END */
 	return ITEM_INTERACT_SUCCESS
 
 /obj/item/reagent_containers/borghypo/borgshaker/hacked
-	name = "半机械人摇酒器"
+	name = "赛博摇酒器"
 	desc = "能调出足以把他们放倒的饮品。"
 	icon_state = "threemileislandglass"
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'

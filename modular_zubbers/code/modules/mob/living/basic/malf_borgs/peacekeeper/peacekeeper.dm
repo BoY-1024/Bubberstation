@@ -1,6 +1,6 @@
 /mob/living/basic/malf_borg/peace
-	name = "故障维和半机械人"
-	desc = "一台半机械人单位，遭到入侵或发生故障。这是维和型号。"
+	name = "故障维和赛博"
+	desc = "一台赛博单位，遭到入侵或发生故障。这是维和型号。"
 	icon = 'modular_skyrat/master_files/icons/mob/newmobs.dmi'
 
 	icon_state = "evilbotpeace"

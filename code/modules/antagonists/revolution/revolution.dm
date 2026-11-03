@@ -376,7 +376,7 @@
 /datum/antagonist/rev/proc/remove_revolutionary(deconverter)
 	owner.current.log_message("已被[ismob(deconverter) ? key_name(deconverter) : deconverter]解除革命者身份！", LOG_ATTACK, color = COLOR_CULT_RED)
 	if(deconverter == DECONVERTER_BORGED)
-		message_admins("[ADMIN_LOOKUPFLW(owner.current)]在身为[name]时被改造成了半机械人")
+		message_admins("[ADMIN_LOOKUPFLW(owner.current)]在身为[name]时被改造成了赛博")
 	if(iscarbon(owner.current) && deconverter)
 		var/mob/living/carbon/formerrev = owner.current
 		formerrev.Unconscious(10 SECONDS)

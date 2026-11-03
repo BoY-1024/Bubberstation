@@ -453,8 +453,8 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/cyborgrecharger
-	name = "半机械人充电器电路板"
-	desc = "用于建造半机械人充电器，也可为 MOD 服乃至以太人充电。"
+	name = "赛博充电器电路板"
+	desc = "用于建造赛博充电器，也可为 MOD 服乃至以太人充电。"
 	build_path = /obj/item/circuitboard/machine/cyborgrecharger
 	category = list(
 		RND_CATEGORY_MACHINE + RND_SUBCATEGORY_MACHINE_ROBOTICS

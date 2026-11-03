@@ -1,6 +1,6 @@
 /mob/living/basic/malf_borg/engi
-	name = "故障工程半机械人"
-	desc = "一台工程半机械人单位，遭到入侵或发生故障——我靠，那是一根等离子棒。"
+	name = "故障工程赛博"
+	desc = "一台工程赛博单位，遭到入侵或发生故障——我靠，那是一根等离子棒。"
 	icon = 'modular_skyrat/master_files/icons/mob/newmobs.dmi'
 
 	icon_state = "evilbotengi"

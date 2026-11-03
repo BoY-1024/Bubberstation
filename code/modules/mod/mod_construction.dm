@@ -60,7 +60,7 @@
 /obj/item/mod/construction/lavalandcore
 	name = "等离子花"
 	icon_state = "plasma-flower"
-	desc = "一株来自熔岩地带荒芜废土的奇异花朵。它散发着明亮的紫色光芒并不断脉动。  \
+	desc = "一株来自拉瓦兰荒芜废土的奇异花朵。它散发着明亮的紫色光芒并不断脉动。  \
 		它的形状与 MOD 核心惊人地相似。"
 	light_system = OVERLAY_LIGHT
 	light_color = "#cc00cc"

@@ -25,7 +25,7 @@
 	)
 
 /datum/techweb_node/cybernetics
-	display_name = "半机械人学"
+	display_name = "赛博学"
 	description = "搭载预装工具模块与可编程法则的智慧机器人。"
 	prerequisite_nodes = list(/datum/techweb_node/augmentation)
 	unlocked_designs = list(
@@ -47,7 +47,7 @@
 	announce_channels = list(RADIO_CHANNEL_SCIENCE)
 
 /datum/techweb_node/borg_service
-	display_name = "服务型半机械人升级"
+	display_name = "服务型赛博升级"
 	description = "让它们照着食谱做饭吧。"
 	prerequisite_nodes = list(/datum/techweb_node/cybernetics)
 	unlocked_designs = list(
@@ -63,7 +63,7 @@
 	announce_channels = list(RADIO_CHANNEL_SCIENCE)
 
 /datum/techweb_node/borg_mining
-	display_name = "采矿型半机械人升级"
+	display_name = "采矿型赛博升级"
 	description = "去开采人类无法涉足的危险矿点。"
 	prerequisite_nodes = list(/datum/techweb_node/cybernetics)
 	unlocked_designs = list(
@@ -75,7 +75,7 @@
 	announce_channels = list(RADIO_CHANNEL_SCIENCE)
 
 /datum/techweb_node/borg_medical
-	display_name = "医疗型半机械人升级"
+	display_name = "医疗型赛博升级"
 	description = "让它们遵循阿西莫夫第一法则。"
 	prerequisite_nodes = list(/datum/techweb_node/borg_service, /datum/techweb_node/surgery_adv)
 	unlocked_designs = list(
@@ -92,7 +92,7 @@
 	announce_channels = list(RADIO_CHANNEL_SCIENCE)
 
 /datum/techweb_node/borg_utility
-	display_name = "通用型半机械人升级"
+	display_name = "通用型赛博升级"
 	description = "让它们替我们擦地板。"
 	prerequisite_nodes = list(/datum/techweb_node/borg_service, /datum/techweb_node/sanitation)
 	unlocked_designs = list(
@@ -115,7 +115,7 @@
 		unlocked_designs += /datum/design/borg_upgrade_disablercooler
 
 /datum/techweb_node/borg_engi
-	display_name = "工程型半机械人升级"
+	display_name = "工程型赛博升级"
 	description = "好更彻底地摸鱼。"
 	prerequisite_nodes = list(/datum/techweb_node/borg_mining, /datum/techweb_node/parts_upg)
 	unlocked_designs = list(

@@ -2,7 +2,7 @@
 #define ACTIVATION_UP_KEEP (0.025 * STANDARD_CELL_RATE)
 
 /obj/item/borg_chameleon
-	name = "半机械人变色龙投影器"
+	name = "赛博变色龙投影器"
 	icon = 'icons/obj/devices/syndie_gadget.dmi'
 	icon_state = "shield0"
 	obj_flags = CONDUCTS_ELECTRICITY
@@ -68,7 +68,7 @@
 		apply_wibbly_filters(user)
 		if (do_after(user, 5 SECONDS, target = user, cog_icon = null) && user.cell.use(ACTIVATION_COST))
 			playsound(src, 'sound/effects/bamf.ogg', 100, TRUE, -6)
-			to_chat(user, span_notice("你现在伪装成纳米传讯工程半机械人“[friendlyName]”。"))
+			to_chat(user, span_notice("你现在伪装成纳米传讯工程赛博“[friendlyName]”。"))
 			activate(user)
 		else
 			to_chat(user, span_warning("变色龙场嗤的一声熄灭了。"))

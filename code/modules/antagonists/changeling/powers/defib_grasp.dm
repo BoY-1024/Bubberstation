@@ -3,7 +3,7 @@
 	desc = "我们在假死中做好准备。若有敌人试图对我们使用除颤器，\
 		我们会扯掉对方的手臂，并立即结束假死、恢复行动。"
 	helptext = "此能力为被动效果，当我们死亡或处于假死状态时，若有除颤电极板贴到我们胸口便会触发。\
-		也会让半机械人短暂麻痹。"
+		也会让赛博短暂麻痹。"
 	button_icon_state = "defibrillator_grasp"
 	category = "utility"
 	owner_has_control = FALSE

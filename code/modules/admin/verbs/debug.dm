@@ -13,15 +13,15 @@ ADMIN_VERB(air_status, R_DEBUG, "当前位置的大气状态", "获取你所在�
 	atmos_scan(user.mob, user_turf, silent = TRUE)
 	BLACKBOX_LOG_ADMIN_VERB("Air Status In Location")
 
-ADMIN_VERB(cmd_admin_robotize, R_FUN, "转化为半机械人", ADMIN_VERB_NO_DESCRIPTION, ADMIN_CATEGORY_HIDDEN)
+ADMIN_VERB(cmd_admin_robotize, R_FUN, "转化为赛博", ADMIN_VERB_NO_DESCRIPTION, ADMIN_CATEGORY_HIDDEN)
 	VERB_ARG_TYPED(target, VERB_ARG_TYPE_MOB, VERB_ARG_SOURCE_WORLD, /mob)
 	if(!SSticker.HasRoundStarted())
 		tgui_alert(user, "请等待游戏开始")
 		return
 	if(issilicon(target))
-		tgui_alert(user, "该目标已经是半机械人了。")
+		tgui_alert(user, "该目标已经是赛博了。")
 		return
-	log_admin("[key_name(user)]已将[target.key]改造为半机械人。")
+	log_admin("[key_name(user)]已将[target.key]改造为赛博。")
 	INVOKE_ASYNC(target, TYPE_PROC_REF(/mob, Robotize))
 
 /client/proc/poll_type_to_del(search_string)

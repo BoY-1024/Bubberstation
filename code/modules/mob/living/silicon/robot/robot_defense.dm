@@ -88,7 +88,7 @@ GLOBAL_LIST_INIT(blacklisted_borg_hats, typecacheof(list( //Hats that don't real
 			balloon_alert(user, "机壳盖是关着的！")
 			return ITEM_INTERACT_BLOCKING
 		if(!istype(model, /obj/item/robot_model/medical))
-			balloon_alert(user, "半机械人型号不符！")
+			balloon_alert(user, "赛博型号不符！")
 			return ITEM_INTERACT_BLOCKING
 		if(stat == DEAD)
 			balloon_alert(user, "它已经死了！")
@@ -115,7 +115,7 @@ GLOBAL_LIST_INIT(blacklisted_borg_hats, typecacheof(list( //Hats that don't real
 			balloon_alert(user, "机壳盖是关着的！")
 			return ITEM_INTERACT_BLOCKING
 		if(!istype(model, /obj/item/robot_model/engineering))
-			balloon_alert(user, "半机械人型号不符！")
+			balloon_alert(user, "赛博型号不符！")
 			return ITEM_INTERACT_BLOCKING
 		if(locate(/obj/item/borg/upgrade/rped) in src)
 			balloon_alert(user, "已经装有 RPED！")
@@ -419,8 +419,8 @@ GLOBAL_LIST_INIT(blacklisted_borg_hats, typecacheof(list( //Hats that don't real
 	if(connected_ai && connected_ai.mind && connected_ai.mind.has_antag_datum(/datum/antagonist/malf_ai))
 		to_chat(src, span_danger("警报：已阻止外部软件执行。"))
 		logevent("警报：已阻止外部软件执行。")
-		to_chat(connected_ai, span_danger("警报：半机械人单元 \[[src]\] 成功抵御了策反。"))
-		log_silicon("EMAG: [key_name(user)] 试图骇入半机械人 [key_name(src)]，但该机体被叛徒 AI [connected_ai] 所奴役。")
+		to_chat(connected_ai, span_danger("警报：赛博单元 \[[src]\] 成功抵御了策反。"))
+		log_silicon("EMAG: [key_name(user)] 试图骇入赛博 [key_name(src)]，但该机体被叛徒 AI [connected_ai] 所奴役。")
 		return TRUE // emag succeeded, it was just counteracted
 
 	if(shell) //AI shells cannot be emagged, so we try to make it look like a standard reset. Smart players may see through this, however.
@@ -435,8 +435,8 @@ GLOBAL_LIST_INIT(blacklisted_borg_hats, typecacheof(list( //Hats that don't real
 	SetStun(10 SECONDS) //Borgs were getting into trouble because they would attack the emagger before the new laws were shown
 	lawupdate = FALSE
 	set_connected_ai(null)
-	message_admins("[ADMIN_LOOKUPFLW(user)] 骇入了半机械人 [ADMIN_LOOKUPFLW(src)]。法则已被覆盖。")
-	log_silicon("EMAG: [key_name(user)] 骇入了半机械人 [key_name(src)]。法则已被覆盖。")
+	message_admins("[ADMIN_LOOKUPFLW(user)] 骇入了赛博 [ADMIN_LOOKUPFLW(src)]。法则已被覆盖。")
+	log_silicon("EMAG: [key_name(user)] 骇入了赛博 [key_name(src)]。法则已被覆盖。")
 	log_law_change(user, "骇入了 [key_name(src)]")
 
 	model.rebuild_modules()

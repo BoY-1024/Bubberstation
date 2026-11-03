@@ -77,7 +77,7 @@
 	worn_icon_state = "pinpointer_black"
 
 /obj/item/pinpointer/syndicate_cyborg // Cyborg pinpointers just look for a random operative.
-	name = "半机械人辛迪加指针器"
+	name = "赛博辛迪加指针器"
 	desc = "一种集成式追踪装置，临时改装用来搜寻活着的辛迪加特工。"
 	flags_1 = NONE
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | ACID_PROOF

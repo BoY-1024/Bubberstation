@@ -44,7 +44,7 @@
 
 /obj/item/toy/plush/skyrat/sechound
 	name = "安保犬玩偶"
-	desc = "一只可爱的毛绒玩具，造型是安保犬——纳米传讯赞助的可靠安保半机械人！"
+	desc = "一只可爱的毛绒玩具，造型是安保犬——纳米传讯赞助的可靠安保赛博！"
 	icon_state = "plushie_securityk9"
 	attack_verb_continuous = list("哔哔叫", "轻戳", "叮叮叫")
 	attack_verb_simple = list("哔哔叫", "轻戳", "叮叮叫")
@@ -647,7 +647,7 @@
 
 //Donation reward for olirant
 /obj/item/toy/plush/skyrat/plush_janiborg
-	name = "友好清洁半机械人玩偶"
+	name = "友好清洁赛博玩偶"
 	desc = "一款迷你全能机器人玩具，直接来自洛克斯特普企业公司市场部，采用帅气的清洁紫配色。现在还有真的喷水功能！"
 	icon_state = "plush_janiborg"
 	attack_verb_continuous = list("哔哔叫", "刷洗", "拖地", "喷水", "打皂")

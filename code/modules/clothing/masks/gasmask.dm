@@ -463,7 +463,7 @@ GLOBAL_LIST_INIT(clown_mask_options, list(
 	fishing_modifier = 0
 
 /obj/item/clothing/mask/gas/cyborg
-	name = "半机械人护目镜"
+	name = "赛博护目镜"
 	desc = "哔噗。"
 	icon_state = "death"
 	resistance_flags = FLAMMABLE

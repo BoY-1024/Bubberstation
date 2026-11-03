@@ -59,7 +59,7 @@ const SyncedBorgDimmer = (props: { master: string }) => {
           <Icon color="green" name="wifi" size={10} />
         </Stack.Item>
         <Stack.Item fontSize="18px">
-          此半机械人已连接至“{props.master}”。
+          此赛博已连接至“{props.master}”。
         </Stack.Item>
         <Stack.Item fontSize="14px">请修改其主控 AI 的法则。</Stack.Item>
       </Stack>
@@ -218,7 +218,7 @@ export const SiliconReadout = (props: { cyborg: Silicon }) => {
                       content={'私下告知法则'}
                       tooltip={`在该硅基生物的聊天框中显示
                         其全部法则。若对象为 AI，
-                        也会向所有连接的半机械人显示。`}
+                        也会向所有连接的赛博显示。`}
                       onClick={() =>
                         act('announce_law_changes', { ref: cyborg.ref })
                       }

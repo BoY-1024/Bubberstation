@@ -56,7 +56,7 @@
 	)
 
 /datum/design/borg_upgrade_research_rcd
-	name = "研究型半机械人合成体修复工具"
+	name = "研究型赛博合成体修复工具"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/robotics_rcd
 	materials = list(
@@ -71,7 +71,7 @@
 	)
 
 /datum/design/borg_upgrade_inducer_sci
-	name = "研究型半机械人感应充电器"
+	name = "研究型赛博感应充电器"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/inducer_sci
 	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 5, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 2.5, /datum/material/silver = SHEET_MATERIAL_AMOUNT * 2)
@@ -81,7 +81,7 @@
 	)
 
 /datum/design/borg_dominatrix
-	name = "半机械人调教模块"
+	name = "赛博调教模块"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/dominatrixmodule
 	materials = list(
@@ -94,7 +94,7 @@
 	)
 
 /datum/design/borg_obedience
-	name = "半机械人服从模块"
+	name = "赛博服从模块"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/obediencemodule
 	materials = list(
@@ -107,7 +107,7 @@
 	)
 
 /datum/design/borg_waddle
-	name = "半机械人摇摆模块"
+	name = "赛博摇摆模块"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/waddle_module
 	materials = list(
@@ -136,7 +136,7 @@
 
 //Some new toys
 /datum/design/experi_scanner/bluespace_borg
-	name = "半机械人蓝空间实验扫描仪"
+	name = "赛博蓝空间实验扫描仪"
 	desc = "一种实验扫描仪的变体，可远程执行实验扫描。"
 	build_type = MECHFAB
 	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 7.5, /datum/material/glass =SHEET_MATERIAL_AMOUNT * 2.5, /datum/material/silver = HALF_SHEET_MATERIAL_AMOUNT * 2.5)
@@ -157,7 +157,7 @@
 	)
 
 /datum/design/rld
-	name = "半机械人快速照明装置"
+	name = "赛博快速照明装置"
 	desc = "一种可快速、远距离部署照明灯与荧光棒的工具。"
 	build_type = MECHFAB
 	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 7.5, /datum/material/glass =SHEET_MATERIAL_AMOUNT * 2.5, /datum/material/silver = HALF_SHEET_MATERIAL_AMOUNT * 2.5)
@@ -182,7 +182,7 @@
 	)
 
 /datum/design/rld_janitor
-	name = "半机械人快速照明装置"
+	name = "赛博快速照明装置"
 	desc = "一种可快速、远距离部署照明灯与荧光棒的工具。"
 	build_type = MECHFAB
 	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 7.5, /datum/material/glass =SHEET_MATERIAL_AMOUNT * 2.5, /datum/material/silver = HALF_SHEET_MATERIAL_AMOUNT * 2.5)
@@ -205,7 +205,7 @@
 	)
 
 /datum/design/xenoarch/equipment/bag_adv_borg
-	name = "半机械人高级异星考古袋"
+	name = "赛博高级异星考古袋"
 	desc = "一种改进型袋子，用于为科学研究收集奇特的岩石。"
 	build_type = MECHFAB
 	materials = list(

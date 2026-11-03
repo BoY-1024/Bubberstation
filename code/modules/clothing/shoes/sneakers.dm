@@ -201,7 +201,7 @@
 	resistance_flags = FIRE_PROOF | ACID_PROOF
 
 /obj/item/clothing/shoes/sneakers/cyborg
-	name = "半机械人靴子"
-	desc = "半机械人戏服配套的鞋子。"
+	name = "赛博靴子"
+	desc = "赛博戏服配套的鞋子。"
 	icon_state = "/obj/item/clothing/shoes/sneakers/cyborg"
 	greyscale_colors = "#4e4e4e#4e4e4e"

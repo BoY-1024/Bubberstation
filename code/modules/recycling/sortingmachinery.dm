@@ -275,7 +275,7 @@
 	custom_materials = list(/datum/material/iron = SMALL_MATERIAL_AMOUNT * 2.5, /datum/material/glass = SMALL_MATERIAL_AMOUNT * 1.5)
 
 /obj/item/dest_tagger/borg
-	name = "半机械人目的地标签器"
+	name = "赛博目的地标签器"
 	desc = "用于骗过垃圾邮件网络，让它以为你是一个无害的包裹。它也能当作普通目的地标签器使用。"
 
 /obj/item/dest_tagger/suicide_act(mob/living/user)

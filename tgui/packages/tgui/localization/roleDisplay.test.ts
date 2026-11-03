@@ -6,7 +6,7 @@ describe('role display localization', () => {
     expect(displayRole('Nanotrasen Consultant')).toBe('纳米传讯顾问');
     expect(displayRole('Port Tarkon Survivor')).toBe('塔肯港幸存者');
     expect(displayRole('Captain')).toBe('舰长');
-    expect(displayRole('Cyborg')).toBe('半机械人');
+    expect(displayRole('Cyborg')).toBe('赛博');
     expect(displayRole('Bitrunner')).toBe('比特潜行者');
   });
 

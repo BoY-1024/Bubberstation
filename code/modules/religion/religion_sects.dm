@@ -159,7 +159,7 @@
 /datum/religion_sect/mechanical
 	name = "机械之神"
 	quote = "愿你在金属外壳中找到安宁。"
-	desc = "圣经现在能为半机械人充能，并在瞄准时治疗机械肢体，但\
+	desc = "圣经现在能为赛博充能，并在瞄准时治疗机械肢体，但\
 	无法治疗有机肢体。你现在可以献祭电池，获得的恩宠取决于其电量。"
 	tgui_icon = FA_ICON_ROBOT
 	alignment = ALIGNMENT_NEUT

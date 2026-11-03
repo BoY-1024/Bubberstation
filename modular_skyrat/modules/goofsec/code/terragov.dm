@@ -216,7 +216,7 @@ GLOBAL_LIST_INIT(call911_do_and_do_not, list(
 			playsound(src, 'sound/machines/terminal/terminal_prompt_deny.ogg', 50, FALSE)
 			return FALSE
 	else
-		to_chat(user, "控制台拒绝让你以人工智能或半机械人的身份拨打 911！")
+		to_chat(user, "控制台拒绝让你以人工智能或赛博的身份拨打 911！")
 		return FALSE
 	return TRUE
 

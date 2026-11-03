@@ -200,13 +200,13 @@
 
 //////SYNDICATE BORG
 /obj/item/antag_spawner/nuke_ops/borg_tele
-	name = "辛迪加半机械人信标"
-	desc = "一次性信标，用于快速将增援半机械人投送到战场。"
+	name = "辛迪加赛博信标"
+	desc = "一次性信标，用于快速将增援赛博投送到战场。"
 	antag_datum = /datum/antagonist/nukeop/reinforcement/cyborg
 	special_role_name = "Syndicate Cyborg"
 
 /obj/item/antag_spawner/nuke_ops/borg_tele/assault
-	name = "辛迪加突击半机械人信标"
+	name = "辛迪加突击赛博信标"
 	special_role_name = ROLE_SYNDICATE_ASSAULTBORG
 
 /obj/item/antag_spawner/nuke_ops/borg_tele/medical

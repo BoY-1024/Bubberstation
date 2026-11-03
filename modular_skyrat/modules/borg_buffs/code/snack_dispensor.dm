@@ -13,7 +13,7 @@
 
 /obj/item/borg/upgrade/snack_dispenser
 	name = "零食分配器模块"
-	desc = "让任何半机械人都能分配特制零食。"
+	desc = "让任何赛博都能分配特制零食。"
 	custom_materials = list(
 		/datum/material/iron = SMALL_MATERIAL_AMOUNT * 7,
 		/datum/material/glass = HALF_SHEET_MATERIAL_AMOUNT,
@@ -46,7 +46,7 @@
 		R.model.add_module(item, FALSE, TRUE)
 
 /obj/item/borg_snack_dispenser
-	name = "\improper 自动半机械人零食分配器"
+	name = "\improper 自动赛博零食分配器"
 	desc = "能够自动打印多种不同形式的零食。现已获得蜥蜴人的认可！"
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "rsf"

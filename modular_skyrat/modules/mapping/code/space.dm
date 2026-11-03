@@ -70,7 +70,7 @@
 	id = "clothing_facility"
 	suffix = "clothing_facility.dmm"
 	name = "Space-Ruin Abandoned Clothing Facility"
-	description = "坏点子的窝。安保半机械人就是在这里造出来的！"
+	description = "坏点子的窝。安保赛博就是在这里造出来的！"
 
 /datum/map_template/ruin/space/skyrat/luna
 	id = "luna"

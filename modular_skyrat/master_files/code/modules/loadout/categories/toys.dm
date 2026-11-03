@@ -217,7 +217,7 @@
 	item_path = /obj/item/toy/plush/skyrat/courier_synth
 
 /datum/loadout_item/toys/plush/plush_janiborg
-	name = "友好清洁半机械人毛绒玩具"
+	name = "友好清洁赛博毛绒玩具"
 	item_path = /obj/item/toy/plush/skyrat/plush_janiborg
 
 

@@ -14,7 +14,7 @@ GLOBAL_LIST_INIT(pp_transformables, list(
 			key = /mob/living/carbon/human/species/monkey
 			),
 		list(
-			name = "半机械人",
+			name = "赛博",
 			key = /mob/living/silicon/robot
 			)
 		)
@@ -50,7 +50,7 @@ GLOBAL_LIST_INIT(pp_transformables, list(
 		)
 	),
 	list(
-	name = "熔岩星",
+	name = "拉瓦兰",
 	color = "orange",
 	types = list(
 		list(

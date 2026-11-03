@@ -37,7 +37,7 @@
 /datum/design/board/telecomms_relay
 	name = "通讯中继器电路板"
 	desc = "用于建造电信中继主机，是电信系统的组成部件。\
-		中继器能将通信范围扩展到极远处，例如连通空间站与熔岩星球或深空。"
+		中继器能将通信范围扩展到极远处，例如连通空间站与拉瓦兰或深空。"
 	build_path = /obj/item/circuitboard/machine/telecomms/relay
 	category = list(
 		RND_CATEGORY_MACHINE + RND_SUBCATEGORY_MACHINE_TELECOMMS

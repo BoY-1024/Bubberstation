@@ -6,7 +6,7 @@
 /obj/item/defibrillator
 	name = "除颤器"
 	desc = "一种向可拆卸电极板释放强力电击、使失去行动能力的病人复苏的设备。\
-	后部配有支架，可安装到壁挂架和医疗半机械人上。"
+	后部配有支架，可安装到壁挂架和医疗赛博上。"
 	icon = 'icons/obj/medical/defib.dmi'
 	icon_state = "defibunit"
 	inhand_icon_state = "defibunit"
@@ -732,7 +732,7 @@
 	return NONE
 
 /obj/item/shockpaddles/cyborg
-	name = "半机械人除颤器电极板"
+	name = "赛博除颤器电极板"
 	icon = 'icons/obj/medical/defib.dmi'
 	icon_state = "defibpaddles0"
 	inhand_icon_state = "defibpaddles0"

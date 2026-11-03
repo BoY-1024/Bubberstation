@@ -1,6 +1,6 @@
 /obj/item/raptor_dex
 	name = "\improper 迅猛龙图鉴"
-	desc = "用于分析熔岩地带迅猛龙的装置！"
+	desc = "用于分析拉瓦兰迅猛龙的装置！"
 	icon = 'icons/obj/devices/scanner.dmi'
 	icon_state = "raptor_dex"
 	item_flags = NOBLUDGEON

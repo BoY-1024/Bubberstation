@@ -2,7 +2,7 @@
 /// For map generation, has a chance to instantiate as a special subtype
 /obj/effect/spawner/random/lavaland_mob
 	name = "random lavaland mob"
-	desc = "生成随机熔岩地带生物。"
+	desc = "生成随机拉瓦兰生物。"
 	icon = 'icons/mob/simple/lavaland/lavaland_monsters.dmi'
 	icon_state = "large_egg"
 	loot = list(

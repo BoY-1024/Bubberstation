@@ -1,7 +1,7 @@
 /datum/job/research_director
 	title = JOB_RESEARCH_DIRECTOR
 	description = "监督科研工作，确保机器人部门处于正常\
-		运转状态，确认人工智能及其半机械人没有失控，\
+		运转状态，确认人工智能及其赛博没有失控，\
 		若有失控则予以替换。"
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD
 	head_announce = RADIO_CHANNEL_SCIENCE

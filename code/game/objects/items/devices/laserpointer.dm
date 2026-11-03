@@ -65,7 +65,7 @@
 
 /obj/item/laser_pointer/infinite_range
 	name = "无限激光笔"
-	desc = "用来照一照需要督促的半机械人的眼睛，可以通过摄像头控制台使用。"
+	desc = "用来照一照需要督促的赛博的眼睛，可以通过摄像头控制台使用。"
 	max_range = INFINITY
 
 /obj/item/laser_pointer/infinite_range/Initialize(mapload)

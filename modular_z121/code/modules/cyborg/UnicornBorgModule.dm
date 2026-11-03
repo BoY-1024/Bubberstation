@@ -294,8 +294,8 @@
 	powerdevice = /obj/item/stock_parts/power_store/cell/infinite
 
 /obj/item/cyborg_clamp
-	name = "半机械人装卸夹钳"
-	desc = "供货运半机械人使用的设备，可抬起物品并装入货舱，不会搬运活体。"
+	name = "赛博装卸夹钳"
+	desc = "供货运赛博使用的设备，可抬起物品并装入货舱，不会搬运活体。"
 	icon = 'icons/obj/devices/mecha_equipment.dmi'
 	icon_state = "mecha_clamp"
 	tool_behaviour = TOOL_RETRACTOR
@@ -538,7 +538,7 @@
 	. = ..()
 
 /obj/item/gripper/utility
-	name = "半机械人通用机械臂"
+	name = "赛博通用机械臂"
 	desc = "一种复杂的抓取工具，据说能操作一切物品。"
 	icon_state = "gripper_utility"
 	can_hold = list(
@@ -657,7 +657,7 @@
 
 /obj/item/extinguisher/mini/cyborg
 	name = "灭火喷嘴"
-	desc = "连接半机械人供水系统的重型喷嘴。"
+	desc = "连接赛博供水系统的重型喷嘴。"
 	icon = 'modular_z121/icons/obj/121device.dmi'
 	icon_state = "atmos_nozzle_0"
 	//inhand_icon_state = "nozzleatmos"

@@ -131,7 +131,7 @@
 	ADD_TRAIT(AI.mind, TRAIT_UNCONVERTABLE, REF(src))
 	ADD_TRAIT(AI, TRAIT_MIND_TEMPORARILY_GONE, REF(src))
 	AI.mind.transfer_to(owner)
-	to_chat(owner, span_boldbig("你仍被视为硅基单位/半机械人/AI。请遵守你的法则。"))
+	to_chat(owner, span_boldbig("你仍被视为硅基单位/赛博/AI。请遵守你的法则。"))
 
 /obj/item/organ/brain/cybernetic/ai/proc/deploy_init(mob/living/silicon/ai/AI)
 	//todo camera maybe

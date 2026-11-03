@@ -13,7 +13,7 @@
 %A% %ADJECTIVE% 柯基
 %A% %ADJECTIVE% 船员
 %A% %ADJECTIVE% 人群
-%A% %ADJECTIVE% 半机械人
+%A% %ADJECTIVE% 赛博
 %A% %ADJECTIVE% 恶魔
 %A% %ADJECTIVE% 伪装
 %A% %ADJECTIVE% 医生

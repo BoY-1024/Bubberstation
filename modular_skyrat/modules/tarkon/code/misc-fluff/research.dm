@@ -51,7 +51,7 @@
 
 /datum/techweb_node/tarkon_borgs //Nor this, suprisingly
 	display_name = "塔肯工业机器人技术"
-	description = "塔肯工业实验性半机械人原型，禁止公众使用。"
+	description = "塔肯工业实验性赛博原型，禁止公众使用。"
 	prerequisite_nodes = list(/datum/techweb_node/tarkon, /datum/techweb_node/borg_engi, /datum/techweb_node/ai, /datum/techweb_node/borg_utility) // Should hold it back long enough
 	required_items_to_unlock = list(
 		/obj/item/mod/construction/plating/tarkon,

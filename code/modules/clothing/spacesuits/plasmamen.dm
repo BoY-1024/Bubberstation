@@ -375,7 +375,7 @@
 
 /obj/item/clothing/head/helmet/space/plasmaman/mining
 	name = "采矿的等离子防护头盔"
-	desc = "发给在熔岩地作业的等离子体矿工的一顶卡其色头盔。"
+	desc = "发给在拉瓦兰作业的等离子体矿工的一顶卡其色头盔。"
 	icon_state = "explorer_envirohelm"
 	inhand_icon_state = null
 	visor_icon = "explorer_envisor"

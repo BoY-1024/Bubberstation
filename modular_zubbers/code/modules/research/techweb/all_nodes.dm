@@ -74,7 +74,7 @@
 
 //Research borg tech node
 /datum/techweb_node/borg_research
-	display_name = "研究型半机械人升级"
+	display_name = "研究型赛博升级"
 	description = "它们现在要抢我们的饭碗了！"
 	prerequisite_nodes = list(/datum/techweb_node/borg_engi, /datum/techweb_node/borg_medical)
 	unlocked_designs = list(

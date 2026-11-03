@@ -92,7 +92,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/walk, 32)
 
 /obj/structure/sign/poster/official/state_laws
 	name = "陈述法则"
-	desc = "一张要求半机械人陈述自身法则的海报。"
+	desc = "一张要求赛博陈述自身法则的海报。"
 	icon_state = "state_laws"
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/state_laws, 32)

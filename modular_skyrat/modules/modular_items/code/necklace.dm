@@ -6,7 +6,7 @@
 #define LANGUAGE_TRANSLATOR "translator"
 /obj/item/clothing/neck/necklace/ashwalker
 	name = "灰烬项链"
-	desc = "一条用灰烬制成的项链，通过军团的核心与死灵之都相连。佩戴时，它能让地表居民对灰烬语产生一种不自然的理解力——那是熔岩地带的原生语言。"
+	desc = "一条用灰烬制成的项链，通过军团的核心与死灵之都相连。佩戴时，它能让地表居民对灰烬语产生一种不自然的理解力——那是拉瓦兰的原生语言。"
 	icon = 'modular_skyrat/master_files/icons/obj/clothing/neck.dmi'
 	icon_state = "ashnecklace"
 	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/neck.dmi'
@@ -15,7 +15,7 @@
 
 /obj/item/clothing/neck/necklace/ashwalker/cursed
 	name = "诅咒灰烬项链"
-	desc = "一条用灰烬制成的项链，通过军团的核心与死灵之都相连。佩戴时，它能让地表居民对灰烬语产生一种不自然的理解力——那是熔岩地带的原生语言。无法取下！"
+	desc = "一条用灰烬制成的项链，通过军团的核心与死灵之都相连。佩戴时，它能让地表居民对灰烬语产生一种不自然的理解力——那是拉瓦兰的原生语言。无法取下！"
 
 /obj/item/clothing/neck/necklace/ashwalker/cursed/Initialize(mapload)
 	. = ..()

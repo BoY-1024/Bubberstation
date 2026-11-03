@@ -1,6 +1,6 @@
 /obj/machinery/recharge_station
 	name = "充电站"
-	desc = "为依赖能量的生命体充电，例如半机械人、以太人和模块服使用者。"
+	desc = "为依赖能量的生命体充电，例如赛博、以太人和模块服使用者。"
 	icon = 'icons/obj/machines/borg_charger.dmi'
 	icon_state = "borgcharger0"
 	base_icon_state = "borgcharger"
@@ -87,7 +87,7 @@
 	if(in_range(user, src) || isobserver(user))
 		. += span_notice("状态显示屏显示：充电速率为 <b>[display_power(recharge_speed, convert = FALSE)]</b>。")
 		if(materials.silo)
-			. += span_notice("矿石筒仓连接指示灯亮着，<b>右键点击</b>[src]可切换半机械人补货功能。")
+			. += span_notice("矿石筒仓连接指示灯亮着，<b>右键点击</b>[src]可切换赛博补货功能。")
 		if(repairs)
 			. += span_notice("[src]已升级，支持自动修理。")
 

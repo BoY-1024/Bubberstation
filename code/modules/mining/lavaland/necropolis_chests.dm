@@ -133,7 +133,7 @@
 
 /obj/item/skeleton_key
 	name = "骷髅钥匙"
-	desc = "这种器物通常出现在熔岩地带原住民手中，如今纳米传讯垄断了它的流通。"
+	desc = "这种器物通常出现在拉瓦兰原住民手中，如今纳米传讯垄断了它的流通。"
 	icon = 'icons/obj/mining_zones/artefacts.dmi'
 	icon_state = "skeleton_key"
 	w_class = WEIGHT_CLASS_SMALL

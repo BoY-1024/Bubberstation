@@ -95,7 +95,7 @@
 
 /datum/uplink_item/role_restricted/syndimmi
 	name = "辛迪加品牌人机接口"
-	desc = "一种经过改装的人机接口，能为半机械人设定听命于辛迪加的法则，同时不会因密码序列器而损坏其接口。这不会解锁它们隐藏的模块。"
+	desc = "一种经过改装的人机接口，能为赛博设定听命于辛迪加的法则，同时不会因密码序列器而损坏其接口。这不会解锁它们隐藏的模块。"
 	item = /obj/item/brain_processor/organic/syndie
 	cost = 2
 	restricted_roles = list(JOB_ROBOTICIST, JOB_RESEARCH_DIRECTOR, JOB_SCIENTIST, JOB_CORONER, JOB_MEDICAL_DOCTOR, JOB_CHIEF_MEDICAL_OFFICER)

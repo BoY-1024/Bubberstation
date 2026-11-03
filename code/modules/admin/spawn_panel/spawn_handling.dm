@@ -46,7 +46,7 @@
 			return
 
 		if(!iscarbon(target) && !iscyborg(target))
-			to_chat(user, span_warning("仅当目标是碳基生物或半机械人时，才能生成到手中。"))
+			to_chat(user, span_warning("仅当目标是碳基生物或赛博时，才能生成到手中。"))
 			where_target_type = WHERE_FLOOR_BELOW_MOB
 
 	else if(where_target_type == WHERE_MARKED_OBJECT || where_target_type == WHERE_IN_MARKED_OBJECT)

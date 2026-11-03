@@ -222,7 +222,7 @@
 
 /obj/item/clothing/head/playbunnyears/miner
 	name = "竖井矿工兔耳"
-	desc = "一对固定在头带上的泥灰色兔耳。对充满敌意的熔岩地带大气毫无抵抗力。"
+	desc = "一对固定在头带上的泥灰色兔耳。对充满敌意的拉瓦兰大气毫无抵抗力。"
 	icon = 'modular_zubbers/icons/obj/clothing/head/hats.dmi'
 	icon_state = "explorer"
 	post_init_icon_state = null

@@ -4,7 +4,7 @@
 	trait_flags = parent_type::trait_flags | STATION_TRAIT_REQUIRES_AI
 	weight = 0
 	show_in_report = TRUE
-	report_message = "出于实验目的，本站 AI 已被任命为安保部门负责人，本班次允许使用安保型半机械人。\
+	report_message = "出于实验目的，本站 AI 已被任命为安保部门负责人，本班次允许使用安保型赛博。\
 	除非绝对必要，否则不要修改硅基法律。请将 AI 视为指挥部成员及安保主管。"
 	blacklist = list(/datum/station_trait/job/human_ai, /datum/station_trait/unique_ai)
 	trait_to_give = STATION_TRAIT_HOS_AI

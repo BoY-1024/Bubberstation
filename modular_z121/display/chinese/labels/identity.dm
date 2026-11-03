@@ -7,7 +7,7 @@
 		"Brig Physician" = "监牢医生", "Field Medic" = "战地医护", "Security Corpsman" = "安保卫生员", "Security Medic" = "安保医护", "Combat Medic" = "战斗医护", "Special Operations Medic" = "特战医护",
 		"Arena Participant" = "竞技场参赛者",
 		"Assistant" = "助理", "Prisoner" = "囚犯", "Captain" = "舰长", "Head of Personnel" = "人事主管", "Head of Security" = "安保主管", "Research Director" = "科研主管", "Chief Engineer" = "总工程师", "Chief Medical Officer" = "首席医疗官",
-		"Bridge Assistant" = "舰桥助理", "Veteran Security Advisor" = "资深安保顾问", "AI" = "人工智能", "Cyborg" = "半机械人", "Personal AI" = "个人 AI", "Big Brother" = "老大哥", "Warden" = "典狱长", "Detective" = "侦探",
+		"Bridge Assistant" = "舰桥助理", "Veteran Security Advisor" = "资深安保顾问", "AI" = "人工智能", "Cyborg" = "赛博", "Personal AI" = "个人 AI", "Big Brother" = "老大哥", "Warden" = "典狱长", "Detective" = "侦探",
 		"Security Officer" = "安保官", "Security Officer (Medical)" = "安保官（医疗部）", "Security Officer (Engineering)" = "安保官（工程部）", "Security Officer (Science)" = "安保官（科研部）", "Security Officer (Cargo)" = "安保官（货运部）", "Corrections Officer" = "惩教官",
 		"Station Engineer" = "空间站工程师", "Atmospheric Technician" = "大气技术员", "Engineering Guard" = "工程部警卫", "Telecomms Specialist" = "电信专家", "Coroner" = "法医", "Medical Doctor" = "医生", "Paramedic" = "急救员", "Chemist" = "化学家", "Orderly" = "护工",
 		"Scientist" = "科学家", "Roboticist" = "机器人专家", "Geneticist" = "遗传学家", "Science Guard" = "科研部警卫", "Quartermaster" = "货运主管", "Cargo Technician" = "货运技术员", "Cargo Gorilla" = "货运大猩猩", "Shaft Miner" = "矿工", "Bitrunner" = "比特潜行者", "Customs Agent" = "海关人员",

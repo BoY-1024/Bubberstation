@@ -47,7 +47,7 @@
 /obj/item/gps/cyborg
 	icon_state = "gps-b"
 	gpstag = "BORG0"
-	desc = "矿业半机械人的内置定位系统，可用作受损半机械人的回收信标，或采矿队的协作工具。"
+	desc = "矿业赛博的内置定位系统，可用作受损赛博的回收信标，或采矿队的协作工具。"
 
 /obj/item/gps/mining/internal
 	icon_state = "gps-m"

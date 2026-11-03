@@ -614,7 +614,7 @@ GLOBAL_LIST_INIT(pp_limbs, list(
 		/// Opens the selected player/client's borg panel
 		if ("borg_panel")
 			if(!iscyborg(target_mob))
-				to_chat(admin_client, span_warning("此功能只能对半机械人使用。"))
+				to_chat(admin_client, span_warning("此功能只能对赛博使用。"))
 				return FALSE
 			SSadmin_verbs.dynamic_invoke_verb(admin_client, /datum/admin_verb/borg_panel, target_mob)
 			return TRUE

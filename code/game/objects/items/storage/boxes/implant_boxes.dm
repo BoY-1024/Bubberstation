@@ -15,7 +15,7 @@
 
 /obj/item/storage/box/minertracker
 	name = "盒装追踪植入体套件"
-	desc = "用于寻找那些死在受诅咒的熔岩世界的人。"
+	desc = "用于寻找那些死在受诅咒的拉瓦兰的人。"
 	illustration = "implant"
 
 /obj/item/storage/box/minertracker/PopulateContents()
@@ -31,7 +31,7 @@
 /obj/item/storage/box/minerdeathrattle
 	name = "盒装远征临终遗言植入体套件"
 	desc = "用于确认你的同事已经死亡，而不是刻意无视通讯。需要手动设置。\
-		仅在原始的熔岩世界或冰月荒原中的死亡才有效。"
+		仅在原始的拉瓦兰或冰月荒原中的死亡才有效。"
 	illustration = "implant"
 
 /obj/item/storage/box/minerdeathrattle/PopulateContents()

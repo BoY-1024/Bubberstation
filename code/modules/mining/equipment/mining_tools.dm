@@ -162,7 +162,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/shovel/spade/cyborg
-	name = "半机械人小铲"
+	name = "赛博小铲"
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "sili_shovel"
 	icon_angle = 0
@@ -171,7 +171,7 @@
 
 /obj/item/shovel/serrated
 	name = "锯齿骨铲"
-	desc = "一把凶恶的工具，切开泥土就像切开血肉一样轻松。其造型仿照熔岩地带的古代部落设计。 \
+	desc = "一把凶恶的工具，切开泥土就像切开血肉一样轻松。其造型仿照拉瓦兰的古代部落设计。 \
 		它似乎较难伤害无机生物。谁知道为什么呢。"
 	icon_state = "shovel_bone"
 	worn_icon_state = "shovel_serr"

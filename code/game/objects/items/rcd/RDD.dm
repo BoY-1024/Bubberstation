@@ -324,7 +324,7 @@ GLOBAL_LIST_INIT(rdd_designs, list(
 	return ITEM_INTERACT_SUCCESS
 
 /obj/item/construction/rdd/borg
-	desc = "一种用于快速部署塑料装饰性植物的装置。使用半机械人内部的电池。"
+	desc = "一种用于快速部署塑料装饰性植物的装置。使用赛博内部的电池。"
 	custom_materials = null
 	/// energy usage per decoration
 	var/energyfactor = 0.1 * STANDARD_CELL_CHARGE

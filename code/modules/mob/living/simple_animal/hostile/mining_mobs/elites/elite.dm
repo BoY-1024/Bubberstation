@@ -8,7 +8,7 @@
 //Elite mining mobs
 /mob/living/simple_animal/hostile/asteroid/elite
 	name = "精英"
-	desc = "一头精英怪物，出自熔岩地带的某个奇异肿瘤。"
+	desc = "一头精英怪物，出自拉瓦兰的某个奇异肿瘤。"
 	icon = 'icons/mob/simple/lavaland/lavaland_elites.dmi'
 	abstract_type = /mob/living/simple_animal/hostile/asteroid/elite
 	faction = list(FACTION_MINING, FACTION_BOSS)
@@ -189,12 +189,12 @@ While using this makes the system rely on OnFire, it still gives options for tim
 				addtimer(CALLBACK(src, PROC_REF(spawn_elite)), 3 SECONDS)
 				return
 			visible_message(span_boldwarning("[src] 内部有什么东西在骚动……"))
-			var/mob/chosen_one = SSpolling.poll_ghosts_for_target(check_jobban = ROLE_SENTIENCE, role = ROLE_SENTIENCE, poll_time = 5 SECONDS, checked_target = src, ignore_category = POLL_IGNORE_LAVALAND_ELITE, alert_pic = src, role_name_text = "熔岩地带精英")
+			var/mob/chosen_one = SSpolling.poll_ghosts_for_target(check_jobban = ROLE_SENTIENCE, role = ROLE_SENTIENCE, poll_time = 5 SECONDS, checked_target = src, ignore_category = POLL_IGNORE_LAVALAND_ELITE, alert_pic = src, role_name_text = "拉瓦兰精英")
 			if(chosen_one)
 				audible_message(span_boldwarning("那搅动的声响变得更大了！"))
 				elitemind = chosen_one
 				elitemind.playsound_local(get_turf(elitemind), 'sound/effects/magic.ogg', 40, 0)
-				to_chat(elitemind, "<b>你被选中扮演一名熔岩地带精英。\n几秒钟后，你将作为怪物被召唤到熔岩地带，与激活你的人进行一场生死决斗。\n\
+				to_chat(elitemind, "<b>你被选中扮演一名拉瓦兰精英。\n几秒钟后，你将作为怪物被召唤到拉瓦兰，与激活你的人进行一场生死决斗。\n\
 					你可以用 HUD 左上角的按钮切换攻击方式，像用枪一样点击目标或地格来发动攻击。\n\
 					对手或许凭借强力的采掘装备与工具占据上风，但你拥有通常被 AI 生物所限制的强大力量。\n\
 					若想取胜，你必须创造性地运用自己的能力来确保击杀。建议尽快把所有能力都试上一遍。\n\
@@ -216,7 +216,7 @@ While using this makes the system rely on OnFire, it still gives options for tim
 		notify_ghosts(
 			"\A [mychild] 在 \the [get_area(src)] 中被唤醒了！",
 			source = mychild,
-			header = "熔岩地带精英苏醒",
+			header = "拉瓦兰精英苏醒",
 			notify_flags = NOTIFY_CATEGORY_NOFLASH,
 		)
 	mychild.log_message("已被 [key_name(activator)] 唤醒！", LOG_GAME, color="#960000")
@@ -235,7 +235,7 @@ While using this makes the system rely on OnFire, it still gives options for tim
 		notify_ghosts(
 			"\A [mychild] 在 \the [get_area(src)] 中遭到了挑战！",
 			source = mychild,
-			header = "熔岩地带精英遭挑战",
+			header = "拉瓦兰精英遭挑战",
 			notify_flags = NOTIFY_CATEGORY_NOFLASH,
 		)
 	mychild.log_message("遭到了 [key_name(activator)] 的挑战！", LOG_GAME, color="#960000")
@@ -359,13 +359,13 @@ While using this makes the system rely on OnFire, it still gives options for tim
 		to_chat(mychild, "<b>你的最大生命值已减半，但现在你可以站在自己的肿瘤上治疗。注意，这是你唯一的治疗方式。\n\
 			请记住，如果有人与你的肿瘤互动，你就会被重新召唤到这里再进行一场战斗。在这种情况下，你将恢复全部最大生命值。\n\
 			另外，要提防与你同住的其他生物，它们多半不会乐意看到你！</b>")
-		to_chat(mychild, span_boldbig("请注意，你是熔岩地带的怪物，因此并不属于空间站阵营。除非处于极端情况，否则你不应与任何空间站船员合作或表现得友好！"))
+		to_chat(mychild, span_boldbig("请注意，你是拉瓦兰的怪物，因此并不属于空间站阵营。除非处于极端情况，否则你不应与任何空间站船员合作或表现得友好！"))
 
 	REMOVE_TRAIT(mychild, TRAIT_UNCONVERTABLE, INNATE_TRAIT)
 
 /obj/item/tumor_shard
 	name = "肿瘤碎片"
-	desc = "一块来自熔岩地带奇异肿瘤的尖锐水晶碎片。用它刺入熔岩地带精英的尸体，就能将其复活——前提是它的灵魂尚存。复活的熔岩地带精英只有一半最大生命值，但会完全忠于把它复活的人。"
+	desc = "一块来自拉瓦兰奇异肿瘤的尖锐水晶碎片。用它刺入拉瓦兰精英的尸体，就能将其复活——前提是它的灵魂尚存。复活的拉瓦兰精英只有一半最大生命值，但会完全忠于把它复活的人。"
 	icon = 'icons/obj/mining_zones/artefacts.dmi'
 	icon_state = "crevice_shard"
 	lefthand_file = 'icons/mob/inhands/equipment/tools_lefthand.dmi'

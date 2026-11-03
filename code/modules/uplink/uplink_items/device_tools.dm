@@ -200,7 +200,7 @@
 /datum/uplink_item/device_tools/binary
 	name = "二进制翻译密钥"
 	desc = "一种密钥，插入无线电耳机后，可以让你通过硅基生命体的私有二进制频道 \
-			收听并与它们交谈，例如 AI 单元和半机械人。操作时应当 \
+			收听并与它们交谈，例如 AI 单元和赛博。操作时应当 \
 			小心，因为除非它们与你结盟，否则程序会让它们报告此类入侵。"
 	item = /obj/item/encryptionkey/binary
 	cost = 5

@@ -1,11 +1,11 @@
 /datum/round_event_control/portal_storm_lavaland
-	name = "传送门风暴：熔岩地带"
+	name = "传送门风暴：拉瓦兰"
 	typepath = /datum/round_event/portal_storm/lavaland
 	weight = 2
 	min_players = 15
 	earliest_start = 50 MINUTES
 	category = EVENT_CATEGORY_ENTITIES
-	description = "熔岩地带的生物从传送门中涌出。"
+	description = "拉瓦兰的生物从传送门中涌出。"
 	tags = list(TAG_COMMUNAL, TAG_COMBAT, TAG_NPC_ANTAG)
 
 /datum/round_event/portal_storm/lavaland

@@ -470,7 +470,7 @@ GLOBAL_LIST_INIT(skin_tone_names, list(
 	var/list/borgs = active_free_borgs()
 	if(borgs.len)
 		if(user)
-			. = input(user,"检测到未绑定的半机械人信号：", "选择半机械人", borgs[1]) in sort_list(borgs)
+			. = input(user,"检测到未绑定的赛博信号：", "选择赛博", borgs[1]) in sort_list(borgs)
 		else
 			. = pick(borgs)
 	return .

@@ -629,23 +629,23 @@
 	item = /obj/item/antag_spawner/nuke_ops
 
 /datum/uplink_item/reinforcements/assault_borg
-	name = "辛迪加突击半机械人"
-	desc = "一种为系统性消灭非辛迪加人员而设计、编程的半机械人。 \
+	name = "辛迪加突击赛博"
+	desc = "一种为系统性消灭非辛迪加人员而设计、编程的赛博。 \
 		配备自动补弹的轻机枪、榴弹发射器、能量剑、emag、定位仪、闪光灯和撬棍。"
 	item = /obj/item/antag_spawner/nuke_ops/borg_tele/assault
 
 /datum/uplink_item/reinforcements/medical_borg
-	name = "辛迪加医疗半机械人"
-	desc = "一种战斗医疗半机械人。攻击潜力有限，但凭借其支援能力完全弥补了这一点。 \
+	name = "辛迪加医疗赛博"
+	desc = "一种战斗医疗赛博。攻击潜力有限，但凭借其支援能力完全弥补了这一点。 \
 		它配备纳米机器人注射枪、医疗光束枪、战斗除颤器、全套手术工具（包括能量锯）、emag、定位仪和闪光灯。 \
 		得益于它的器官储存袋，它能像任何类人生物一样进行手术。"
 	item = /obj/item/antag_spawner/nuke_ops/borg_tele/medical
 
 /datum/uplink_item/reinforcements/saboteur_borg
-	name = "辛迪加破坏者半机械人"
-	desc = "一种流线型的工程半机械人，配备隐蔽模块。但它同样会把焊接工具忘在穿梭机上。 \
+	name = "辛迪加破坏者赛博"
+	desc = "一种流线型的工程赛博，配备隐蔽模块。但它同样会把焊接工具忘在穿梭机上。 \
 		除了常规工程装备外，它还带有一个特殊的目的地贴标器，可借此穿行垃圾处理管网。 \
-		它的变色龙投影器能让它伪装成纳米传讯半机械人，此外还具备热成像视觉和定位仪。"
+		它的变色龙投影器能让它伪装成纳米传讯赛博，此外还具备热成像视觉和定位仪。"
 	item = /obj/item/antag_spawner/nuke_ops/borg_tele/saboteur
 
 /datum/uplink_item/reinforcements/overwatch_agent

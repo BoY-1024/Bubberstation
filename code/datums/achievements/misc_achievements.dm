@@ -237,7 +237,7 @@
 
 /datum/award/achievement/misc/sisyphus
 	name = "西西弗斯的苦役"
-	desc = "成功将一块巨石从熔岩地一路搬到中央指挥部，途中从未放下。我们必须想象，解锁这个成就的你是幸福的。"
+	desc = "成功将一块巨石从拉瓦兰一路搬到中央指挥部，途中从未放下。我们必须想象，解锁这个成就的你是幸福的。"
 	database_id = MEDAL_SISYPHUS
 	icon_state = "sisyphus"
 

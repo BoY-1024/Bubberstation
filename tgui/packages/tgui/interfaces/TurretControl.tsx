@@ -42,7 +42,7 @@ export const TurretControl = (props) => {
                 onClick={() => act('mode')}
               />
             </LabeledList.Item>
-            <LabeledList.Item label="攻击半机械人">
+            <LabeledList.Item label="攻击赛博">
               <Button
                 icon={shootCyborgs ? 'check' : 'times'}
                 content={shootCyborgs ? '是' : '否'}

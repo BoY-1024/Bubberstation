@@ -149,12 +149,12 @@
 	if(. == SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN)
 		return
 	var/turf/src_turf = get_turf(src)
-	var/choice = tgui_input_list(user, "选择想要的奖励！", "选择奖励", list("熔岩地带宝箱（150）", "异常水晶（150）", "BEPIS 科技（100）"))
+	var/choice = tgui_input_list(user, "选择想要的奖励！", "选择奖励", list("拉瓦兰宝箱（150）", "异常水晶（150）", "BEPIS 科技（100）"))
 	if(!choice)
 		return SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN
 
 	switch(choice)
-		if("熔岩地带宝箱（150）")
+		if("拉瓦兰宝箱（150）")
 			if(current_research < 150)
 				balloon_alert(user, "研究点数不足！")
 				return SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN

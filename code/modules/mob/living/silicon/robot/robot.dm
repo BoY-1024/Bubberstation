@@ -91,7 +91,7 @@
 	diag_hud_set_borgcell()
 	logevent("系统已上线。")
 
-	log_silicon("新建半机械人 [key_name(src)]，[connected_ai ? "主控 AI：[key_name(connected_ai)]" : "无主控 AI"]")
+	log_silicon("新建赛博 [key_name(src)]，[connected_ai ? "主控 AI：[key_name(connected_ai)]" : "无主控 AI"]")
 	log_current_laws()
 
 	var/static/list/alert_areas
@@ -398,10 +398,10 @@
 	user.log_message("引爆了 [key_name(src)]！", LOG_ATTACK)
 	log_message("被 [key_name(user)] 引爆了！", LOG_ATTACK, log_globally = FALSE)
 
-	log_combat(user, src, "引爆了半机械人")
+	log_combat(user, src, "引爆了赛博")
 	log_silicon("CYBORG：[key_name(src)] 被 [key_name(user)] 引爆了。")
 	if(connected_ai)
-		to_chat(connected_ai, "<br><br>[span_alert("警报 - 检测到半机械人引爆：[name]")]<br>")
+		to_chat(connected_ai, "<br><br>[span_alert("警报 - 检测到赛博引爆：[name]")]<br>")
 
 	if(emagged)
 		QDEL_NULL(mmi)
@@ -455,7 +455,7 @@
 	set_lockcharge(FALSE)
 	to_chat(src, "<br><br>[span_notice("警报 - 远程系统锁定破解成功。")]<br>")
 	if(connected_ai)
-		to_chat(connected_ai, "<br><br>[span_notice("警报 - 半机械人 [name] 成功破解了锁定系统")]<br>")
+		to_chat(connected_ai, "<br><br>[span_notice("警报 - 赛博 [name] 成功破解了锁定系统")]<br>")
 
 ///Reports the event of the change in value of the lockcharge variable.
 /mob/living/silicon/robot/proc/set_lockcharge(new_lockcharge)
@@ -613,13 +613,13 @@
 		return
 	switch(notifytype)
 		if(AI_NOTIFICATION_NEW_BORG) //New Cyborg
-			to_chat(connected_ai, "<br><br>[span_notice("通知 - 检测到新的半机械人连接：<a href='byond://?src=[REF(connected_ai)];track=[html_encode(name)]'>[name]</a>")]<br>")
+			to_chat(connected_ai, "<br><br>[span_notice("通知 - 检测到新的赛博连接：<a href='byond://?src=[REF(connected_ai)];track=[html_encode(name)]'>[name]</a>")]<br>")
 		if(AI_NOTIFICATION_NEW_MODEL) //New Model
-			to_chat(connected_ai, "<br><br>[span_notice("通知 - 检测到半机械人型号变更：[name] 已加载 [designation] 型号。")]<br>")
+			to_chat(connected_ai, "<br><br>[span_notice("通知 - 检测到赛博型号变更：[name] 已加载 [designation] 型号。")]<br>")
 		if(AI_NOTIFICATION_CYBORG_RENAMED) //New Name
-			to_chat(connected_ai, "<br><br>[span_notice("通知 - 检测到半机械人重新分类：[oldname] 现被命名为 [newname]。")]<br>")
+			to_chat(connected_ai, "<br><br>[span_notice("通知 - 检测到赛博重新分类：[oldname] 现被命名为 [newname]。")]<br>")
 		if(AI_NOTIFICATION_AI_SHELL) //New Shell
-			to_chat(connected_ai, "<br><br>[span_notice("通知 - 检测到新的半机械人机体：<a href='byond://?src=[REF(connected_ai)];track=[html_encode(name)]'>[name]</a>")]<br>")
+			to_chat(connected_ai, "<br><br>[span_notice("通知 - 检测到新的赛博机体：<a href='byond://?src=[REF(connected_ai)];track=[html_encode(name)]'>[name]</a>")]<br>")
 		if(AI_NOTIFICATION_CYBORG_DISCONNECTED) //Tampering with the wires
 			to_chat(connected_ai, "<br><br>[span_notice("通知 - 与 [name] 的远程遥测已丢失。")]<br>")
 
@@ -770,7 +770,7 @@
 	//SKYRAT EDIT ADDITION END
 
 	logevent("机壳型号已重置。")
-	log_silicon("CYBORG：[key_name(src)] 已重置其半机械人型号。")
+	log_silicon("CYBORG：[key_name(src)] 已重置其赛博型号。")
 	model.transform_to(/obj/item/robot_model)
 
 	// Remove upgrades.
@@ -907,7 +907,7 @@
 		qdel(boris)
 	shell = FALSE
 	GLOB.available_ai_shells -= src
-	name = "未格式化的半机械人-[identifier]"
+	name = "未格式化的赛博-[identifier]"
 	real_name = name
 	if(!QDELETED(builtInCamera))
 		builtInCamera.c_tag = real_name
@@ -1116,6 +1116,6 @@
 	static_image.appearance_flags |= KEEP_TOGETHER
 	static_image.overlays += static_overlay
 	static_image.override = TRUE
-	static_image.name = "未知半机械人"
+	static_image.name = "未知赛博"
 
 	return static_image

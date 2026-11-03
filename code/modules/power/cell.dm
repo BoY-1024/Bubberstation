@@ -72,7 +72,7 @@
 	maxcharge = STANDARD_CELL_CHARGE * 5
 
 /obj/item/stock_parts/power_store/cell/secborg
-	name = "安保半机械人可充 D 型电池"
+	name = "安保赛博可充 D 型电池"
 	maxcharge = STANDARD_CELL_CHARGE * 0.6
 	custom_materials = list(/datum/material/glass=SMALL_MATERIAL_AMOUNT*0.4)
 

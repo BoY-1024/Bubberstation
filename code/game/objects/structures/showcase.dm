@@ -6,7 +6,7 @@
 	name = "展台"
 	icon = 'icons/obj/fluff/general.dmi'
 	icon_state = "showcase_1"
-	desc = "一个展台，上面用螺栓固定着一具空荡荡的半机械人躯壳。"
+	desc = "一个展台，上面用螺栓固定着一具空荡荡的赛博躯壳。"
 	density = TRUE
 	anchored = TRUE
 	var/deconstruction_state = SHOWCASE_CONSTRUCTED
@@ -55,8 +55,8 @@
 	icon_state = "psykerpod-open"
 
 /obj/structure/showcase/cyborg/old
-	name = "半机械人雕像"
-	desc = "一具陈旧、已停机的半机械人。它曾经积极用于防范入侵者，如今只用冰冷如钢的目光震慑他们。"
+	name = "赛博雕像"
+	desc = "一具陈旧、已停机的赛博。它曾经积极用于防范入侵者，如今只用冰冷如钢的目光震慑他们。"
 	icon = 'icons/mob/silicon/robots.dmi'
 	icon_state = "robot_old"
 	density = FALSE

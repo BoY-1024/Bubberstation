@@ -1,6 +1,6 @@
 /datum/wires/robot
 	holder_type = /mob/living/silicon/robot
-	proper_name = "半机械人"
+	proper_name = "赛博"
 	randomize = TRUE
 
 /datum/wires/robot/New(atom/holder)

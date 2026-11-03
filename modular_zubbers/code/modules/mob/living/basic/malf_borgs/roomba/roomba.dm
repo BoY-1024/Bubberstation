@@ -1,5 +1,5 @@
 /mob/living/basic/malf_borg/roomba
-	name = "故障 Roomba 半机械人"
+	name = "故障 Roomba 赛博"
 	desc = "一台 Roomba 扫地机器人，遭到入侵或发生故障——哎哟我的脚！"
 	icon = 'modular_skyrat/master_files/icons/mob/newmobs.dmi'
 

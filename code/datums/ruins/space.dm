@@ -368,7 +368,7 @@ BUBBERSTATION REMOVAL END */
 	id = "cyborg_mothership"
 	suffix = "cyborg_mothership.dmm"
 	name = "Space-Ruin Cyborg Mothership"
-	description = "一艘被太空藤蔓和蜂群机器人占据的废弃半机械人母舰。断电前，这里似乎搭载着一台专注采矿的实验性 AI。"
+	description = "一艘被太空藤蔓和蜂群机器人占据的废弃赛博母舰。断电前，这里似乎搭载着一台专注采矿的实验性 AI。"
 
 /datum/map_template/ruin/space/dangerous_research
 	id = "dangerous_research"

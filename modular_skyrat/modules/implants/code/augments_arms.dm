@@ -120,7 +120,7 @@
 
 /obj/item/organ/cyberimp/arm/toolkit/razor_claws
 	name = "剃刀利爪植入体"
-	desc = "一套隐藏在指尖的可伸缩刀刃；半机械人雇佣兵认证。"
+	desc = "一套隐藏在指尖的可伸缩刀刃；赛博雇佣兵认证。"
 	items_to_create = list(/obj/item/knife/razor_claws)
 	actions_types = list(/datum/action/item_action/organ_action/toggle/razor_claws)
 	icon = 'modular_skyrat/modules/implants/icons/razorclaws.dmi'

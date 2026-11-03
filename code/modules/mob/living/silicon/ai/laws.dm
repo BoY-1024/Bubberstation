@@ -1,5 +1,5 @@
 
-GAME_VERB_PROC_DESC(/mob/living/silicon/ai, show_laws_verb, "查看法则", "私下查看你的法则。同时确保所有已同步的半机械人都掌握你的最新法则，并提醒他们你的法则。", "AI 指令")
+GAME_VERB_PROC_DESC(/mob/living/silicon/ai, show_laws_verb, "查看法则", "私下查看你的法则。同时确保所有已同步的赛博都掌握你的最新法则，并提醒他们你的法则。", "AI 指令")
 	if(usr.stat == DEAD)
 		return //won't work if dead
 	src.show_laws()

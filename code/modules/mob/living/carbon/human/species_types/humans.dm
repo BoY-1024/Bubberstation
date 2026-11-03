@@ -44,7 +44,7 @@
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "robot",
 			SPECIES_PERK_NAME = "阿西莫夫优先",
-			SPECIES_PERK_DESC = "默认情况下，AI 及其半机械人只服从 \
+			SPECIES_PERK_DESC = "默认情况下，AI 及其赛博只服从 \
 				人类。作为人类，硅基单位必须保护你并服从你。",
 		))
 

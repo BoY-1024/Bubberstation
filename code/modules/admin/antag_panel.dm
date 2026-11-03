@@ -70,7 +70,7 @@ GLOBAL_VAR(antag_prototypes)
 		if (A.connected_robots.len)
 			for (var/mob/living/silicon/robot/R in A.connected_robots)
 				if (R.emagged)
-					common_commands += "<a href='byond://?src=[REF(src)];silicon=unemagcyborgs'>取消从属半机械人的电磁化</a>"
+					common_commands += "<a href='byond://?src=[REF(src)];silicon=unemagcyborgs'>取消从属赛博的电磁化</a>"
 					break
 	common_commands += "<a href='byond://?src=[REF(src)];common=toggle_exploitables'>切换可利用项覆盖</a>" //SKYRAT EDIT ADDITION -- EXPLOITABLES
 	return common_commands

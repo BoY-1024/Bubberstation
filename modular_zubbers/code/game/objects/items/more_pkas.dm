@@ -215,7 +215,7 @@
 
 /obj/item/firing_pin/wastes
 	name = "荒原击发销"
-	desc = "这种安全击发销只允许武器在熔岩星或冰月的室外荒原上开火。"
+	desc = "这种安全击发销只允许武器在拉瓦兰或冰月的室外荒原上开火。"
 	fail_message = "荒原检查失败！请先离空间站远一点。"
 	pin_hot_swappable = FALSE
 	pin_removable = FALSE

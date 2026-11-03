@@ -1,6 +1,6 @@
 /datum/design/borg_upgrade_tarkon_main
-	name = "半机械人模块解锁器（塔肯）"
-	desc = "允许半机械人转变为实验性的塔肯港半机械人型号。"
+	name = "赛博模块解锁器（塔肯）"
+	desc = "允许赛博转变为实验性的塔肯港赛博型号。"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/transform/tarkon
 	materials = list(

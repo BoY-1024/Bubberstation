@@ -64,8 +64,8 @@
 	species_exception = null
 
 /obj/item/clothing/suit/costume/cyborg_suit
-	name = "半机械人套装"
-	desc = "半机械人化装服。"
+	name = "赛博套装"
+	desc = "赛博化装服。"
 	icon_state = "death"
 	inhand_icon_state = null
 	body_parts_covered = CHEST|GROIN|ARMS|LEGS|FEET
@@ -173,7 +173,7 @@
 	inhand_icon_state = null
 
 /obj/item/clothing/suit/costume/cardborg
-	name = "纸板半机械人套装"
+	name = "纸板赛博套装"
 	desc = "一个普通的纸板箱，侧面开了几个洞。"
 	icon_state = "cardborg"
 	inhand_icon_state = "cardborg"

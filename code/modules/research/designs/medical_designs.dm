@@ -444,7 +444,7 @@
 
 /datum/design/cyberimp_toolset
 	name = "工具组臂植入体"
-	desc = "精简版的工程半机械人工具组，设计用于安装在使用者手臂上。"
+	desc = "精简版的工程赛博工具组，设计用于安装在使用者手臂上。"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
 	materials = list(
 		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 1.25,

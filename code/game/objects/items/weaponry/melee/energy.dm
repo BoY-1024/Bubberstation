@@ -291,7 +291,7 @@
 	update_appearance(UPDATE_ICON_STATE)
 
 /obj/item/melee/energy/sword/saber/cyborg
-	name = "半机械人能量剑"
+	name = "赛博能量剑"
 	hacked = TRUE
 	sword_color_icon = "rainbow"
 	/// The cell cost of hitting something.

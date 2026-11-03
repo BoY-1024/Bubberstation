@@ -456,7 +456,7 @@
 
 /datum/design/ioncarbine
 	name = "离子卡宾枪零件套件（非致命/高破坏力/对硅基生命极其致命）"
-	desc = "《如何拆解半机械人：枪械版》。"
+	desc = "《如何拆解赛博：枪械版》。"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/silver = SHEET_MATERIAL_AMOUNT * 3, /datum/material/iron = SHEET_MATERIAL_AMOUNT * 4, /datum/material/uranium =SHEET_MATERIAL_AMOUNT)
 	build_path = /obj/item/weaponcrafting/gunkit/ion

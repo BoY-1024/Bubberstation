@@ -117,8 +117,8 @@
 	return ..()
 
 /obj/machinery/computer/shuttle/mining/common
-	name = "熔岩地带穿梭机控制台"
-	desc = "用于呼叫和派遣熔岩地带穿梭机。"
+	name = "拉瓦兰穿梭机控制台"
+	desc = "用于呼叫和派遣拉瓦兰穿梭机。"
 	circuit = /obj/item/circuitboard/computer/mining_shuttle/common
 	shuttleId = "mining_common"
 	possible_destinations = "commonmining_home;lavaland_common_away;landing_zone_dock;mining_public"

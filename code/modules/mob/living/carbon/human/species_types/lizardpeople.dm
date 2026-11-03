@@ -138,7 +138,7 @@ Lizard subspecies: ASHWALKERS
 
 /datum/species/lizard/ashwalker/get_physical_attributes()
 	return "灰行者在几乎所有方面都与蜥蜴人相同。\
-		与他们不同的是，灰行者始终是趾行步态，能呼吸熔岩地带常有毒性的大气，并免疫病毒。他们通常不识字。"
+		与他们不同的是，灰行者始终是趾行步态，能呼吸拉瓦兰常有毒性的大气，并免疫病毒。他们通常不识字。"
 
 /*
 Lizard subspecies: SILVER SCALED

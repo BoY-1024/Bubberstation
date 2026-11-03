@@ -87,7 +87,7 @@
 	user.playsound_local(get_turf(user), SFX_POLAROID, 50, TRUE, -3)
 
 /obj/item/camera/siliconcam/robot_camera
-	name = "半机械人相机"
+	name = "赛博相机"
 	var/printcost = 2
 
 /obj/item/camera/siliconcam/robot_camera/can_take_picture(mob/living/silicon/robot/clicker)

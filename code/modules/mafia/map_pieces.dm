@@ -81,8 +81,8 @@
 	custom_outfit = /datum/outfit/mafia/snowy
 
 /datum/map_template/mafia/lavaland
-	name = "熔岩地带远足"
-	description = "空间站完全不知道熔岩地带此刻正在发生什么：我们有变形怪……还有叛徒，而最糟的是……律师每晚都在封锁你的行动。"
+	name = "拉瓦兰远足"
+	description = "空间站完全不知道拉瓦兰此刻正在发生什么：我们有变形怪……还有叛徒，而最糟的是……律师每晚都在封锁你的行动。"
 	map_suffix = "mafia_lavaland.dmm"
 	custom_outfit = /datum/outfit/mafia/lavaland
 

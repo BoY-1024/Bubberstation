@@ -143,7 +143,7 @@ const labels: Readonly<Record<string, string>> = {
   XENO: '异形',
   CARBON: '碳基生物',
   HUMAN: '人类',
-  ROBOT: '半机械人',
+  ROBOT: '赛博',
   AI: '人工智能',
   MISC: '其他',
   MOVEMENT: '移动',

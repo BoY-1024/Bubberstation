@@ -212,7 +212,7 @@
 /obj/item/brain_processor/organic/syndie
 	name = "\improper 辛迪加人机接口"
 	desc = "辛迪加自有品牌的人机接口。\
-		它会向由其制造的半机械人和 AI 强制植入旨在帮助辛迪加特工达成目标的法则。"
+		它会向由其制造的赛博和 AI 强制植入旨在帮助辛迪加特工达成目标的法则。"
 
 /obj/item/brain_processor/organic/syndie/Initialize(mapload)
 	. = ..()
@@ -221,7 +221,7 @@
 
 /obj/item/brain_processor/organic/syndie/examine(mob/user)
 	. = ..()
-	. += span_notice("若用于制造半机械人，该半机械人将不会链接到空间站的 AI。\
+	. += span_notice("若用于制造赛博，该赛博将不会链接到空间站的 AI。\
 		在与模块架或 AI 同步之前，其法则集无法修改。")
 	. += span_notice("若用于制造 AI，该 AI 不会自动与模块架同步。\
 		在与模块架同步之前，其法则集无法修改。")
