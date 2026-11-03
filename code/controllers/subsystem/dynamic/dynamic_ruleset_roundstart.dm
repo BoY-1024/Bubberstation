@@ -133,7 +133,7 @@
 	worm.enter_host(host, silent = TRUE, gain_progress = FALSE)
 
 /datum/dynamic_ruleset/roundstart/heretic
-	name = "异教徒"
+	name = "异端"
 	config_tag = "Roundstart Heretics"
 	preview_antag_datum = /datum/antagonist/heretic
 	pref_flag = ROLE_HERETIC

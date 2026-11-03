@@ -3,7 +3,7 @@
  */
 /obj/vehicle/ridden/janicart
 	name = "清洁车（拉风座驾）"
-	desc = "一位勇敢的清洁工半机械人献出了生命，才造出这台速度与实用兼备的绝妙座驾。"
+	desc = "一位勇敢的清洁工赛博献出了生命，才造出这台速度与实用兼备的绝妙座驾。"
 	icon_state = "pussywagon"
 	key_type = /obj/item/key/janitor
 	movedelay = 1

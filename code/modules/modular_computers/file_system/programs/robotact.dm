@@ -1,8 +1,8 @@
 /datum/computer_file/program/robotact
 	filename = "robotact"
-	filedesc = "半机械人终端"
+	filedesc = "赛博终端"
 	downloader_category = PROGRAM_CATEGORY_SCIENCE
-	extended_desc = "半机械人用于自我管理与诊断的内置应用。"
+	extended_desc = "赛博用于自我管理与诊断的内置应用。"
 	ui_header = "robotact.gif" //DEBUG -- new icon before PR
 	program_open_overlay = "command"
 	program_flags = PROGRAM_HEADER

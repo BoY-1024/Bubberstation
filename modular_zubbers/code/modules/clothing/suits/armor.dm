@@ -315,7 +315,7 @@
 
 /obj/item/clothing/suit/hooded/secjuggernaut/examine(mob/user)
 	. = ..()
-	. += span_warning("穿着这身衣服时，想把自己系在任何东西上都是不可能的——不管是椅子、半机械人、马还是高尔夫球车。")
+	. += span_warning("穿着这身衣服时，想把自己系在任何东西上都是不可能的——不管是椅子、赛博、马还是高尔夫球车。")
 
 /obj/item/clothing/suit/hooded/secjuggernaut/Initialize(mapload)
 	. = ..()

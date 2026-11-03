@@ -9,7 +9,7 @@
 	l_hand = /obj/item/storage/medkit/robotic_repair/preemo/stocked
 
 /datum/job/roboticist
-	description = "制造并维护半机械人、机甲与人工智能，为有需要的人打造 MOD 模块化外骨骼。还要设法提醒医疗部：\
+	description = "制造并维护赛博、机甲与人工智能，为有需要的人打造 MOD 模块化外骨骼。还要设法提醒医疗部：\
 	在处理合成人船员这方面，你其实比他们强得多。"
 	required_languages = null
 	akula_outfit = /datum/outfit/akula/scientist

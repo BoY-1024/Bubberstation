@@ -203,7 +203,7 @@
 	shoot_cyborgs = !shoot_cyborgs
 	if (user)
 		var/status = shoot_cyborgs ? "Shooting Borgs" : "Not Shooting Borgs"
-		balloon_alert(user, shoot_cyborgs ? "射击半机械人" : "不射击半机械人")
+		balloon_alert(user, shoot_cyborgs ? "射击赛博" : "不射击赛博")
 		add_hiddenprint(user)
 		log_combat(user, src, "[status]")
 	updateTurrets()

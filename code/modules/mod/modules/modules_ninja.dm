@@ -504,7 +504,7 @@
 		return
 	spark_system.start()
 	playsound(loc, SFX_SPARKS, 50, TRUE, SHORT_RANGE_SOUND_EXTRARANGE)
-	to_chat(src, span_danger("上传完成。检测到新的半机械人型号。正在安装……"))
+	to_chat(src, span_danger("上传完成。检测到新的赛博型号。正在安装……"))
 	faction = list(ROLE_NINJA)
 	bubble_icon = "syndibot"
 	UnlinkSelf()

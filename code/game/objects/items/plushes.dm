@@ -714,7 +714,7 @@
 
 /obj/item/toy/plush/pkplush
 	name = "维和毛绒玩具"
-	desc = "一个描绘维和半机械人的毛绒玩具。只有你才能阻止人类受到伤害！"
+	desc = "一个描绘维和赛博的毛绒玩具。只有你才能阻止人类受到伤害！"
 	icon_state = "pkplush"
 	attack_verb_continuous = list("拥抱着", "挤压着")
 	attack_verb_simple = list("拥抱", "挤压")

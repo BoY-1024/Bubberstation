@@ -1,7 +1,7 @@
 /mob/living/proc/robot_talk(message, list/spans = list(), list/message_mods = list())
 	log_sayverb_talk(message, message_mods, tag="binary")
 
-	var/designation = "默认半机械人"
+	var/designation = "默认赛博"
 	spans |= SPAN_ROBOT
 
 	if(issilicon(src))

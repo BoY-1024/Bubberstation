@@ -11,7 +11,7 @@
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper_s"
 	prompt_name = "一名无畏号人员"
-	you_are_text = "你是辛迪加特工，受雇于一艘藏在熔岩地带的绝密间谍船。"
+	you_are_text = "你是辛迪加特工，受雇于一艘藏在拉瓦兰的绝密间谍船。"
 	flavour_text = "不幸的是，你们的宿敌纳米传讯已开始在这一星区采矿。尽你所能继续干活，并保持低调。"
 	quirks_enabled = TRUE
 	random_appearance = FALSE
@@ -32,7 +32,7 @@
 	name = "辛迪加特工"
 	prompt_name = "一名辛迪加特工"
 	you_are_text = "一名被派往辛迪加间谍船无畏号的特工，受雇于此的理由只有你自己清楚。"
-	flavour_text = "由多方共管的 SSV 无畏号被派去秘密监视纳米传讯的资产。DS-2 被摧毁后，它藏身于熔岩地带滚滚的灰烬云之后。你的命令是维护飞船的完整，并保持低调。"
+	flavour_text = "由多方共管的 SSV 无畏号被派去秘密监视纳米传讯的资产。DS-2 被摧毁后，它藏身于拉瓦兰滚滚的灰烬云之后。你的命令是维护飞船的完整，并保持低调。"
 	important_text = "你并非反派，本局也不以无畏号为中心。当你与空间站及其船员的冲突升级时，你必须提交敌对势力申请或发起 adminhelp。"
 	outfit = /datum/outfit/dauntless/syndicate
 
@@ -40,7 +40,7 @@
 	name = "辛迪加指挥特工"
 	prompt_name = "一名辛迪加领袖"
 	you_are_text = "一名辛迪加指挥特工，被指派领导 SSV 无畏号，引领它朝既定目标前进。"
-	flavour_text = "由多方共管的 SSV 无畏号被派去秘密监视纳米传讯的资产。DS-2 被摧毁后，它藏身于熔岩地带滚滚的灰烬云之后。你的命令是协助领导无畏号，同时确保全船保持低调。"
+	flavour_text = "由多方共管的 SSV 无畏号被派去秘密监视纳米传讯的资产。DS-2 被摧毁后，它藏身于拉瓦兰滚滚的灰烬云之后。你的命令是协助领导无畏号，同时确保全船保持低调。"
 	important_text = "你属于指挥类角色，需以更高标准要求自己。你并非反派，本局也不以无畏号为中心。当你与空间站及其船员的冲突升级时，你必须提交敌对势力申请或发起 adminhelp。"
 	outfit = /datum/outfit/dauntless/command
 

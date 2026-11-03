@@ -2,7 +2,7 @@
 
 /obj/item/brain_processor/positronic/circuit
 	name = "紧凑型 AI 电路"
-	desc = "一块紧凑电路，尺寸恰好适配半机械人的正电子脑插槽。"
+	desc = "一块紧凑电路，尺寸恰好适配赛博的正电子脑插槽。"
 	icon = 'modular_skyrat/master_files/icons/obj/alt_silicon_brains.dmi'
 	icon_state = "circuit"
 	base_icon_state = "circuit"

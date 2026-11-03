@@ -14,7 +14,7 @@
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = TECHWEB_TIER_2_POINTS)
 
 /datum/techweb_node/borg_shapeshifter
-	display_name = "非法半机械人附加组件"
+	display_name = "非法赛博附加组件"
 	description = "某种实验性工具，曾被一家竞争对手公司使用。"
 	prerequisite_nodes = list(/datum/techweb_node/syndicate_basic)
 	unlocked_designs = list(/datum/design/borg_shapeshifter_module)

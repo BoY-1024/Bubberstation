@@ -228,7 +228,7 @@
 /obj/item/blueprints/cyborg
 	name = "空间站设计图"
 	desc = "存储在你内存中的空间站蓝图电子副本。"
-	fluffnotice = "纳米传讯知识产权，仅供工程半机械人使用。离开空间站时须从内存中清除。"
+	fluffnotice = "纳米传讯知识产权，仅供工程赛博使用。离开空间站时须从内存中清除。"
 
 ///Golem blueprints - Used to make golem areas that won't give the hazardous area debuffs.
 /obj/item/blueprints/golem

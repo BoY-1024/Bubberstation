@@ -1,6 +1,6 @@
 /mob/living/basic/malf_borg/heavy
-	name = "故障重型半机械人"
-	desc = "一台大型半机械人单位，遭到入侵或发生故障。它——我的天，那是电锯吗？！"
+	name = "故障重型赛博"
+	desc = "一台大型赛博单位，遭到入侵或发生故障。它——我的天，那是电锯吗？！"
 	icon = 'modular_skyrat/master_files/icons/mob/newmobs.dmi'
 
 	icon_state = "evilbotheavy"

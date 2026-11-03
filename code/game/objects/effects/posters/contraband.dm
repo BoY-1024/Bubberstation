@@ -174,15 +174,15 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/communist_stat
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/lamarr, 32)
 
 /obj/structure/sign/poster/contraband/borg_fancy_1
-	name = "时尚半机械人"
-	desc = "只需一套西装，任何半机械人都能变得时尚。"
+	name = "时尚赛博"
+	desc = "只需一套西装，任何赛博都能变得时尚。"
 	icon_state = "borg_fancy_1"
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/borg_fancy_1, 32)
 
 /obj/structure/sign/poster/contraband/borg_fancy_2
-	name = "时尚半机械人第二版"
-	desc = "时尚半机械人，如今只收录最时尚的。"
+	name = "时尚赛博第二版"
+	desc = "时尚赛博，如今只收录最时尚的。"
 	icon_state = "borg_fancy_2"
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/borg_fancy_2, 32)

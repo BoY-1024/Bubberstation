@@ -4,7 +4,7 @@
 		. += "[desc]"
 
 	var/model_name = model ? "\improper [model.name]" : "\improper 默认"
-	. += "目前是一具 <b>[model_name] 型</b>半机械人。"
+	. += "目前是一具 <b>[model_name] 型</b>赛博。"
 
 	var/obj/act_module = get_active_held_item()
 	if(act_module)
@@ -61,4 +61,4 @@
 	. += ..()
 
 /mob/living/silicon/robot/examine_descriptor(mob/user)
-	return "半机械人"
+	return "赛博"

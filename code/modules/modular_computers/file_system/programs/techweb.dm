@@ -269,7 +269,7 @@
 	if(HAS_AI_ACCESS(user))
 		logname = "AI [user.name]"
 	if(iscyborg(user))
-		logname = "半机械人 [user.name]"
+		logname = "赛博 [user.name]"
 
 	if(ishuman(user))
 		var/mob/living/carbon/human/human_user = user

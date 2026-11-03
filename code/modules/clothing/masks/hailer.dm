@@ -102,7 +102,7 @@ GLOBAL_LIST_INIT(hailer_phrases, list(
 
 /obj/item/clothing/mask/gas/sechailer/cyborg
 	name = "安保喊话器"
-	desc = "一套辨识度极高的预录信息，供半机械人在抓捕罪犯时使用。"
+	desc = "一套辨识度极高的预录信息，供赛博在抓捕罪犯时使用。"
 	icon = 'icons/obj/devices/voice.dmi'
 	icon_state = "taperecorder_idle"
 	slot_flags = null

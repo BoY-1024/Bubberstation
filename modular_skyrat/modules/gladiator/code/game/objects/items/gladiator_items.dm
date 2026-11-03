@@ -150,7 +150,7 @@
 
 /obj/item/claymore/dragonslayer/examine()
 	. = ..()
-	. += span_warning("经超自然能量淬炼，专克熔岩地带的敌人与首领。右键消耗耐力进行闪避。")
+	. += span_warning("经超自然能量淬炼，专克拉瓦兰的敌人与首领。右键消耗耐力进行闪避。")
 
 /obj/item/claymore/dragonslayer/attack(mob/living/target, mob/living/carbon/human/user)
 	var/is_nemesis_faction = FALSE

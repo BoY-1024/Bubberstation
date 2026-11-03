@@ -110,7 +110,7 @@
 	exposed_wound_bonus = 15
 
 /obj/item/cultivator/cyborg
-	name = "半机械人松土铲"
+	name = "赛博松土铲"
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "sili_cultivator"
 	icon_angle = 0
@@ -163,7 +163,7 @@
 	flags_1 = NONE
 
 /obj/item/hatchet/cyborg
-	name = "半机械人短柄斧"
+	name = "赛博短柄斧"
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "sili_hatchet"
 	icon_angle = 0
@@ -266,7 +266,7 @@
 	SEND_SIGNAL(target, COMSIG_ATOM_RESTYLE, user, target, user.zone_selected, EXTERNAL_RESTYLE_PLANT, 6 SECONDS)
 
 /obj/item/secateurs/cyborg
-	name = "半机械人修枝剪"
+	name = "赛博修枝剪"
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "sili_secateur"
 	icon_angle = 0

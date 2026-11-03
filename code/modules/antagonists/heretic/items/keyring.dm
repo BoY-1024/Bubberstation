@@ -114,8 +114,8 @@
 	. += span_hypnophrase("受漫宿附魔！")
 	. += span_hypnophrase("把一张 ID 卡用在这张卡上，或用这张卡点击另一张 ID 卡，都会将其吞噬，并让你复制它的权限。")
 	. += span_hypnophrase("<b>在手中使用此卡</b>，可以改变它的外观。")
-	. += span_hypnophrase("<b>用它依次点击一对门</b>，就能把它们连接起来。走进其中一扇门会被传送到另一扇，而异教徒则会被传送到随机的气闸。")
-	. += span_hypnophrase("<b>Ctrl 点击此 ID 卡</b>，可以让它改为制造反向裂隙，把你传送到站内随机的气闸，而异教徒则会被传送到目的地。")
+	. += span_hypnophrase("<b>用它依次点击一对门</b>，就能把它们连接起来。走进其中一扇门会被传送到另一扇，而异端则会被传送到随机的气闸。")
+	. += span_hypnophrase("<b>Ctrl 点击此 ID 卡</b>，可以让它改为制造反向裂隙，把你传送到站内随机的气闸，而异端则会被传送到目的地。")
 
 /obj/item/card/id/advanced/heretic/attack_self(mob/user)
 	. = ..()

@@ -154,7 +154,7 @@
 
 /obj/item/implantcase/deathrattle/lavaland
 	name = "植入体盒 - “远征亡语”"
-	desc = "一个装有远征亡语植入体的玻璃盒。只会在熔岩地带发生死亡时发出警报。"
+	desc = "一个装有远征亡语植入体的玻璃盒。只会在拉瓦兰发生死亡时发出警报。"
 	imp_type = /obj/item/implant/deathrattle/lavaland
 
 #undef DEATHRATTLE_AREA_NOLIST

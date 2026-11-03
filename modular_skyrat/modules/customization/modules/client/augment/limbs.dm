@@ -38,7 +38,7 @@
 	slot = AUGMENT_SLOT_HEAD
 
 /datum/augment_item/limb/head/cyborg
-	name = "半机械人头"
+	name = "赛博头"
 	path = /obj/item/bodypart/head/robot/weak
 
 //CHESTS
@@ -46,7 +46,7 @@
 	slot = AUGMENT_SLOT_CHEST
 
 /datum/augment_item/limb/chest/cyborg
-	name = "半机械人躯干"
+	name = "赛博躯干"
 	path = /obj/item/bodypart/chest/robot/weak
 
 //LEFT ARMS
@@ -59,7 +59,7 @@
 	cost = -1
 
 /datum/augment_item/limb/l_arm/cyborg
-	name = "半机械人左臂"
+	name = "赛博左臂"
 	path = /obj/item/bodypart/arm/left/robot/weak
 
 /datum/augment_item/limb/l_arm/plasmaman
@@ -83,7 +83,7 @@
 	cost = -1
 
 /datum/augment_item/limb/r_arm/cyborg
-	name = "半机械人右臂"
+	name = "赛博右臂"
 	path = /obj/item/bodypart/arm/right/robot/weak
 
 /datum/augment_item/limb/r_arm/plasmaman
@@ -107,7 +107,7 @@
 	cost = -1
 
 /datum/augment_item/limb/l_leg/cyborg
-	name = "半机械人左腿"
+	name = "赛博左腿"
 	path = /obj/item/bodypart/leg/left/robot/weak
 
 /datum/augment_item/limb/l_leg/plasmaman
@@ -131,7 +131,7 @@
 	cost = -1
 
 /datum/augment_item/limb/r_leg/cyborg
-	name = "半机械人右腿"
+	name = "赛博右腿"
 	path = /obj/item/bodypart/leg/right/robot/weak
 
 /datum/augment_item/limb/r_leg/plasmaman

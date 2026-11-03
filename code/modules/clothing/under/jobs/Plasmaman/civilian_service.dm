@@ -91,7 +91,7 @@
 
 /obj/item/clothing/under/plasmaman/mining
 	name = "采矿等离子体环境防护服"
-	desc = "一件气密的卡其色防护服，专为等离子体人在熔岩地作业而设计。"
+	desc = "一件气密的卡其色防护服，专为等离子体人在拉瓦兰作业而设计。"
 	icon_state = "explorer_envirosuit"
 	inhand_icon_state = null
 

@@ -66,7 +66,7 @@
 
 /obj/item/clothing/glasses/hud/eyepatch/diagnostic
 	name = "诊断眼罩 HUD"
-	desc = "眼球被失控的半机械人弄没了？敢不敢叫机器狗干它的活？还是单纯觉得腻了？不管什么原因，这一小块科技都能帮你继续修理半机械人——它们通常自己就修了，永远用不上你，但心意最重要。"
+	desc = "眼球被失控的赛博弄没了？敢不敢叫机器狗干它的活？还是单纯觉得腻了？不管什么原因，这一小块科技都能帮你继续修理赛博——它们通常自己就修了，永远用不上你，但心意最重要。"
 	icon_state = "robopatch"
 	base_icon_state = "robopatch"
 	clothing_traits = list(TRAIT_DIAGNOSTIC_HUD)

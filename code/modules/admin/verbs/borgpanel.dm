@@ -1,4 +1,4 @@
-ADMIN_VERB(borg_panel, R_ADMIN, "显示半机械人面板", ADMIN_VERB_NO_DESCRIPTION, ADMIN_CATEGORY_HIDDEN)
+ADMIN_VERB(borg_panel, R_ADMIN, "显示赛博面板", ADMIN_VERB_NO_DESCRIPTION, ADMIN_CATEGORY_HIDDEN)
 	VERB_ARG_TYPED(borgo, VERB_ARG_TYPE_MOB, VERB_ARG_SOURCE_WORLD, /mob/living/silicon/robot)
 	var/datum/borgpanel/borgpanel = new(user.mob, borgo)
 	borgpanel.ui_interact(user.mob)
@@ -127,7 +127,7 @@ ADMIN_VERB(borg_panel, R_ADMIN, "显示半机械人面板", ADMIN_VERB_NO_DESCRI
 				message_admins("[key_name_admin(user)]在[ADMIN_LOOKUPFLW(borg)]上禁用了扰乱代码。")
 				log_silicon("[key_name(user)]在[key_name(borg)]上禁用了扰乱代码。")
 		if ("rename")
-			var/new_name = sanitize_name(tgui_input_text(user, "你想给这个半机械人起什么名字？", "半机械人重命名", borg.real_name, MAX_NAME_LEN), allow_numbers = TRUE)
+			var/new_name = sanitize_name(tgui_input_text(user, "你想给这个赛博起什么名字？", "赛博重命名", borg.real_name, MAX_NAME_LEN), allow_numbers = TRUE)
 			if(!new_name)
 				return
 			message_admins("[key_name_admin(user)]将[ADMIN_LOOKUPFLW(borg)]重命名为 [new_name]。")
@@ -142,8 +142,8 @@ ADMIN_VERB(borg_panel, R_ADMIN, "显示半机械人面板", ADMIN_VERB_NO_DESCRI
 				qdel(installedupgrade) // see [mob/living/silicon/robot/on_upgrade_deleted()].
 			else
 				var/obj/item/borg/upgrade/upgrade = new upgradepath(borg)
-				message_admins("[key_name_admin(user)]为[ADMIN_LOOKUPFLW(borg)]添加了[upgrade]半机械人升级。")
-				log_silicon("[key_name(user)]为[key_name(borg)]添加了[upgrade]半机械人升级。")
+				message_admins("[key_name_admin(user)]为[ADMIN_LOOKUPFLW(borg)]添加了[upgrade]赛博升级。")
+				log_silicon("[key_name(user)]为[key_name(borg)]添加了[upgrade]赛博升级。")
 				if(upgrade.action(borg, user))
 					borg.add_to_upgrades(upgrade)
 				else

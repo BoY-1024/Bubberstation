@@ -1,6 +1,6 @@
 //I'm tired. This is defines for mech fabs.
-#define RND_SUBCATEGORY_MECHFAB_CYBORG_MODULES_RESEARCH "/科研半机械人"
-#define RND_SUBCATEGORY_MECHFAB_CYBORG_MODULES_TARKON "/塔肯半机械人"
+#define RND_SUBCATEGORY_MECHFAB_CYBORG_MODULES_RESEARCH "/科研赛博"
+#define RND_SUBCATEGORY_MECHFAB_CYBORG_MODULES_TARKON "/塔肯赛博"
 
 // Colonial Marine Resequencer Categories
 #define RND_CATEGORY_CMR_APPAREL "服饰/衣物"

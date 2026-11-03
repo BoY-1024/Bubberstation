@@ -3,7 +3,7 @@
 
 /obj/item/cautery/prt //it's a subtype of cauteries so that it inherits the cautery sprites and behavior and stuff, because I'm too lazy to make sprites for this thing
 	name = "装甲板修复工具"
-	desc = "一个由半机械人多余热量驱动的小型加热装置。它的设计用途是修复烧焦或受损的船体装甲板，但也能当作简易打火机或烙铁使用。"
+	desc = "一个由赛博多余热量驱动的小型加热装置。它的设计用途是修复烧焦或受损的船体装甲板，但也能当作简易打火机或烙铁使用。"
 	toolspeed = 1.5 //it's not designed to be used as a cautery (although it's close enough to one to be considered to be a proper cautery instead of just a hot object for the purposes of surgery)
 	heat = 3800 //this thing is intended for metal-shaping, so it's the same temperature as a lit welder
 	resistance_flags = FIRE_PROOF //if it's channeling a cyborg's excess heat, it's probably fireproof
@@ -163,7 +163,7 @@
 
 //bare minimum omni-toolset for modularity
 /obj/item/borg/cyborg_omnitool
-	name = "半机械人多功能工具组"
+	name = "赛博多功能工具组"
 	desc = "正常情况下你不应该在游戏中看到这个。"
 	icon = 'icons/mob/silicon/robot_items.dmi'
 	icon_state = "toolkit_medborg"
@@ -301,7 +301,7 @@
 
 /obj/item/borg/cyborg_omnitool/medical
 	name = "手术多功能工具组"
-	desc = "一套供半机械人进行各种外科手术使用的手术工具。"
+	desc = "一套供赛博进行各种外科手术使用的手术工具。"
 	omni_toolkit = list(
 		/obj/item/surgical_drapes/cyborg,
 		/obj/item/scalpel/cyborg,
@@ -316,7 +316,7 @@
 //Toolset for engineering cyborgs, this is all of the tools except for the welding tool. since it's quite hard to implement (read:can't be arsed to)
 /obj/item/borg/cyborg_omnitool/engineering
 	name = "工程多功能工具组"
-	desc = "一套供半机械人执行各种工程任务的工程工具。"
+	desc = "一套供赛博执行各种工程任务的工程工具。"
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "toolkit_engiborg"
 	omni_toolkit = list(
@@ -336,7 +336,7 @@
 
 /obj/item/borg/cyborg_omnitool/botany
 	name = "植物学多功能工具组"
-	desc = "一套供半机械人园艺工作使用的植物学工具。"
+	desc = "一套供赛博园艺工作使用的植物学工具。"
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "sili"
 	omni_toolkit = list(

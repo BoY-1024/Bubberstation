@@ -153,7 +153,7 @@
 	cures = list(/datum/reagent/copper)
 	cure_chance = 2.5
 	agent = "R2D2 纳米机器"
-	desc = "这种疾病实为急性纳米机器感染，会将受害者转化为半机械人。"
+	desc = "这种疾病实为急性纳米机器感染，会将受害者转化为赛博。"
 	severity = DISEASE_SEVERITY_BIOHAZARD
 	visibility_flags = NONE
 	stage1 = list()

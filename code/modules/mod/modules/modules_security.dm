@@ -309,7 +309,7 @@
 ///Projectile Dampener - Weakens projectiles in range.
 /obj/item/mod/module/projectile_dampener
 	name = "\improper MOD 弹道削弱模块"
-	desc = "这个模块使用来自和平半机械人的技术，能削弱附近范围内的所有弹道物体。"
+	desc = "这个模块使用来自和平赛博的技术，能削弱附近范围内的所有弹道物体。"
 	icon_state = "projectile_dampener"
 	module_type = MODULE_TOGGLE
 	complexity = 3

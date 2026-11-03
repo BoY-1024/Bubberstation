@@ -74,7 +74,7 @@
 ///Cult prayer type
 #define CULT_PRAYER "邪教徒祈祷"
 //Heretic prayer type
-#define HERETIC_PRAYER "异教徒祈祷"
+#define HERETIC_PRAYER "异端祈祷"
 ///Chaplain prayer type
 #define CHAPLAIN_PRAYER "牧师祈祷"
 ///Spiritual prayer type

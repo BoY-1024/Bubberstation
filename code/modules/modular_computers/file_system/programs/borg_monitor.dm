@@ -4,7 +4,7 @@
 	downloader_category = PROGRAM_CATEGORY_SCIENCE
 	ui_header = "borg_mon.gif"
 	program_open_overlay = "generic"
-	extended_desc = "该程序可用于远程监控站内的半机械人。"
+	extended_desc = "该程序可用于远程监控站内的赛博。"
 	program_flags = PROGRAM_ON_NTNET_STORE | PROGRAM_REQUIRES_NTNET
 	download_access = list(ACCESS_ROBOTICS)
 	size = 5
@@ -123,7 +123,7 @@
 	if(robot.stat == DEAD) //Dead borgs will listen to you no longer
 		to_chat(user, span_warning("错误——无法与单位 [robot] 建立连接。"))
 		return FALSE
-	var/message = tgui_input_text(user, "要发送给远程半机械人的消息", "发送消息", max_length = MAX_MESSAGE_LEN)
+	var/message = tgui_input_text(user, "要发送给远程赛博的消息", "发送消息", max_length = MAX_MESSAGE_LEN)
 	if(!message)
 		return FALSE
 	send_message(message, robot, user)
@@ -172,7 +172,7 @@
 	downloader_category = PROGRAM_CATEGORY_SCIENCE
 	ui_header = "borg_mon.gif"
 	program_open_overlay = "generic"
-	extended_desc = "该程序可用于远程监控执行任务的半机械人。"
+	extended_desc = "该程序可用于远程监控执行任务的赛博。"
 	program_flags = PROGRAM_ON_SYNDINET_STORE
 	download_access = null
 	circuit_comp_type = /obj/item/circuit_component/mod_program/borg_monitor/syndie

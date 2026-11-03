@@ -135,11 +135,11 @@
 		return
 	if(HAS_TRAIT(src, TRAIT_ROD_MANSUS_INFUSED))
 		if(IS_HERETIC(user))
-			. += span_purple("这根鱼竿已被异教徒<b>灌注</b>，提升了它窥见漫宿的能力。还有鱼。")
+			. += span_purple("这根鱼竿已被异端<b>灌注</b>，提升了它窥见漫宿的能力。还有鱼。")
 		else
 			. += span_purple("它散发着诡异的紫光……")
 	else if(IS_HERETIC(user))
-		. += span_purple("作为异教徒，你可以在持握这根钓鱼竿时激活 <b>漫宿之握</b> 法术来为其灌注，从而提升它的钓鱼之力。")
+		. += span_purple("作为异端，你可以在持握这根钓鱼竿时激活 <b>漫宿之握</b> 法术来为其灌注，从而提升它的钓鱼之力。")
 
 /obj/item/fishing_rod/examine_more(mob/user)
 	. = ..()

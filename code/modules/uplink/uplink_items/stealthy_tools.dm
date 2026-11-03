@@ -59,7 +59,7 @@
 /datum/uplink_item/stealthy_tools/emplight
 	name = "EMP 手电筒"
 	desc = "一台小巧、可自行充能、射程较短的 EMP 装置，伪装成一支能用的手电筒。 \
-			适合在潜行行动中瘫痪耳机、摄像头、门、储物柜和半机械人。 \
+			适合在潜行行动中瘫痪耳机、摄像头、门、储物柜和赛博。 \
 			用手电筒攻击目标会对其发射电磁脉冲，并消耗一次充能。"
 	item = /obj/item/flashlight/emp
 	cost = 2

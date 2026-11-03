@@ -15,8 +15,8 @@
 	ammo_x_offset = 2
 
 /obj/item/gun/energy/e_gun/advtaser/cyborg
-	name = "半机械人电击枪"
-	desc = "一种集成式混合电击枪，直接从半机械人的能量电池取电。武器内有限流器，可防止半机械人的能量电池过热。"
+	name = "赛博电击枪"
+	desc = "一种集成式混合电击枪，直接从赛博的能量电池取电。武器内有限流器，可防止赛博的能量电池过热。"
 	can_charge = FALSE
 	use_cyborg_cell = TRUE
 
@@ -63,8 +63,8 @@
 	)
 
 /obj/item/gun/energy/disabler/cyborg
-	name = "半机械人失能枪"
-	desc = "一种集成式失能枪，从半机械人的能量电池取电。武器内有限流器，可防止半机械人的能量电池过热。"
+	name = "赛博失能枪"
+	desc = "一种集成式失能枪，从赛博的能量电池取电。武器内有限流器，可防止赛博的能量电池过热。"
 	can_charge = FALSE
 	use_cyborg_cell = TRUE
 

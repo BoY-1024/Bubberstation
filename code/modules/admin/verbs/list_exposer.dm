@@ -73,7 +73,7 @@
 			message += "<b>AI [key_name(subject, usr)] 的法则：</b>"
 		else if(iscyborg(subject))
 			var/mob/living/silicon/robot/borg = subject
-			message += "<b>半机械人 [key_name(subject, usr)] [borg.connected_ai?"（从属于：[key_name(borg.connected_ai)]）":"（独立）"]：法则：</b>"
+			message += "<b>赛博 [key_name(subject, usr)] [borg.connected_ai?"（从属于：[key_name(borg.connected_ai)]）":"（独立）"]：法则：</b>"
 		else if (ispAI(subject))
 			message += "<b>个人 AI [key_name(subject, usr)] 的法则：</b>"
 		else

@@ -380,7 +380,7 @@
 		audible_message("<font color='red' size='7'>人类伤害</font>")
 		playsound(get_turf(src), 'sound/mobs/non-humanoids/cyborg/harmalarm.ogg', 70, 3)
 		COOLDOWN_START(src, alarm_cooldown, HARM_ALARM_SAFETY_COOLDOWN)
-		user.log_message("使用了半机械人伤害警报", LOG_ATTACK)
+		user.log_message("使用了赛博伤害警报", LOG_ATTACK)
 		if(iscyborg(user))
 			var/mob/living/silicon/robot/robot_user = user
 			to_chat(robot_user.connected_ai, "<br>[span_notice("通告——维和“伤害警报”使用人：[user]")]<br>")
@@ -402,7 +402,7 @@
 					living.adjust_jitter(50 SECONDS)
 		playsound(get_turf(src), 'sound/machines/warning-buzzer.ogg', 130, 3)
 		COOLDOWN_START(src, alarm_cooldown, HARM_ALARM_NO_SAFETY_COOLDOWN)
-		user.log_message("使用了遭 EMAG 破解的半机械人伤害警报", LOG_ATTACK)
+		user.log_message("使用了遭 EMAG 破解的赛博伤害警报", LOG_ATTACK)
 
 /obj/item/shield_module
 	name = "护盾激活器"

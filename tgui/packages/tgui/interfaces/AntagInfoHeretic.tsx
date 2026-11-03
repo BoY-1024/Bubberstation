@@ -121,7 +121,7 @@ const IntroductionSection = (props) => {
   return (
     <Stack justify="space-evenly" height="100%" width="100%">
       <Stack.Item grow>
-        <Section title="你是异教徒！" fill fontSize="14px" scrollable>
+        <Section title="你是异端！" fill fontSize="14px" scrollable>
           <Stack vertical>
             <FlavorSection />
             <Stack.Divider />
@@ -238,7 +238,7 @@ const GuideSection = () => {
           &nbsp;后，你周围将显现出&nbsp;
           <span style={hereticPurple}>漫宿能量</span>光环。此光环
           对周围所有人可见，并将暴露你的
-          异教徒身份。在积累过多知识前，请考虑风险！
+          异端身份。在积累过多知识前，请考虑风险！
         </Stack.Item>
       </Stack>
     </Stack.Item>

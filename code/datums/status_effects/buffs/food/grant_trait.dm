@@ -41,7 +41,7 @@
 
 /atom/movable/screen/alert/status_effect/ashstorm_immune
 	name = "灰暴免疫"
-	desc = "这顿饭让我感觉像是生于熔岩地带。"
+	desc = "这顿饭让我感觉像是生于拉瓦兰。"
 	use_user_hud_icon = USER_HUD_STYLE_INHERIT
 	overlay_state = "ashstorm_immune"
 

@@ -174,7 +174,7 @@
 		SEND_SIGNAL(human_target, COMSIG_RUNE_EVOLUTION)
 
 /datum/ash_ritual/summon_lavaland_creature
-	name = "召唤熔岩地带生物"
+	name = "召唤拉瓦兰生物"
 	desc = "从太空中另一片区域召唤一只随机的野生怪物。"
 	required_components = list(
 		"north" = /obj/item/organ/monster_core/regenerative_core,

@@ -1,6 +1,6 @@
 /mob/living/basic/malf_borg/dog
-	name = "故障犬型半机械人"
-	desc = "一台犬型半机械人，遭到入侵或发生故障。这一台似乎是采矿型号。"
+	name = "故障犬型赛博"
+	desc = "一台犬型赛博，遭到入侵或发生故障。这一台似乎是采矿型号。"
 	icon = 'modular_skyrat/master_files/icons/mob/newmobs64x32.dmi'
 
 	icon_state = "evilbotmine"
@@ -28,7 +28,7 @@
 
 /mob/living/basic/malf_borg/dogstrong
 	name = "腐化猎犬"
-	desc = "一台犬型半机械人，遭到入侵或发生故障。这一台体型巨大、气势逼人，出手极重。"
+	desc = "一台犬型赛博，遭到入侵或发生故障。这一台体型巨大、气势逼人，出手极重。"
 	icon = 'modular_skyrat/master_files/icons/mob/newmobs64x32.dmi'
 
 	icon_state = "evilbotelite"

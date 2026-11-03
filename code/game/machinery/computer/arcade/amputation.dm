@@ -1,6 +1,6 @@
 /obj/machinery/computer/arcade/amputation
-	name = "医疗半机械人的截肢大冒险"
-	desc = "屏幕上闪现着一个浑身浴血的医疗半机械人。\
+	name = "医疗赛博的截肢大冒险"
+	desc = "屏幕上闪现着一个浑身浴血的医疗赛博。\
 		它的对话气泡写着：“不是<b>胆小鬼</b>就把手伸进机器里！”"
 	icon_state = MAP_SWITCH("arcade", "/obj/machinery/computer/arcade")
 	circuit = /obj/item/circuitboard/computer/arcade/amputation
@@ -40,6 +40,6 @@
 
 ///Dispenses wrapped gifts instead of arcade prizes, also known as the ancap christmas tree
 /obj/machinery/computer/arcade/amputation/festive
-	name = "医疗半机械人的节日截肢大冒险"
-	desc = "屏幕上闪现着一个浑身浴血、戴着圣诞帽的医疗半机械人。它的对话气泡写着：“不是<b>胆小鬼</b>就把手伸进机器里！”"
+	name = "医疗赛博的节日截肢大冒险"
+	desc = "屏幕上闪现着一个浑身浴血、戴着圣诞帽的医疗赛博。它的对话气泡写着：“不是<b>胆小鬼</b>就把手伸进机器里！”"
 	prize_override = list(/obj/item/gift/anything = 1)

@@ -58,7 +58,7 @@
 
 /datum/species/android/get_species_lore()
 	return list(
-		"仿生人是纳米传讯创造的合成种族，充当人类与半机械人之间的中间形态。"
+		"仿生人是纳米传讯创造的合成种族，充当人类与赛博之间的中间形态。"
 	)
 
 /datum/species/android/create_pref_traits_perks()

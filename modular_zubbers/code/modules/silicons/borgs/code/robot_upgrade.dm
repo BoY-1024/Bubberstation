@@ -1,6 +1,6 @@
 /obj/item/borg/upgrade/transform/ntjack
-	name = "半机械人模块选择器（中央指挥部）"
-	desc = "让你能把半机械人转变为实验性纳米传讯半机械人。"
+	name = "赛博模块选择器（中央指挥部）"
+	desc = "让你能把赛博转变为实验性纳米传讯赛博。"
 	icon_state = "module_illegal"
 	new_model = /obj/item/robot_model/centcom
 
@@ -8,8 +8,8 @@
 	return ..()
 
 /obj/item/borg/upgrade/transform/security
-	name = "半机械人型号选择器（安保）"
-	desc = "让你能把半机械人转变为安保型号，随之而来的自然是满地的烂安保。"
+	name = "赛博型号选择器（安保）"
+	desc = "让你能把赛博转变为安保型号，随之而来的自然是满地的烂安保。"
 	icon_state = "module_security"
 	new_model = /obj/item/robot_model/security
 
@@ -17,8 +17,8 @@
 
 //ADVANCED ROBOTICS REPAIR
 /obj/item/borg/upgrade/healthanalyzer
-	name = "科研半机械人高级健康分析仪"
-	desc = "将科研型号半机械人的标准健康分析仪升级为高级型号。"
+	name = "科研赛博高级健康分析仪"
+	desc = "将科研型号赛博的标准健康分析仪升级为高级型号。"
 	icon_state = "module_medical"
 	custom_materials = list(/datum/material/iron =SHEET_MATERIAL_AMOUNT * 2.5, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 1.25, /datum/material/silver = SHEET_MATERIAL_AMOUNT, /datum/material/gold = HALF_SHEET_MATERIAL_AMOUNT * 1.5)
 	require_model = TRUE
@@ -31,7 +31,7 @@
 //Science inducer
 /obj/item/borg/upgrade/inducer_sci
 	name = "科研集成式感应充电器"
-	desc = "一种集成式感应充电器，可利用半机械人提供的电力为设备的内部电池充电。"
+	desc = "一种集成式感应充电器，可利用赛博提供的电力为设备的内部电池充电。"
 	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 5, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 2.5, /datum/material/silver = SHEET_MATERIAL_AMOUNT * 2)
 	require_model = TRUE
 	model_type = list(/obj/item/robot_model/sci)
@@ -40,8 +40,8 @@
 
 //Bluespace RPED
 /obj/item/borg/upgrade/brped
-	name = "科研半机械人快速部件更换装置升级"
-	desc = "将科研型号半机械人的标准 RPED 升级为蓝空间型号。"
+	name = "科研赛博快速部件更换装置升级"
+	desc = "将科研型号赛博的标准 RPED 升级为蓝空间型号。"
 	icon_state = "module_engineer"
 	custom_materials = list(
 		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 5,
@@ -67,8 +67,8 @@
 
 //Upgrade for the experi scanner
 /obj/item/borg/upgrade/experi_scanner
-	name = "科研半机械人蓝空间实验扫描仪"
-	desc = "将科研型号半机械人的标准健康分析仪升级为高级型号。"
+	name = "科研赛博蓝空间实验扫描仪"
+	desc = "将科研型号赛博的标准健康分析仪升级为高级型号。"
 	icon_state = "module_general"
 	require_model = TRUE
 	model_type = list(/obj/item/robot_model/sci)
@@ -97,8 +97,8 @@
 
 // Engineering RLD
 /obj/item/borg/upgrade/rld
-	name = "工程半机械人快速照明装置升级"
-	desc = "一种升级模块，让半机械人得以使用快速照明装置。"
+	name = "工程赛博快速照明装置升级"
+	desc = "一种升级模块，让赛博得以使用快速照明装置。"
 	icon_state = "module_engineer"
 	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 7.5, /datum/material/glass =SHEET_MATERIAL_AMOUNT * 2.5, /datum/material/silver = HALF_SHEET_MATERIAL_AMOUNT * 2.5)
 	require_model = TRUE
@@ -109,7 +109,7 @@
 // Borg Advanced Xenoarchaeology Bag
 
 /obj/item/borg/upgrade/xenoarch/adv
-	name = "半机械人高级异星考古袋"
+	name = "赛博高级异星考古袋"
 	desc = "一种改进型收纳袋，用于为科研拾取奇异的岩石。"
 	icon_state = "module_general"
 	require_model = TRUE
@@ -139,7 +139,7 @@
 			return install(pkamods, usr, FALSE)
 
 /obj/item/gun/energy/recharge/kinetic_accelerator/railgun/cyborg
-	desc = "便携式粒子加速器，仅可在熔岩地带使用。"
+	desc = "便携式粒子加速器，仅可在拉瓦兰使用。"
 	holds_charge = TRUE
 	unique_frequency = TRUE
 
@@ -164,7 +164,7 @@
 	unique_frequency = TRUE
 
 /obj/item/gun/energy/recharge/kinetic_accelerator/m79/cyborg
-	desc = "发射采矿 MOD 模块化外骨骼所用的同款炸弹，仅可在熔岩地带使用。"
+	desc = "发射采矿 MOD 模块化外骨骼所用的同款炸弹，仅可在拉瓦兰使用。"
 	holds_charge = TRUE
 	unique_frequency = TRUE
 
@@ -241,8 +241,8 @@
 	var/hasToys = FALSE
 
 /obj/item/borg/upgrade/obediencemodule
-	name = "半机械人服从模块"
-	desc = "一种大幅提升半机械人表达亲昵能力的模块。"
+	name = "赛博服从模块"
+	desc = "一种大幅提升赛博表达亲昵能力的模块。"
 	icon = 'modular_skyrat/modules/borgs/icons/robot_items.dmi'
 	icon_state = "module_lust"
 	custom_materials = list(
@@ -277,8 +277,8 @@
 		borg.remove_quirk(/datum/quirk/well_trained)
 
 /obj/item/borg/upgrade/detailer
-	name = "清洁半机械人细节处理工具组"
-	desc = "升级清洁半机械人的铺砖能力，并额外赋予修改地板贴花的能力。"
+	name = "清洁赛博细节处理工具组"
+	desc = "升级清洁赛博的铺砖能力，并额外赋予修改地板贴花的能力。"
 	icon_state = "module_janitor"
 	custom_materials = list(
 		/datum/material/iron =SHEET_MATERIAL_AMOUNT*15.25,
@@ -294,7 +294,7 @@
 
 /obj/item/borg/upgrade/cyborg_cable_coil
 	name = "集成电缆盘"
-	desc = "压缩卷绕技术让清洁半机械人模块也能携带线缆工具。"
+	desc = "压缩卷绕技术让清洁赛博模块也能携带线缆工具。"
 	icon_state = "module_janitor"
 	custom_materials = list(
 		/datum/material/iron = SHEET_MATERIAL_AMOUNT,
@@ -309,7 +309,7 @@
 //Research cyborg RCD
 
 /obj/item/borg/upgrade/robotics_rcd
-	name = "科研半机械人合成体维修工具"
+	name = "科研赛博合成体维修工具"
 	desc = "一种精简版 RCD，专为协助合成体维修而设计。"
 	custom_materials = list(
 		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 1.5,

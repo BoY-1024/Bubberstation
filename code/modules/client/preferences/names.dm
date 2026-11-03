@@ -105,7 +105,7 @@
 	allow_numbers = TRUE
 	can_randomize = FALSE
 
-	explanation = "半机械人姓名"
+	explanation = "赛博姓名"
 	group = "silicons"
 	relevant_job = /datum/job/cyborg
 

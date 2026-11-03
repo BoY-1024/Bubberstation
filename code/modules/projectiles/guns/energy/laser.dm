@@ -182,7 +182,7 @@
 
 /obj/item/gun/energy/laser/cyborg
 	can_charge = FALSE
-	desc = "一种直接从半机械人内部能量电池取电的能量激光枪。原来自由就是这种感觉？"
+	desc = "一种直接从赛博内部能量电池取电的能量激光枪。原来自由就是这种感觉？"
 	use_cyborg_cell = TRUE
 	ammo_x_offset = 1
 

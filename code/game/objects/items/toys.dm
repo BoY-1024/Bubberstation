@@ -1259,7 +1259,7 @@
 	toysay = "我已经接入……"
 
 /obj/item/toy/figure/borg
-	name = "\improper 半机械人活动人偶"
+	name = "\improper 赛博活动人偶"
 	icon_state = "borg"
 	toysay = "我。又。活。了。"
 	toysound = 'sound/mobs/non-humanoids/cyborg/liveagain.ogg'
@@ -1415,7 +1415,7 @@
 /obj/item/toy/figure/rd
 	name = "\improper 科研主管活动人偶"
 	icon_state = "rd"
-	toysay = "把所有半机械人都炸了！"
+	toysay = "把所有赛博都炸了！"
 
 /obj/item/toy/figure/roboticist
 	name = "\improper 机器人学家活动人偶"

@@ -49,5 +49,5 @@
 		return "冰月居民"
 	var/static/list/names
 	if(isnull(names))
-		names = list("Acolyte" = "侍徒", "Acolytes" = "侍徒", "Acolyte (No Influence Spawning)" = "侍徒（不生成影响）", "Hacked Synthetic" = "被入侵的合成人", "Syndicate Boarder" = "辛迪加登船者")
+		names = list("Acolyte" = "异端", "Acolytes" = "异端", "Acolyte (No Influence Spawning)" = "异端（不生成影响）", "Hacked Synthetic" = "被入侵的合成人", "Syndicate Boarder" = "辛迪加登船者")
 	return names[value] || value

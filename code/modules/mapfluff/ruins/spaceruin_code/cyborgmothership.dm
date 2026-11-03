@@ -1,5 +1,5 @@
 /obj/docking_port/stationary/cyborg_mothership
-	name = "半机械人母舰"
+	name = "赛博母舰"
 	shuttle_id = "cyborg_mothership"
 	roundstart_template = /datum/map_template/shuttle/ruin/cyborg_mothership
 	dir = SOUTH
@@ -8,7 +8,7 @@
 	dwidth = 11
 
 /obj/docking_port/mobile/cyborg_mothership
-	name = "半机械人母舰"
+	name = "赛博母舰"
 	shuttle_id = "cyborg_mothership"
 	dir = SOUTH
 	dwidth = 11
@@ -30,7 +30,7 @@
 
 /obj/machinery/computer/shuttle/cyborg_mothership
 	name = "#101011 控制台"
-	desc = "用于控制半机械人母舰。"
+	desc = "用于控制赛博母舰。"
 	circuit = /obj/item/circuitboard/computer/cyborg_mothership
 	shuttleId = "cyborg_mothership"
 	possible_destinations = "whiteship_away;whiteship_home;whiteship_z4;whiteship_lavaland;cyborg_mothership"
@@ -38,7 +38,7 @@
 /// Console used on the cyborg_mothership bridge. Comes with GPS pre-baked.
 /obj/machinery/computer/shuttle/cyborg_mothership/bridge
 	name = "#101011 舰桥控制台"
-	desc = "用于控制半机械人母舰。会发出微弱的 GPS 信号。"
+	desc = "用于控制赛博母舰。会发出微弱的 GPS 信号。"
 	circuit = /obj/item/circuitboard/computer/cyborg_mothership/bridge
 
 /obj/machinery/computer/shuttle/cyborg_mothership/bridge/Initialize(mapload, obj/item/circuitboard/C)
@@ -47,7 +47,7 @@
 
 /obj/machinery/computer/camera_advanced/shuttle_docker/cyborg_mothership
 	name = "#101011 导航计算机"
-	desc = "用于为半机械人母舰指定精确的跃迁位置。"
+	desc = "用于为赛博母舰指定精确的跃迁位置。"
 	shuttleId = "cyborg_mothership"
 	lock_override = NONE
 	shuttlePortId = "cyborg_mothership"

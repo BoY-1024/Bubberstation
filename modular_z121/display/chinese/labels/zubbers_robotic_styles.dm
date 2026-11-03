@@ -7,7 +7,7 @@
 			"Scrappy" = "破烂",
 			"Scrappy (Greyscale)" = "破烂（灰度）",
 			"Surplus" = "廉价",
-			"Cyborg" = "半机械人",
+			"Cyborg" = "赛博",
 			"Engineering" = "工程",
 			"Mining" = "采矿",
 			"Security" = "安保",

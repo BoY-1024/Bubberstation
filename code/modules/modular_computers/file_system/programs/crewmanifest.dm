@@ -1,6 +1,6 @@
 /datum/computer_file/program/crew_manifest
 	filename = "plexagoncrew"
-	filedesc = "普莱克萨贡船员名单"
+	filedesc = "叠角形船员名单"
 	downloader_category = PROGRAM_CATEGORY_DEVICE
 	program_open_overlay = "id"
 	extended_desc = "用于查看并打印当前船员名单的程序。"

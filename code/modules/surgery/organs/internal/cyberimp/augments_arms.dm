@@ -268,7 +268,7 @@
 
 /obj/item/organ/cyberimp/arm/toolkit/toolset
 	name = "集成式工具组植入体"
-	desc = "工程半机械人工具组的精简版本，专为安装在受术者手臂上而设计。包含每一种工具的高级版本。"
+	desc = "工程赛博工具组的精简版本，专为安装在受术者手臂上而设计。包含每一种工具的高级版本。"
 	icon_state = "toolkit_engineering"
 	aug_overlay = "toolkit_engi"
 	actions_types = list(/datum/action/item_action/organ_action/toggle/toolkit)

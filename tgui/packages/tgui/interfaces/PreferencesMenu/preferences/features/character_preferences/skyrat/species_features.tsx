@@ -42,7 +42,7 @@ export const flavor_text: Feature<string> = {
 
 export const silicon_flavor_text: Feature<string> = {
   name: '硅基角色描述',
-  description: "扮演半机械人或 AI 时显示的角色描述。",
+  description: "扮演赛博或 AI 时显示的角色描述。",
   component: FeatureTextInput,
 };
 

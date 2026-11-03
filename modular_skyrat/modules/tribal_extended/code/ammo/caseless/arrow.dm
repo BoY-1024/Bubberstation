@@ -1,6 +1,6 @@
 /obj/item/ammo_casing/arrow/ash
 	name = "灰烬箭"
-	desc = "用灰烬和铁制成的箭。虽然廉价，猎杀熔岩地带兽类的效果却无与伦比。"
+	desc = "用灰烬和铁制成的箭。虽然廉价，猎杀拉瓦兰兽类的效果却无与伦比。"
 	icon = 'modular_skyrat/modules/tribal_extended/icons/ammo.dmi'
 	icon_state = "ashenarrow"
 	projectile_type = /obj/projectile/bullet/arrow/ash

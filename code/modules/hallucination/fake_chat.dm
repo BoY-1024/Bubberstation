@@ -88,7 +88,7 @@
 				"[pick("[first_name(hallucinator.name)] 在哪？", "把 [first_name(hallucinator.name)] 设为逮捕！")]",
 				"[pick("呼","AI，呼","谁来呼","快")]叫穿梭机！",
 				"AI [pick("失控了", "死了")]！！",
-				"半机械人失控了！",
+				"赛博失控了！",
 			))
 		else
 			chosen = pick(list("[pick_list_replacements(HALLUCINATION_FILE, "suspicion")]",

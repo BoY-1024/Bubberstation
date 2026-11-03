@@ -236,7 +236,7 @@
 	item_path = /obj/item/clothing/suit/costume/monkeysuit
 
 /datum/loadout_item/suit/cardborg
-	name = "纸箱半机械人套装"
+	name = "纸箱赛博套装"
 	item_path = /obj/item/clothing/suit/costume/cardborg
 
 /datum/loadout_item/suit/xenos

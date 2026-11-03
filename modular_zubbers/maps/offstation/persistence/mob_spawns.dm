@@ -56,14 +56,14 @@
 	give_exploitables = FALSE
 
 /obj/effect/mob_spawn/ghost_role/robot/persistence
-	name = "辛迪加半机械人储藏舱"
+	name = "辛迪加赛博储藏舱"
 	prompt_name = "一台辛迪加机器人"
 	icon = 'modular_skyrat/modules/ghostcafe/icons/robot_storage.dmi'
 	icon_state = "robostorage"
 	anchored = TRUE
 	density = FALSE
 	spawner_job_path = /datum/job/persistence
-	you_are_text = "你是辛迪加半机械人，被编入陆地履带车上的船员。"
+	you_are_text = "你是辛迪加赛博，被编入陆地履带车上的船员。"
 	flavour_text = "你已被部署到敌方领地。尽你所能继续工作，并保持低调。"
 	deletes_on_zero_uses_left = TRUE
 	allow_custom_character = ALL

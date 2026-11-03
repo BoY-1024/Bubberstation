@@ -1,12 +1,12 @@
 /obj/effect/mob_spawn/ghost_role/robot/tarkon
-	name = "塔肯半机械人存储舱"
-	prompt_name = "一名塔肯半机械人"
+	name = "塔肯赛博存储舱"
+	prompt_name = "一名塔肯赛博"
 	icon = 'modular_skyrat/modules/ghostcafe/icons/robot_storage.dmi'
 	icon_state = "robostorage"
 	anchored = TRUE
 	density = FALSE
 	spawner_job_path = /datum/job/tarkon
-	you_are_text = "你是塔肯港的一名半机械人，被指派为该设施船员的一员。"
+	you_are_text = "你是塔肯港的一名赛博，被指派为该设施船员的一员。"
 	flavour_text = "你已经停机很长一段时间了。让空间站重新运转起来，并尽力协助船员。"
 	uses = 2
 	deletes_on_zero_uses_left = TRUE
@@ -42,8 +42,8 @@
 	law_id = "tarkon"
 
 /obj/item/borg/upgrade/transform/tarkon
-	name = "半机械人模块选择器（塔肯）"
-	desc = "可以将一台半机械人改造为实验性的塔肯半机械人。"
+	name = "赛博模块选择器（塔肯）"
+	desc = "可以将一台赛博改造为实验性的塔肯赛博。"
 	icon = 'modular_skyrat/modules/borgs/icons/robot_items.dmi'
 	icon_state = "module_tarkon"
 	new_model = /obj/item/robot_model/tarkon
@@ -366,6 +366,6 @@
 		if(istype(tarkon_upgrade, /obj/item/borg/upgrade/tarkon))
 			tarkon_upgrade_count ++
 	if(tarkon_upgrade_count >= 3)
-		to_chat(user, span_danger("警告：该半机械人的组件已无法承受更多升级。"))
+		to_chat(user, span_danger("警告：该赛博的组件已无法承受更多升级。"))
 		return FALSE
 	return ..()

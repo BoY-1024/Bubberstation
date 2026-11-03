@@ -76,7 +76,7 @@
 /obj/item/clothing/neck/antimagic_collar/examine(mob/user)
 	. = ..()
 
-	. += span_boldnotice("戴在颈部时，可阻止侍徒使用大多数法术和全部仪式。")
+	. += span_boldnotice("戴在颈部时，可阻止异端使用大多数法术和全部仪式。")
 	. += span_boldnotice("拿在手中使用可设置编号。当前编号：[set_id == "UNSET" ? "未设置" : set_id]。")
 	. += span_notice("酸液和火焰可以使其失效，强力电磁脉冲可以将其解锁。")
 	. += span_warning("用钥匙解锁时会向安保频道广播！不过，如果通讯受到干扰……")
@@ -203,7 +203,7 @@
 
 /obj/item/storage/box/antimagic
 	name = "离实项圈盒"
-	desc = "内含两个用于压制侍徒的项圈，以及一把解锁钥匙。"
+	desc = "内含两个用于压制异端的项圈，以及一把解锁钥匙。"
 	icon_state = "secbox"
 	illustration = "heart_black"
 
@@ -214,7 +214,7 @@
 
 /datum/supply_pack/security/antimagic_collar
 	name = "离实项圈"
-	desc = "内含两个用于压制侍徒的项圈，以及一把解锁钥匙。"
+	desc = "内含两个用于压制异端的项圈，以及一把解锁钥匙。"
 	cost = CARGO_CRATE_VALUE * 5
 	access_view = ACCESS_SECURITY
 	contains = list(/obj/item/storage/box/antimagic = 1)

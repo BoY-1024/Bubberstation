@@ -1,6 +1,6 @@
 /mob/living/basic/mining/bileworm/vileworm
 	name = "腐胆汁虫"
-	desc = "腐胆汁虫，熔岩地带的腐化本性作用于自然生灵的产物。"
+	desc = "腐胆汁虫，拉瓦兰的腐化本性作用于自然生灵的产物。"
 	icon_state = "vileworm"
 	icon_living = "vileworm"
 	icon_dead = "vileworm_dead"

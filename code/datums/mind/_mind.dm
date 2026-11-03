@@ -414,8 +414,8 @@
 					var/mob/living/silicon/ai/ai = current
 					for (var/mob/living/silicon/robot/R in ai.connected_robots)
 						R.SetEmagged(0)
-					message_admins("[key_name_admin(usr)]解除了[ai]所连接半机械人的电磁破坏状态。")
-					log_admin("[key_name(usr)]解除了[ai]所连接半机械人的电磁破坏状态。")
+					message_admins("[key_name_admin(usr)]解除了[ai]所连接赛博的电磁破坏状态。")
+					log_admin("[key_name(usr)]解除了[ai]所连接赛博的电磁破坏状态。")
 
 	else if (href_list["common"])
 		switch(href_list["common"])

@@ -243,7 +243,7 @@
 /datum/hallucination/delusion/preset/cyborg
 	delusion_icon_file = 'icons/mob/silicon/robots.dmi'
 	delusion_icon_state = "robot"
-	delusion_name = "半机械人"
+	delusion_name = "赛博"
 	play_wabbajack = TRUE
 
 /datum/hallucination/delusion/preset/cyborg/make_delusion_image(mob/over_who)
@@ -326,7 +326,7 @@
 /datum/hallucination/delusion/preset/heretic
 	dynamic_delusion = TRUE
 	random_hallucination_weight = 0
-	delusion_name = "异教徒"
+	delusion_name = "异端"
 	affects_others = TRUE
 	affects_us = FALSE
 	duration = 11 SECONDS

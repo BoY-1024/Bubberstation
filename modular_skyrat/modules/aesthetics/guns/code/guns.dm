@@ -20,7 +20,7 @@
 
 /obj/item/gun/ballistic/shotgun/riot
 	name = "伍德斯托克霰弹枪"
-	desc = "一把结实的霰弹枪，配有加长弹仓和固定战术枪托，专为非致命防暴设计。常出现在熔岩地带猎人的手中。它隐约让你想起在太阳系狩猎的日子，不是吗？"
+	desc = "一把结实的霰弹枪，配有加长弹仓和固定战术枪托，专为非致命防暴设计。常出现在拉瓦兰猎人的手中。它隐约让你想起在太阳系狩猎的日子，不是吗？"
 	fire_delay = 6 //We slighly bump this up because thats a good idea
 	sawn_desc = "想活命就跟我走。"
 
@@ -274,7 +274,7 @@
 /obj/item/ammo_casing/p50/disruptor
 	desc = "一个 .50 BMG 子弹壳。专门把目标送去睡觉而不是送去地狱，除非目标是合成体——那它们大概还是会下地狱。\
 	<br><br>\
-	<i>干扰弹：强制类人目标入睡，对半机械人造成重创，并使被击中的目标遭受电磁脉冲。</i>"
+	<i>干扰弹：强制类人目标入睡，对赛博造成重创，并使被击中的目标遭受电磁脉冲。</i>"
 
 /obj/item/ammo_casing/p50/incendiary
 	desc = "一个 .50 BMG 子弹壳。采用受激等离子弹头，让人后悔自己还活着。\

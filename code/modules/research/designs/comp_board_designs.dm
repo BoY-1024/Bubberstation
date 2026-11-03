@@ -134,7 +134,7 @@
 
 /datum/design/board/robocontrol
 	name = "机器人控制台电路板"
-	desc = "用于建造机器人控制台，可控制空间站的辅助机器人，并对半机械人提供有限的控制。"
+	desc = "用于建造机器人控制台，可控制空间站的辅助机器人，并对赛博提供有限的控制。"
 	materials = list(/datum/material/glass =HALF_SHEET_MATERIAL_AMOUNT, /datum/material/gold =HALF_SHEET_MATERIAL_AMOUNT, /datum/material/silver =HALF_SHEET_MATERIAL_AMOUNT, /datum/material/bluespace =SHEET_MATERIAL_AMOUNT)
 	build_path = /obj/item/circuitboard/computer/robotics
 	category = list(

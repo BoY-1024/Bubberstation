@@ -46,7 +46,7 @@ export const NtosCyborgRemoteMonitorContent = (props) => {
   const storedlog = data.borglog || [];
 
   if (!cyborgs.length) {
-    return <NoticeBox>未检测到半机械人单位。</NoticeBox>;
+    return <NoticeBox>未检测到赛博单位。</NoticeBox>;
   }
 
   return (
@@ -59,7 +59,7 @@ export const NtosCyborgRemoteMonitorContent = (props) => {
             selected={tab_main === 1}
             onClick={() => setTab_main(1)}
           >
-            半机械人
+            赛博
           </Tabs.Tab>
           <Tabs.Tab
             icon="clipboard"
@@ -169,7 +169,7 @@ export const NtosCyborgRemoteMonitorContent = (props) => {
         <>
           <Stack.Item>
             <Section>
-              扫描半机械人以下载其存储的日志。
+              扫描赛博以下载其存储的日志。
               <ProgressBar value={DL_progress / 100}>
                 {ProgressSwitch(DL_progress)}
               </ProgressBar>

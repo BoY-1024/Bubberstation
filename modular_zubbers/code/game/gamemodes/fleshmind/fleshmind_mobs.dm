@@ -561,8 +561,8 @@
  * Created by factories or converted cyborgs.
  */
 /mob/living/basic/fleshmind/hiborg
-	name = "血肉半机械人"
-	desc = "一台类似半机械人的机器人，身上覆盖着某种活物。"
+	name = "血肉赛博"
+	desc = "一台类似赛博的机器人，身上覆盖着某种活物。"
 	icon_state = "hiborg"
 	icon_dead = "hiborg-dead"
 	ai_controller = /datum/ai_controller/basic_controller/fleshmind

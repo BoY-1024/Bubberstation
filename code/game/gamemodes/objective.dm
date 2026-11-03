@@ -492,7 +492,7 @@ GLOBAL_LIST_EMPTY(objectives) //SKYRAT EDIT ADDITION
 
 /datum/objective/robot_army
 	name = "robot army"
-	explanation_text = "让至少八台正常运作的半机械人与你同步。"
+	explanation_text = "让至少八台正常运作的赛博与你同步。"
 	martyr_compatible = FALSE
 
 /datum/objective/robot_army/check_completion()

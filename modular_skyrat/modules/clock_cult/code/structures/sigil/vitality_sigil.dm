@@ -1,7 +1,7 @@
 /obj/structure/destructible/clockwork/sigil/vitality
 	name = "活力矩阵"
 	desc = "一件扭曲而令人困惑的神器，接触时会汲取未开化者的生命。"
-	clockwork_desc = "一件美丽的神器，会汲取被放置在它上面的异教徒的生命。"
+	clockwork_desc = "一件美丽的神器，会汲取被放置在它上面的异端的生命。"
 	icon_state = "sigilvitality"
 	effect_stand_time = 2.5 SECONDS // You can't permastun someone with this, so you'll need to keep them grabbed + cuffed
 	idle_color = "#5e87c4"

@@ -174,7 +174,7 @@
 
 /obj/structure/sign/plaques/kiddie/perfect_drone
 	name = "\improper “完美无人机”标牌"
-	desc = "无人机外壳分配器的导览，详述现代维修无人机的建设与破坏用途，以及明日那些不可腐蚀的半机械人仆从的发展——今日即可拥有。"
+	desc = "无人机外壳分配器的导览，详述现代维修无人机的建设与破坏用途，以及明日那些不可腐蚀的赛博仆从的发展——今日即可拥有。"
 
 /obj/structure/sign/plaques/kiddie/gameoflife
 	name = "\improper 康威《生命游戏》纪念牌"

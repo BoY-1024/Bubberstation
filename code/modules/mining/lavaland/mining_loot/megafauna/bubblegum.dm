@@ -26,7 +26,7 @@
 
 /obj/item/clothing/suit/hooded/hostile_environment
 	name = "H.E.C.K. 防护服"
-	desc = "敌对环境交叉动能防护服：专为抵御熔岩地带的多种危险而设计。可惜对它的上一位主人来说还不够。"
+	desc = "敌对环境交叉动能防护服：专为抵御拉瓦兰的多种危险而设计。可惜对它的上一位主人来说还不够。"
 	icon = 'icons/map_icons/clothing/suit/_suit.dmi'
 	icon_state = "/obj/item/clothing/suit/hooded/hostile_environment"
 	post_init_icon_state = "hostile_env"
@@ -75,7 +75,7 @@
 
 /obj/item/clothing/head/hooded/hostile_environment
 	name = "H.E.C.K. 头盔"
-	desc = "敌对环境交叉动能头盔：专为抵御熔岩地带的多种危险而设计。可惜对它的上一位主人来说还不够。"
+	desc = "敌对环境交叉动能头盔：专为抵御拉瓦兰的多种危险而设计。可惜对它的上一位主人来说还不够。"
 	icon = 'icons/map_icons/clothing/head/_head.dmi'
 	icon_state = "/obj/item/clothing/head/hooded/hostile_environment"
 	post_init_icon_state = "hostile_env"

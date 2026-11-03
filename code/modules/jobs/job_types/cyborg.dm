@@ -33,7 +33,7 @@
 	//SKYRAT EDIT START
 	robot_spawn.set_connected_ai(select_priority_ai())
 	if(robot_spawn.connected_ai)
-		log_combat(robot_spawn.connected_ai, robot_spawn, "将半机械人 [robot_spawn] 同步至 [robot_spawn.connected_ai]（半机械人出生同步）") // BUBBER EDIT - PUBLIC LOGS AND CLEANUP
+		log_combat(robot_spawn.connected_ai, robot_spawn, "将赛博 [robot_spawn] 同步至 [robot_spawn.connected_ai]（赛博出生同步）") // BUBBER EDIT - PUBLIC LOGS AND CLEANUP
 		if(robot_spawn.shell) //somehow?
 			robot_spawn.undeploy()
 			robot_spawn.notify_ai(AI_NOTIFICATION_AI_SHELL)
@@ -44,7 +44,7 @@
 		robot_spawn.lawsync()
 		robot_spawn.show_laws()
 		if(HAS_TRAIT(SSstation, STATION_TRAIT_HOS_AI))
-			robot_spawn.visible_message(self_message = span_alert("本班次已启用安保半机械人。"))
+			robot_spawn.visible_message(self_message = span_alert("本班次已启用安保赛博。"))
 	//SKYRAT EDIT END
 	if(!robot_spawn.connected_ai) // Only log if there's no Master AI
 		robot_spawn.log_current_laws()
@@ -54,7 +54,7 @@
 		robot_spawn.notify_ai(AI_NOTIFICATION_NEW_BORG)
 
 /datum/job/cyborg/get_radio_information()
-	return "<b>在消息前加上 :b 即可与其他半机械人和人工智能通话。</b>"
+	return "<b>在消息前加上 :b 即可与其他赛博和人工智能通话。</b>"
 
 /datum/job/cyborg/on_respawn(mob/new_character)
 	new_character.Robotize(TRUE)

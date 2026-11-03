@@ -1062,7 +1062,7 @@
 		. += spray_overlay
 
 /obj/item/toy/crayon/spraycan/borg
-	name = "半机械人喷漆罐"
+	name = "赛博喷漆罐"
 	desc = "装着闪亮合成油漆的金属罐。"
 	charges = INFINITE_CHARGES
 

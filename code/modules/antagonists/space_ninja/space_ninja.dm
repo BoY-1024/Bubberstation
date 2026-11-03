@@ -37,7 +37,7 @@
 	antag_memory += "突袭是我的武器，阴影是我的护甲。没有它们，我什么都不是。<br>"
 
 /datum/objective/cyborg_hijack
-	explanation_text = "使用你的手套转化至少一个半机械人，协助你破坏空间站。"
+	explanation_text = "使用你的手套转化至少一个赛博，协助你破坏空间站。"
 
 /datum/objective/door_jack
 	///How many doors that need to be opened using the gloves to pass the objective

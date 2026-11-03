@@ -6,7 +6,7 @@
 /datum/heretic_knowledge_tree_column/lock
 	description = list(
 		"启锁之道侧重于通行权限、区域封锁、盗窃和各种工具。",
-		"如果你初次游玩异教徒，或希望少些正面对抗、更喜欢四处钻空子，就选择这条道路。",
+		"如果你初次游玩异端，或希望少些正面对抗、更喜欢四处钻空子，就选择这条道路。",
 	)
 
 /obj/effect/lock_portal/Initialize(mapload, target, invert = FALSE)
@@ -17,7 +17,7 @@
 /obj/effect/lock_portal/examine(mob/user)
 	. = ..()
 
-	. += span_notice("非侍徒穿过这扇门时会被随机传送；侍徒则会被传送到另一处配对的传送门。")
+	. += span_notice("非异端穿过这扇门时会被随机传送；异端则会被传送到另一处配对的传送门。")
 	. += span_notice("可用反魔法武器（圣西瓜或虚无之杖）驱散，也可通过拆除气闸将其清除。")
 
 /obj/effect/lock_portal/proc/on_holy_attack(datum/source, obj/item/weapon)

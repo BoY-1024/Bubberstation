@@ -511,7 +511,7 @@
 // SEEDS
 
 /obj/item/seeds/lavaland
-	name = "熔岩地带种子"
+	name = "拉瓦兰种子"
 	desc = "你不该看到这个。"
 	lifespan = 50
 	endurance = 25
@@ -581,7 +581,7 @@
 
 /obj/item/seeds/lavaland/porcini
 	name = "牛肝菌菌丝包"
-	desc = "这种菌丝会长成美味牛肝菌，也就是牛肝菌。原产于已逝的地球，却在熔岩地带被发现。具有食用、药用和放松效果。"
+	desc = "这种菌丝会长成美味牛肝菌，也就是牛肝菌。原产于已逝的地球，却在拉瓦兰被发现。具有食用、药用和放松效果。"
 	icon_state = "mycelium-porcini"
 	species = "porcini"
 	plantname = "牛肝菌"
@@ -592,7 +592,7 @@
 
 /obj/item/seeds/lavaland/inocybe
 	name = "丝盖伞菌丝包"
-	desc = "这种菌丝会长成丝盖伞，一种原产于熔岩地带、具有致幻和毒性效果的蘑菇。"
+	desc = "这种菌丝会长成丝盖伞，一种原产于拉瓦兰、具有致幻和毒性效果的蘑菇。"
 	icon_state = "mycelium-inocybe"
 	species = "inocybe"
 	plantname = "丝盖伞"
@@ -603,7 +603,7 @@
 
 /obj/item/seeds/lavaland/ember
 	name = "余烬菇菌丝包"
-	desc = "这种菌丝会长成余烬菇，一种原产于熔岩地带的生物发光蘑菇。"
+	desc = "这种菌丝会长成余烬菇，一种原产于拉瓦兰的生物发光蘑菇。"
 	icon_state = "mycelium-ember"
 	species = "ember"
 	plantname = "余烬菇"

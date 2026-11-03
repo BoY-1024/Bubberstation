@@ -3,7 +3,7 @@
 	cost = BITRUNNER_COST_LOW
 	desc = "背叛你的同胞，以获得至高无上的力量。"
 	difficulty = BITRUNNER_DIFFICULTY_LOW
-	help_text = "异教徒需要献祭来驱动他们的黑暗仪式——把尸体带回仪式现场！\
+	help_text = "异端需要献祭来驱动他们的黑暗仪式——把尸体带回仪式现场！\
 		级别更高的船员的尸体更有价值，而且可能携带着有用的装备。"
 	forced_outfit = /datum/outfit/virtual_domain_heretic
 	key = "heretic_hunt"
@@ -60,7 +60,7 @@
 	playsound(rune, 'sound/effects/magic/castsummon.ogg', 50, TRUE, extrarange = SILENCED_SOUND_EXTRARANGE, falloff_exponent = 10, ignore_walls = FALSE)
 
 /datum/outfit/virtual_domain_heretic
-	name = "虚拟域异教徒"
+	name = "虚拟域异端"
 
 	// this gear is just given to them in the safehouse
 	// suit = /obj/item/clothing/suit/hooded/cultrobes/eldritch

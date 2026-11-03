@@ -42,7 +42,7 @@
 		var/obj/item/organ/heart/our_heart = owner_carbon.get_organ_slot(ORGAN_SLOT_HEART)
 		our_heart.AddComponent(/datum/component/living_heart) // even synths get one free go
 
-	to_chat(owner_carbon, span_doyourjobidiot("侍徒与异教徒有很大不同。即便你是老玩家，也请重新阅读全部说明。"))
+	to_chat(owner_carbon, span_doyourjobidiot("本服异端的玩法与原版有很大不同。即便你是老玩家，也请重新阅读全部说明。"))
 
 /datum/antagonist/heretic/forge_primary_objectives(heretic_research_tree)
 	// total override
@@ -139,9 +139,9 @@
 			count++
 	parts += span_boldnotice("需要完成[OBJECTIVES_TO_WIN]个目标才能获胜……")
 	if(completed >= min(OBJECTIVES_TO_WIN, objectives.len))
-		parts += span_greentext("[heretic_path.route]侍徒成功了！")
+		parts += span_greentext("[heretic_path.route]异端成功了！")
 	else
-		parts += span_redtext("[heretic_path.route]侍徒失败了。")
+		parts += span_redtext("[heretic_path.route]异端失败了。")
 
 	parts += "<b>已研究的知识：</b>"
 

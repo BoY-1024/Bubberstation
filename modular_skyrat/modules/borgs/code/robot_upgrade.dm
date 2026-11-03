@@ -6,8 +6,8 @@
 
 /// Advanced Surgery Tools
 /obj/item/borg/upgrade/surgerytools
-	name = "医疗半机械人高级手术工具"
-	desc = "一种医疗型半机械人手术装备的升级模块，将非高级工具替换为对应的高级版本。"
+	name = "医疗赛博高级手术工具"
+	desc = "一种医疗型赛博手术装备的升级模块，将非高级工具替换为对应的高级版本。"
 	icon_state = "module_medical"
 	require_model = TRUE
 	model_type = list(/obj/item/robot_model/medical)
@@ -73,7 +73,7 @@
 
 /obj/item/borg/upgrade/advanced_materials
 	name = "工程高级材料处理器"
-	desc = "允许半机械人合成并储存高级材料。"
+	desc = "允许赛博合成并储存高级材料。"
 	icon_state = "module_engineer"
 	model_type = list(/obj/item/robot_model/engineering)
 	model_flags = BORG_MODEL_ENGINEERING
@@ -102,8 +102,8 @@
 
 /// Welder
 /obj/item/borg/upgrade/welder
-	name = "采矿半机械人焊接器升级"
-	desc = "普通的焊接器，但为半机械人配备了更大的储罐。"
+	name = "采矿赛博焊接器升级"
+	desc = "普通的焊接器，但为赛博配备了更大的储罐。"
 	icon_state = "module_miner"
 	require_model = TRUE
 	model_type = list(/obj/item/robot_model/miner)
@@ -158,7 +158,7 @@
 
 /obj/item/borg/upgrade/cargo_tele
 	name = "货运传送器模块"
-	desc = "让你能用货运传送器升级货运半机械人。"
+	desc = "让你能用货运传送器升级货运赛博。"
 	icon = 'modular_skyrat/modules/borgs/icons/robot_items.dmi'
 	icon_state = "module_cargo"
 	require_model = TRUE
@@ -179,8 +179,8 @@
 	)
 
 /obj/item/borg/upgrade/forging
-	name = "半机械人锻造模块"
-	desc = "让你能用锻造装备升级货运半机械人。"
+	name = "赛博锻造模块"
+	desc = "让你能用锻造装备升级货运赛博。"
 	icon = 'modular_skyrat/modules/borgs/icons/robot_items.dmi'
 	icon_state = "module_cargo"
 	require_model = TRUE
@@ -210,8 +210,8 @@
 	)
 
 /obj/item/borg/upgrade/artistic
-	name = "半机械人艺术模块"
-	desc = "让你能用艺术创作工具升级半机械人。"
+	name = "赛博艺术模块"
+	desc = "让你能用艺术创作工具升级赛博。"
 	icon_state = "module_general"
 	custom_materials = list(/datum/material/iron = SMALL_MATERIAL_AMOUNT * 2, /datum/material/glass = SMALL_MATERIAL_AMOUNT * 2)
 	items_to_add = list(
@@ -229,8 +229,8 @@
 
 /// ShapeShifter
 /obj/item/borg/upgrade/borg_shapeshifter
-	name = "半机械人变形模块"
-	desc = "一种实验性装置，可让半机械人伪装成其他类型的半机械人。"
+	name = "赛博变形模块"
+	desc = "一种实验性装置，可让赛博伪装成其他类型的赛博。"
 	icon_state = "module_general"
 	custom_materials = list(
 		/datum/material/silver = SHEET_MATERIAL_AMOUNT * 5,
@@ -242,8 +242,8 @@
 
 /// Quadborg time
 /obj/item/borg/upgrade/affectionmodule
-	name = "半机械人亲昵模块"
-	desc = "一种提升半机械人表达亲昵能力的模块。"
+	name = "赛博亲昵模块"
+	desc = "一种提升赛博表达亲昵能力的模块。"
 	icon_state = "module_peace"
 
 	items_to_add = list(/obj/item/quadborg_tongue,
@@ -291,8 +291,8 @@
 	return ..()
 
 /obj/item/borg/upgrade/shrink
-	name = "半机械人缩小器"
-	desc = "一台半机械人缩小装置，能让半机械人变小。"
+	name = "赛博缩小器"
+	desc = "一台赛博缩小装置，能让赛博变小。"
 	icon_state = "module_general"
 	custom_materials = list(
 		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 10,
@@ -347,8 +347,8 @@
 
 /// Syndijack
 /obj/item/borg/upgrade/transform/syndicatejack
-	name = "半机械人模块选择器（辛迪加）"
-	desc = "让你能把半机械人转变为实验性辛迪加半机械人。"
+	name = "赛博模块选择器（辛迪加）"
+	desc = "让你能把赛博转变为实验性辛迪加赛博。"
 	icon_state = "module_illegal"
 	new_model = /obj/item/robot_model/syndicatejack
 
@@ -358,8 +358,8 @@
 
 /// Dominatrix time
 /obj/item/borg/upgrade/dominatrixmodule
-	name = "半机械人调教模块"
-	desc = "一种大幅提升半机械人表达亲昵能力的模块。"
+	name = "赛博调教模块"
+	desc = "一种大幅提升赛博表达亲昵能力的模块。"
 	icon = 'modular_skyrat/modules/borgs/icons/robot_items.dmi'
 	icon_state = "module_lust"
 	custom_materials = list(
@@ -378,8 +378,8 @@
 
 /// Cyborgs are bad at dancing too
 /obj/item/borg/upgrade/waddle_module
-	name = "半机械人摇摆模块"
-	desc = "一种让每个半机械人步伐都轻快起来的模块。"
+	name = "赛博摇摆模块"
+	desc = "一种让每个赛博步伐都轻快起来的模块。"
 	custom_materials = list(
 		/datum/material/iron = SHEET_MATERIAL_AMOUNT,
 		/datum/material/glass = SHEET_MATERIAL_AMOUNT,

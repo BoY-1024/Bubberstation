@@ -46,7 +46,7 @@
 	surplus = 90
 
 /datum/uplink_item/device_tools/syndicateborg
-	name = "辛迪加半机械人升级"
-	desc = "现代辛迪加科技的奇迹：半机械人劫持装置。它为标准破坏者模块提供极其强大的维修纳米机器人、建造设备和其他实用升级。由于仍属实验性技术，它仅适用于已经被电磁卡破解的半机械人。"
+	name = "辛迪加赛博升级"
+	desc = "现代辛迪加科技的奇迹：赛博劫持装置。它为标准破坏者模块提供极其强大的维修纳米机器人、建造设备和其他实用升级。由于仍属实验性技术，它仅适用于已经被电磁卡破解的赛博。"
 	item = /obj/item/borg/upgrade/transform/syndicatejack
 	cost = 5 //Support item and the fact that you need a emag to use it on a cyborg

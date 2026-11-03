@@ -19,8 +19,8 @@
 /obj/item/clothing/mask/madness_mask/examine(mob/user)
 	. = ..()
 	if(IS_HERETIC_OR_MONSTER(user))
-		. += span_notice("佩戴时会持续吸取附近非异教徒的理智与体力。")
-		. += span_notice("若强行戴到非异教徒脸上，他们将无法自行取下。")
+		. += span_notice("佩戴时会持续吸取附近非异端的理智与体力。")
+		. += span_notice("若强行戴到非异端脸上，他们将无法自行取下。")
 	else
 		. += span_danger("那双眼睛让你充满恐惧……你最好避开它。")
 

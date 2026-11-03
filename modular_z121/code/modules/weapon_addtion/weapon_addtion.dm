@@ -700,7 +700,7 @@
 //	矿用霰弹
 /obj/item/gun/ballistic/shotgun/mining
 	name = "矿用霰弹枪"
-	desc = "一种特化的半自动霰弹枪，主要供狩猎爱好者与矿工在熔岩地带狩猎。为了防止滥用，它只能装填狩猎独头弹。"
+	desc = "一种特化的半自动霰弹枪，主要供狩猎爱好者与矿工在拉瓦兰狩猎。为了防止滥用，它只能装填狩猎独头弹。"
 	icon = 'modular_z121/icons/obj/guns/weapon_addtion/guns48x.dmi'
 	icon_state = "mining_shotgun"
 

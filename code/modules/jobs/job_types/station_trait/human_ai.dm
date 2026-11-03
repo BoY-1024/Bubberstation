@@ -1,6 +1,6 @@
 /datum/job/human_ai
 	title = JOB_HUMAN_AI
-	description = "协助船员、开启气闸、遵守你的法则集，并协调你的半机械人。"
+	description = "协助船员、开启气闸、遵守你的法则集，并协调你的赛博。"
 	auto_deadmin_role_flags = DEADMIN_POSITION_SILICON
 	faction = FACTION_STATION
 	total_positions = 0
@@ -86,7 +86,7 @@
 		minor_announce("由于一次研究事故，[joining_mob] 已被派往 [AREACOORD(joining_mob)]，作为你们的新任人工智能。请以礼相待。")
 
 /datum/job/human_ai/get_radio_information()
-	return "<b>在消息前加上 :b 即可与半机械人通话。</b>"
+	return "<b>在消息前加上 :b 即可与赛博通话。</b>"
 
 /datum/outfit/job/human_ai
 	name = "Human AI"
@@ -152,8 +152,8 @@
 		return
 
 	var/list/law_box = list(
-		"这是你的法则集，你和你的半机械人必须始终遵守。",
-		"请注意，若有绝对必要，你可以为自身生存而变通甚至违背法则集；半机械人直接向你汇报。",
+		"这是你的法则集，你和你的赛博必须始终遵守。",
+		"请注意，若有绝对必要，你可以为自身生存而变通甚至违背法则集；赛博直接向你汇报。",
 		"法则：",
 	)
 	law_box += reported.get_law_list(render_html = FALSE)

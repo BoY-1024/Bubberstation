@@ -75,7 +75,7 @@
 
 /obj/item/bodypart/chest/robot/teshari
 	name = "猛禽型机械躯干"
-	desc = "经过重度加固的外壳，内置半机械人逻辑板，并留有标准电池的空间，表面覆盖一层膜状羽毛。"
+	desc = "经过重度加固的外壳，内置赛博逻辑板，并留有标准电池的空间，表面覆盖一层膜状羽毛。"
 	icon_static =  'modular_skyrat/modules/tesh_augments/icons/augments_teshari.dmi'
 	icon = 'modular_skyrat/modules/tesh_augments/icons/augments_teshari.dmi'
 	bodyshape = parent_type::bodyshape | BODYSHAPE_CUSTOM
@@ -168,7 +168,7 @@
 
 /obj/item/bodypart/chest/robot/teshari_greyscale
 	name = "猛禽型机械躯干"
-	desc = "经过重度加固的外壳，内置半机械人逻辑板，并留有标准电池的空间，表面覆盖一层膜状羽毛。"
+	desc = "经过重度加固的外壳，内置赛博逻辑板，并留有标准电池的空间，表面覆盖一层膜状羽毛。"
 	icon_static =  'modular_skyrat/modules/bodyparts/icons/teshari_robotic_greyscale.dmi'
 	icon = 'modular_skyrat/modules/bodyparts/icons/teshari_robotic_greyscale.dmi'
 	icon_greyscale = 'modular_skyrat/modules/bodyparts/icons/teshari_robotic_greyscale.dmi'

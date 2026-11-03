@@ -1,6 +1,6 @@
 /mob/living/basic/malf_borg/sec
-	name = "故障安保半机械人"
-	desc = "一台安保半机械人单位，遭到入侵或发生故障。它身上装着两把枪。"
+	name = "故障安保赛博"
+	desc = "一台安保赛博单位，遭到入侵或发生故障。它身上装着两把枪。"
 	icon = 'modular_skyrat/master_files/icons/mob/newmobs.dmi'
 
 	ai_controller = /datum/ai_controller/basic_controller/simple/simple_skirmisher

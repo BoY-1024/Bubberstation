@@ -229,8 +229,8 @@
 	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 10, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 5, /datum/material/plastic = SHEET_MATERIAL_AMOUNT * 4, /datum/material/gold = SHEET_MATERIAL_AMOUNT)
 
 /obj/item/construction/rld/cyborg
-	name = "半机械人快速照明装置"
-	desc = "一种用于快速为区域提供光源的装置。由半机械人的内部电源供电。"
+	name = "赛博快速照明装置"
+	desc = "一种用于快速为区域提供光源的装置。由赛博的内部电源供电。"
 	// Energy Use
 	var/energyfactor = 0.050 * STANDARD_CELL_CHARGE
 

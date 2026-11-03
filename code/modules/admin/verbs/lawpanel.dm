@@ -145,7 +145,7 @@ ADMIN_VERB(law_panel, R_ADMIN, "AI 法则面板", "查看 AI 法则。", ADMIN_C
 	if(params["ref"])
 		borgo = locate(params["ref"]) in GLOB.silicon_mobs
 		if(QDELETED(borgo))
-			to_chat(usr, span_danger("该半机械人无效。"))
+			to_chat(usr, span_danger("该赛博无效。"))
 			return TRUE
 
 	switch(action)
@@ -206,7 +206,7 @@ ADMIN_VERB(law_panel, R_ADMIN, "AI 法则面板", "查看 AI 法则。", ADMIN_C
 
 			borg_information["master_ai"] = cyborg.connected_ai?.real_name
 			borg_information["borg_synced"] = cyborg.lawupdate
-			borg_information["borg_type"] = "半机械人"
+			borg_information["borg_type"] = "赛博"
 
 		else if(isAI(borgo))
 			borg_information["borg_type"] = "AI"

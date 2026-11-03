@@ -22,7 +22,7 @@ GLOBAL_VAR_INIT(DNR_trait_overlay, generate_DNR_trait_overlay())
 
 /datum/quirk/affectionaversion
 	name = "Affection Aversion"
-	desc = "你拒绝被四足半机械人舔舐或用鼻子蹭。"
+	desc = "你拒绝被四足赛博舔舐或用鼻子蹭。"
 	gain_text = span_notice("你已被加入禁止舔舐和鼻蹭的名单。")
 	lose_text = span_notice("你已从禁止舔舐和鼻蹭的名单中移除。")
 	medical_record_text = "患者在禁止舔舐和鼻蹭的名单上。"

@@ -5,7 +5,7 @@ GLOBAL_LIST_EMPTY(heretic_sacrifice_landmarks)
 
 /// Lardmarks meant to designate where heretic sacrifices are sent.
 /obj/effect/landmark/heretic
-	name = "默认异教徒献祭地标"
+	name = "默认异端献祭地标"
 	icon_state = "x"
 	/// What path this landmark is intended for.
 	var/for_heretic_path = PATH_START
@@ -19,23 +19,23 @@ GLOBAL_LIST_EMPTY(heretic_sacrifice_landmarks)
 	return ..()
 
 /obj/effect/landmark/heretic/ash
-	name = "灰烬异教徒献祭地标"
+	name = "灰烬异端献祭地标"
 	for_heretic_path = PATH_ASH
 
 /obj/effect/landmark/heretic/flesh
-	name = "血肉异教徒献祭地标"
+	name = "血肉异端献祭地标"
 	for_heretic_path = PATH_FLESH
 
 /obj/effect/landmark/heretic/void
-	name = "虚空异教徒献祭地标"
+	name = "虚空异端献祭地标"
 	for_heretic_path = PATH_VOID
 
 /obj/effect/landmark/heretic/rust
-	name = "锈蚀异教徒献祭地标"
+	name = "锈蚀异端献祭地标"
 	for_heretic_path = PATH_RUST
 
 /obj/effect/landmark/heretic/lock
-	name = "启锁异教徒献祭地标"
+	name = "启锁异端献祭地标"
 	for_heretic_path = PATH_LOCK
 
 // Some VERY dim lights, used for the void sacrifice realm.

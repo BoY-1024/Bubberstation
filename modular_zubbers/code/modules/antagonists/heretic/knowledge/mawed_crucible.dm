@@ -1,7 +1,7 @@
 /datum/heretic_knowledge/crucible
 	desc = "让你能将一个便携水箱和一张桌子转化为巨口坩埚。\
 		巨口坩埚能酿制强效战斗及实用药剂，但每次使用之间必须喂给它肢体和器官。\
-		非异教徒也能饮用这些药剂，但会感到强烈恶心。"
+		非异端也能饮用这些药剂，但会感到强烈恶心。"
 	drafting_tier = 2 // its honestly kinda strong asf
 
 /obj/item/eldritch_potion/potion_effect(mob/user)

@@ -69,12 +69,12 @@
 	slot = AUGMENT_SLOT_HEAD
 
 /datum/augment_item/limb/head/cyborg
-	name = "半机械人头"
+	name = "赛博头"
 	path = /obj/item/bodypart/head/robot/weak
 
 /datum/augment_item/limb/head/cyborg/greyscale
 	uses_greyscale = TRUE
-	name = "半机械人头（灰度）"
+	name = "赛博头（灰度）"
 	path = /obj/item/bodypart/head/robot/weak/greyscale
 
 //CHESTS
@@ -82,12 +82,12 @@
 	slot = AUGMENT_SLOT_CHEST
 
 /datum/augment_item/limb/chest/cyborg
-	name = "半机械人躯干"
+	name = "赛博躯干"
 	path = /obj/item/bodypart/chest/robot/weak
 
 /datum/augment_item/limb/chest/cyborg/greyscale
 	uses_greyscale = TRUE
-	name = "半机械人躯干（灰度）"
+	name = "赛博躯干（灰度）"
 	path = /obj/item/bodypart/chest/robot/weak/greyscale
 
 //LEFT ARMS
@@ -118,12 +118,12 @@
 	uses_robotic_styles = FALSE
 
 /datum/augment_item/limb/l_arm/cyborg
-	name = "半机械人左臂"
+	name = "赛博左臂"
 	path = /obj/item/bodypart/arm/left/robot/weak
 
 /datum/augment_item/limb/l_arm/cyborg/greyscale
 	uses_greyscale = TRUE
-	name = "半机械人左臂（灰度）"
+	name = "赛博左臂（灰度）"
 	path = /obj/item/bodypart/arm/left/robot/weak/greyscale
 
 /datum/augment_item/limb/l_arm/plasmaman
@@ -165,12 +165,12 @@
 	uses_robotic_styles = FALSE
 
 /datum/augment_item/limb/r_arm/cyborg
-	name = "半机械人右臂"
+	name = "赛博右臂"
 	path = /obj/item/bodypart/arm/right/robot/weak
 
 /datum/augment_item/limb/r_arm/cyborg/greyscale
 	uses_greyscale = TRUE
-	name = "半机械人右臂（灰度）"
+	name = "赛博右臂（灰度）"
 	path = /obj/item/bodypart/arm/right/robot/weak/greyscale
 
 /datum/augment_item/limb/r_arm/plasmaman
@@ -212,13 +212,13 @@
 	cost = -3
 
 /datum/augment_item/limb/l_leg/cyborg
-	name = "半机械人左腿"
+	name = "赛博左腿"
 	path = /obj/item/bodypart/leg/left/robot/weak
 
 /datum/augment_item/limb/l_leg/cyborg/greyscale
 	uses_greyscale = TRUE
 	supports_digitigrade = TRUE
-	name = "半机械人左腿（灰度）"
+	name = "赛博左腿（灰度）"
 	path = /obj/item/bodypart/leg/left/robot/weak/greyscale
 
 /datum/augment_item/limb/l_leg/plasmaman
@@ -260,13 +260,13 @@
 	cost = -3
 
 /datum/augment_item/limb/r_leg/cyborg
-	name = "半机械人右腿"
+	name = "赛博右腿"
 	path = /obj/item/bodypart/leg/right/robot/weak
 
 /datum/augment_item/limb/r_leg/cyborg/greyscale
 	uses_greyscale = TRUE
 	supports_digitigrade = TRUE
-	name = "半机械人右腿（灰度）"
+	name = "赛博右腿（灰度）"
 	path = /obj/item/bodypart/leg/right/robot/weak/greyscale
 
 /datum/augment_item/limb/r_leg/plasmaman

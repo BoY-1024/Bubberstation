@@ -431,7 +431,7 @@
 /// PEP-6 Missile Rack - Used by Robotics - Explodes only when it hits dense objects like walls, borgs and mechs
 /obj/item/mecha_parts/mecha_equipment/weapon/ballistic/missile_rack/breaching
 	name = "\improper PEP-6 导弹发射架"
-	desc = "战斗机甲武器。发射精确爆破弹丸，仅在击中墙体、机甲与半机械人等结构目标时爆炸。"
+	desc = "战斗机甲武器。发射精确爆破弹丸，仅在击中墙体、机甲与赛博等结构目标时爆炸。"
 	icon_state = "mecha_missilerack_six"
 	projectile = /obj/projectile/bullet/rocket/pep
 	fire_sound = 'sound/items/weapons/gun/general/rocket_launch.ogg'

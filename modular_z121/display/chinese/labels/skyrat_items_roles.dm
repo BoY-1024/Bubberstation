@@ -20,7 +20,7 @@
 /proc/chinese_skyrat_items_antag_storage(value)
 	var/static/list/names
 	if(isnull(names))
-		names = list("突变憎恶" = "Mutated Abomination", "联邦边境巡逻队员" = "Commonwealth border patrol", "联邦对外关系委员会外交官" = "Commonwealth ERC Diplomat", "敌对势力候选人" = "OPFOR Candidate", "侍徒" = "Acolyte", "侍徒（不生成影响）" = "Acolyte (No Influence Spawning)", "被入侵的合成人" = "Hacked Synthetic", "阿玛达因公司" = "Armadyne Corporate", "阿玛达因公司安保分队" = "Armadyne Corporate Security Detail", "阿玛达因公司董事会" = "Armadyne Corporate Directorate", "阿玛达因公司安保" = "Armadyne Corporate Security", "阿玛达因公司安保（高度戒备）" = "Armadyne Corporate Security (High Alert)", "阿玛达因公司安保指挥官" = "Armadyne Corporate Security Commander", "阿玛达因公司安保指挥官（高度戒备）" = "Armadyne Corporate Security Commander (High Alert)")
+		names = list("突变憎恶" = "Mutated Abomination", "联邦边境巡逻队员" = "Commonwealth border patrol", "联邦对外关系委员会外交官" = "Commonwealth ERC Diplomat", "敌对势力候选人" = "OPFOR Candidate", "异端" = "Acolyte", "异端（不生成影响）" = "Acolyte (No Influence Spawning)", "被入侵的合成人" = "Hacked Synthetic", "阿玛达因公司" = "Armadyne Corporate", "阿玛达因公司安保分队" = "Armadyne Corporate Security Detail", "阿玛达因公司董事会" = "Armadyne Corporate Directorate", "阿玛达因公司安保" = "Armadyne Corporate Security", "阿玛达因公司安保（高度戒备）" = "Armadyne Corporate Security (High Alert)", "阿玛达因公司安保指挥官" = "Armadyne Corporate Security Commander", "阿玛达因公司安保指挥官（高度戒备）" = "Armadyne Corporate Security Commander (High Alert)")
 	var/plain_name = replacetext(value, "\improper", "")
 	return names[plain_name] ? replacetext(value, plain_name, names[plain_name]) : value
 

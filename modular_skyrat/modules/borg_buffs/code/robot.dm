@@ -94,22 +94,22 @@
 	icon_state = "misc"
 
 /obj/item/reagent_containers/borghypo/borgshaker/specific/juice
-	name = "半机械人果汁摇壶"
+	name = "赛博果汁摇壶"
 	icon_state = "juice"
 	default_reagent_types = BASE_SHAKER_JUICE_REAGENTS
 
 /obj/item/reagent_containers/borghypo/borgshaker/specific/alcohol
-	name = "半机械人酒精摇壶"
+	name = "赛博酒精摇壶"
 	icon_state = "alcohol"
 	default_reagent_types = BASE_SHAKER_ALCOHOL_REAGENTS
 
 /obj/item/reagent_containers/borghypo/borgshaker/specific/soda
-	name = "半机械人汽水摇壶"
+	name = "赛博汽水摇壶"
 	icon_state = "soda"
 	default_reagent_types = BASE_SHAKER_SODA_REAGENTS
 
 /obj/item/reagent_containers/borghypo/borgshaker/specific/misc
-	name = "半机械人杂项摇壶"
+	name = "赛博杂项摇壶"
 	icon_state = "misc"
 	default_reagent_types = BASE_SHAKER_MISC_REAGENTS
 

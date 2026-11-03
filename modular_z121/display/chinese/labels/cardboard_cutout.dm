@@ -21,7 +21,7 @@
 		"Slaughter Demon" = "屠戮恶魔",
 		"Laughter Demon" = "欢笑恶魔",
 		"Private Security Officer" = "私人安保人员",
-		"Heretic" = "异教徒",
+		"Heretic" = "异端",
 		"Changeling" = "变形怪",
 		"Pirate" = "海盗",
 		"Space Ninja" = "太空忍者",

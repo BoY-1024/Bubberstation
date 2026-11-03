@@ -587,7 +587,7 @@ structure_check() searches for nearby cultist structures required for the invoca
 	else
 		inner_portal.icon_state = "lava"
 		set_light_color(LIGHT_COLOR_FIRE)
-		desc += "<br><b>现实的裂口露出一条奔腾的熔岩之河……不久前有东西从熔岩地带矿场传送到了这里！</b>"
+		desc += "<br><b>现实的裂口露出一条奔腾的熔岩之河……不久前有东西从拉瓦兰矿场传送到了这里！</b>"
 	outer_portal = new(T, 600, color)
 	set_light_range(4)
 	update_light()

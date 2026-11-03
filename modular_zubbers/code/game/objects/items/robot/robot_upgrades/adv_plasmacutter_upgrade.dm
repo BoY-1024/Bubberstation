@@ -12,8 +12,8 @@
 	e_cost = 300 // This is based off of the cyborgs cell, soo each shot costs 300 power, needs balance checks
 
 /obj/item/borg/upgrade/advcutter
-	name = "采矿半机械人高级等离子切割器"
-	desc = "将采矿半机械人的等离子切割器升级为高级型号。"
+	name = "采矿赛博高级等离子切割器"
+	desc = "将采矿赛博的等离子切割器升级为高级型号。"
 	icon_state = "module_miner"
 	custom_materials = list(
 		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 1.5,

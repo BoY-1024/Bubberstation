@@ -187,11 +187,11 @@
 	icon_state = "sec"
 
 /obj/structure/statue/silver/secborg
-	name = "安保半机械人雕像"
+	name = "安保赛博雕像"
 	icon_state = "secborg"
 
 /obj/structure/statue/silver/medborg
-	name = "医疗半机械人雕像"
+	name = "医疗赛博雕像"
 	icon_state = "medborg"
 
 /////////////////////////diamond/////////////////////////////////////////

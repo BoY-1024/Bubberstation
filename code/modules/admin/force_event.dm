@@ -56,7 +56,7 @@ ADMIN_VERB(force_event, R_FUN, "触发事件", "强制使某个事件发生。",
 			))
 		//add event, with one value matching up the category
 		UNTYPED_LIST_ADD(events, list(
-			"name" = chinese_batch_four_admin_display(event_control.name),
+			"name" = chinese_force_event_name(event_control),
 			"description" = event_control.description,
 			"type" = event_control.type,
 			"category" = event_control.category,

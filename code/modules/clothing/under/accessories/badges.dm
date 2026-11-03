@@ -172,8 +172,8 @@
 		display = span_notice("军牌已被刮得乱七八糟。")
 
 /obj/item/clothing/accessory/dogtag/borg_ready
-	name = "预批准半机械人候选者军牌"
-	display = "该员工已接受负面心理特征筛查，准确度达到可接受水平，并获准加入纳米传讯半机械人计划，作为医疗复苏的替代方案。"
+	name = "预批准赛博候选者军牌"
+	display = "该员工已接受负面心理特征筛查，准确度达到可接受水平，并获准加入纳米传讯赛博计划，作为医疗复苏的替代方案。"
 
 // Pride pin skins
 /datum/atom_skin/pride_pin

@@ -319,8 +319,8 @@
 /* 3d printer 'pseudo guns' for borgs */
 
 /obj/item/gun/energy/printer
-	name = "半机械人轻机枪"
-	desc = "一挺发射 3D 打印飞镖弹的轻机枪。弹药会利用半机械人的内部电源缓慢补充。"
+	name = "赛博轻机枪"
+	desc = "一挺发射 3D 打印飞镖弹的轻机枪。弹药会利用赛博的内部电源缓慢补充。"
 	icon_state = "l6_cyborg"
 	icon = 'icons/obj/weapons/guns/ballistic.dmi'
 	cell_type = /obj/item/stock_parts/power_store/cell/secborg

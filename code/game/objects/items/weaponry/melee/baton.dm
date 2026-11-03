@@ -85,7 +85,7 @@
 	var/list/readout = list()
 
 	if(affect_cyborg)
-		readout += "它可以使半机械人晕眩 [round((stun_time_cyborg/10), 1)] 秒。"
+		readout += "它可以使赛博晕眩 [round((stun_time_cyborg/10), 1)] 秒。"
 
 	readout += "\n[active ? "它当前[span_warning("[activated_word]")]，能够击晕目标。" : "它[span_warning("未[activated_word]")]，无法击晕目标。"]"
 

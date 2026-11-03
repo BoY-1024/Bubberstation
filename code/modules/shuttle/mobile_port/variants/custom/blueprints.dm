@@ -441,7 +441,7 @@
 	else
 		. += span_notice("上面绘有 [shuttle] 的设计图，可用于扩建穿梭机或改造其区域。")
 		if(shuttle.master_blueprint.resolve() == src)
-			. += span_notice("这是 \the [shuttle] 的母版蓝图。你可以把它复制到空白蓝图上，或复制给安装了穿梭机数据库模块的工程半机械人。")
+			. += span_notice("这是 \the [shuttle] 的母版蓝图。你可以把它复制到空白蓝图上，或复制给安装了穿梭机数据库模块的工程赛博。")
 
 /obj/item/shuttle_blueprints/interact_with_atom(atom/interacting_with, mob/living/user, list/modifiers)
 	. = ..()
@@ -735,7 +735,7 @@
 	else
 		. += span_notice("当前载入的是 [shuttle] 的设计图，可用于扩建穿梭机或改造其区域。")
 		if(shuttle.master_blueprint.resolve() == src)
-			. += span_notice("这是 \the [shuttle] 的母版蓝图。你可以把它复制到空白蓝图上，或复制给另一台安装了穿梭机数据库模块的工程半机械人。")
+			. += span_notice("这是 \the [shuttle] 的母版蓝图。你可以把它复制到空白蓝图上，或复制给另一台安装了穿梭机数据库模块的工程赛博。")
 
 /obj/item/shuttle_blueprints/borg/unlink(removing)
 	if(removing)

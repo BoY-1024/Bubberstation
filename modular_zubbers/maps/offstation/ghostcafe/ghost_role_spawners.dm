@@ -16,7 +16,7 @@
 	density = FALSE
 	spawner_job_path = /datum/job/ghostcafe
 	you_are_text = "你是一台咖啡厅机器人！"
-	flavour_text = "谁能想到呢？这家超棒的本地咖啡厅也接待半机械人！"
+	flavour_text = "谁能想到呢？这家超棒的本地咖啡厅也接待赛博！"
 	mob_type = /mob/living/silicon/robot/model/roleplay
 	random_appearance = FALSE
 	allow_custom_character = ALL

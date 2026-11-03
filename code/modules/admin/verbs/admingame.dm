@@ -155,9 +155,9 @@ ADMIN_VERB_ONLY_CONTEXT_MENU(show_player_panel, R_ADMIN, "Show Player Panel", /m
 				body += "<A href='byond://?_src_=holder;[HrefToken()];simplemake=monkey;mob=[REF(player)]'>变成猴子</A> | "
 
 			if(iscyborg(player))
-				body += "<b>半机械人</b> | "
+				body += "<b>赛博</b> | "
 			else
-				body += "<A href='byond://?_src_=holder;[HrefToken()];simplemake=robot;mob=[REF(player)]'>变成半机械人</A> | "
+				body += "<A href='byond://?_src_=holder;[HrefToken()];simplemake=robot;mob=[REF(player)]'>变成赛博</A> | "
 
 			if(isAI(player))
 				body += "<b>AI</b>"

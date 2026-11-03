@@ -12,7 +12,7 @@
 //Failure to follow this pattern will cause the hand's icons to be missing due to the way get_limb_icon() works to generate the mob's icons using the aux_zone var.
 
 /obj/item/bodypart/arm/left/robot
-	name = "半机械人左臂"
+	name = "赛博左臂"
 	desc = "包裹着拟肌肉的骨架肢体，外覆低导电性外壳。"
 	limb_id = BODYPART_ID_ROBOTIC
 	attack_verb_simple = list("扇击", "拳击")
@@ -53,7 +53,7 @@
 		. += should_draw_greyscale ? icon_greyscale : icon_static
 
 /obj/item/bodypart/arm/right/robot
-	name = "半机械人右臂"
+	name = "赛博右臂"
 	desc = "包裹着拟肌肉的骨架肢体，外覆低导电性外壳。"
 	attack_verb_simple = list("扇击", "拳击")
 	inhand_icon_state = "buildpipe"
@@ -95,7 +95,7 @@
 		. += should_draw_greyscale ? icon_greyscale : icon_static
 
 /obj/item/bodypart/leg/left/robot
-	name = "半机械人左腿"
+	name = "赛博左腿"
 	desc = "包裹着拟肌肉的骨架肢体，外覆低导电性外壳。"
 	attack_verb_simple = list("踢击", "踩踏")
 	inhand_icon_state = "buildpipe"
@@ -152,7 +152,7 @@
 	owner.client?.move_delay += 0.6 SECONDS / severity
 
 /obj/item/bodypart/leg/right/robot
-	name = "半机械人右腿"
+	name = "赛博右腿"
 	desc = "包裹着拟肌肉的骨架肢体，外覆低导电性外壳。"
 	attack_verb_simple = list("踢击", "踩踏")
 	inhand_icon_state = "buildpipe"
@@ -209,8 +209,8 @@
 	owner.client?.move_delay += 0.6 SECONDS / severity
 
 /obj/item/bodypart/chest/robot
-	name = "半机械人躯干"
-	desc = "经过重度加固的箱体，内装半机械人逻辑板，并留有标准电源电池的位置。"
+	name = "赛博躯干"
+	desc = "经过重度加固的箱体，内装赛博逻辑板，并留有标准电源电池的位置。"
 	inhand_icon_state = "buildpipe"
 	icon_static =  'icons/mob/augmentation/augments.dmi'
 	icon = 'icons/mob/augmentation/augments.dmi'
@@ -386,7 +386,7 @@
 	return ..()
 
 /obj/item/bodypart/head/robot
-	name = "半机械人头颅"
+	name = "赛博头颅"
 	desc = "标准的加固脑壳，配有脊椎插接式神经接口与传感器万向节。"
 	inhand_icon_state = "buildpipe"
 	icon_static = 'icons/mob/augmentation/augments.dmi'

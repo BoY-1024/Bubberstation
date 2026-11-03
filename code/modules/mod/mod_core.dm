@@ -447,7 +447,7 @@
 /obj/item/mod/core/plasma/lavaland
 	name = "\improper MOD 等离子花核心"
 	icon_state = "mod-core-plasma-flower"
-	desc = "一朵来自熔岩地带荒芜废土的奇异花朵。它散发着奇异的紫色光芒，脉动着。\
+	desc = "一朵来自拉瓦兰荒芜废土的奇异花朵。它散发着奇异的紫色光芒，脉动着。\
 		从它内部伸出的线缆可以接入 MOD 模块化外骨骼。"
 	light_system = OVERLAY_LIGHT
 	light_color = "#cc00cc"

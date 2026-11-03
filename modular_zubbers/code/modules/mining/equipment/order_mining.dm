@@ -27,7 +27,7 @@
 
 /datum/orderable_item/mining/bombercoat
 	purchase_path = /obj/item/clothing/suit/toggle/jacket/zubber/bomber/mining
-	desc = "一件采矿飞行夹克。在熔岩地带大概不太顶用，但配上它、一杯热可可和一点雪？舒适最大化从未如此廉价！"
+	desc = "一件采矿飞行夹克。在拉瓦兰大概不太顶用，但配上它、一杯热可可和一点雪？舒适最大化从未如此廉价！"
 	cost_per_order = 100
 
 //EXTRAS

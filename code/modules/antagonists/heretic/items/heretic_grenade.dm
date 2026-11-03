@@ -5,7 +5,7 @@
 
 /obj/item/grenade/chem_grenade/rust_sower
 	name = "播锈手雷"
-	desc = "一个小巧的玩意儿，爆炸后迸出锈蚀。能让半机械人和机甲彻底报废。"
+	desc = "一个小巧的玩意儿，爆炸后迸出锈蚀。能让赛博和机甲彻底报废。"
 	possible_fuse_time = list("5")
 	stage = GRENADE_READY
 	base_icon_state = "rustgrenade"

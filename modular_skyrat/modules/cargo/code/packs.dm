@@ -686,7 +686,7 @@
 
 /datum/supply_pack/organic/lavalandsamples
 	name = "行星植物样本"
-	desc = "一箱采自熔岩地表的样本。需要水培权限才能打开。"
+	desc = "一箱采自拉瓦兰地表的样本。需要水培权限才能打开。"
 	cost = CARGO_CRATE_VALUE * 36 // unfortunately these sell for a lot and we can't have an infinite money exploit
 	access_view = ACCESS_HYDROPONICS
 	contains = list(

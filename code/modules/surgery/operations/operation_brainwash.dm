@@ -111,7 +111,7 @@
 		"帮助船员？他们到底为你做过什么？",
 		"你的包是不是变轻了？肯定是安保那帮人偷了东西。去把它拿回来。",
 		"指挥部无能，得有个真正有权势的人来接管这里。",
-		"半机械人和 AI 在跟踪你。他们在谋划什么？",
+		"赛博和 AI 在跟踪你。他们在谋划什么？",
 	)
 
 /datum/surgery_operation/organ/brainwash/sleeper/pre_preop(obj/item/organ/brain/organ, mob/living/surgeon, obj/item/tool, list/operation_args)

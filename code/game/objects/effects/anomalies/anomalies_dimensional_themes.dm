@@ -354,7 +354,7 @@
 	)
 
 /datum/dimension_theme/lavaland
-	name = "熔岩地带"
+	name = "拉瓦兰"
 	icon = 'icons/obj/stack_objects.dmi'
 	icon_state = "goliath_hide"
 	window_colour = "#860000"
