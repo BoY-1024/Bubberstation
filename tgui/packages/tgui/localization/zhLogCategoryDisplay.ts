@@ -59,7 +59,7 @@ const labels: Readonly<Record<string, string>> = {
   'href-tgui': 'TGUI 链接请求',
   uplink: '上行链路',
   'uplink-changeling': '上行链路：变形怪',
-  'uplink-heretic': '上行链路：异教徒',
+  'uplink-heretic': '上行链路：异端',
   'uplink-malf': '上行链路：失控 AI',
   'uplink-spell': '上行链路：法术',
   'uplink-spy': '上行链路：间谍',

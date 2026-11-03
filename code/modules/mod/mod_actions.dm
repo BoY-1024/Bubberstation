@@ -156,7 +156,7 @@
 	if(linked_module.allow_flags & MODULE_ALLOW_INCAPACITATED)
 		// clears check hands and check conscious
 		check_flags = NONE
-	name = "启动 [capitalize(linked_module.name)]"
+	name = "启动 [capitalize(format_text(linked_module.name))]" // 自定义修改：先移除名称中的冠词控制标记，避免首字母大写处理破坏 MOD 动作名称
 	desc = "快速激活 [linked_module]。"
 	RegisterSignals(linked_module, list(
 		COMSIG_MODULE_ACTIVATED,

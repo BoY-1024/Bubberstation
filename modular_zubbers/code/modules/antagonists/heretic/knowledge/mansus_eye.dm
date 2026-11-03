@@ -195,7 +195,7 @@ GLOBAL_LIST_INIT(mansus_eye_commands_regex, list(
 		set_new_owner(living_user)
 		return TRUE
 
-	to_chat(living_user, span_warning("这只眼睛已经属于另一名侍徒！"))
+	to_chat(living_user, span_warning("这只眼睛已经属于另一名异端！"))
 	balloon_alert(living_user, "已有主人！")
 	return TRUE
 

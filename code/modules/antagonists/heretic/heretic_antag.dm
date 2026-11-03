@@ -13,9 +13,9 @@
 
 /// The heretic antagonist itself.
 /datum/antagonist/heretic
-	name = "\improper 异教徒"
+	name = "\improper 异端"
 	roundend_category = "Heretics"
-	antagpanel_category = "异教徒"
+	antagpanel_category = "异端"
 	ui_name = "AntagInfoHeretic"
 	antag_moodlet = /datum/mood_event/heretics
 	pref_flag = ROLE_HERETIC
@@ -276,10 +276,10 @@
 				CRASH("Heretic attempted to learn non-heretic_knowledge path! (Got: [researched_path || "invalid path"])")
 			var/shop_category = params["category"]
 			if(!researchable_knowledge(researched_path, shop_category))
-				message_admins("异教徒 [key_name(owner)] 可能试图通过 href 漏洞学习他们无法学习的知识！")
+				message_admins("异端 [key_name(owner)] 可能试图通过 href 漏洞学习他们无法学习的知识！")
 				CRASH("Heretic attempted to learn knowledge they can't learn! (Got: [researched_path])")
 			if(ispath(researched_path, /datum/heretic_knowledge/ultimate) & can_ascend() != HERETIC_CAN_ASCEND)
-				message_admins("异教徒 [key_name(owner)] 可能试图通过 href 漏洞在未完成目标的情况下学习飞升知识！")
+				message_admins("异端 [key_name(owner)] 可能试图通过 href 漏洞在未完成目标的情况下学习飞升知识！")
 				CRASH("Heretic attempted to learn a final knowledge despite not being able to ascend!")
 
 
@@ -786,7 +786,7 @@
 
 	parts += printplayer(owner)
 	parts += "<b>已完成的献祭：</b> [total_sacrifices]"
-	parts += "该异教徒的献祭目标是：[english_list(all_sac_targets, nothing_text = "无人")]。"
+	parts += "该异端的献祭目标是：[english_list(all_sac_targets, nothing_text = "无人")]。"
 	if(length(objectives))
 		var/count = 1
 		for(var/datum/objective/objective as anything in objectives)
@@ -851,7 +851,7 @@
 
 	var/datum/heretic_knowledge/living_heart/heart_knowledge = get_knowledge(/datum/heretic_knowledge/living_heart)
 	if(!heart_knowledge)
-		to_chat(admin, span_warning("不知为何，该异教徒没有活体心脏知识。什么情况？"))
+		to_chat(admin, span_warning("不知为何，该异端没有活体心脏知识。什么情况？"))
 		return
 
 	heart_knowledge.on_research(owner.current, src)
@@ -1212,7 +1212,7 @@
 	return completed || (num_summoned >= target_amount)
 
 /datum/outfit/heretic
-	name = "异教徒（仅预览）"
+	name = "异端（仅预览）"
 
 	suit = /obj/item/clothing/suit/hooded/cultrobes/eldritch/rust
 	head = /obj/item/clothing/head/hooded/cult_hoodie/eldritch/rust

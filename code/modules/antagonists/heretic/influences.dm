@@ -24,7 +24,7 @@
 /datum/reality_smash_tracker/Destroy(force)
 	if(GLOB.reality_smash_track == src)
 		stack_trace("[type] was deleted. Heretics may no longer access any influences. Fix it, or call coder support.")
-		message_admins("[type]被删除了，异教徒可能无法再接触任何异界影响。请修复或联系程序员协助。")
+		message_admins("[type]被删除了，异端可能无法再接触任何异界影响。请修复或联系程序员协助。")
 	QDEL_LIST(smashes)
 	tracked_heretics.Cut()
 	return ..()

@@ -373,12 +373,12 @@
 	process_flags = REAGENT_ORGANIC|REAGENT_SYNTHETIC // yes synths. u get healing 2
 
 /datum/heretic_knowledge/spell/void_conduit
-	desc = "赋予你虚空导管，召唤一扇通往虚空本身的脉动之门。每次脉动都会冻结空气，使异信者受到虚空寒冷并昏昏欲睡。异教徒则会获得低压抗性。"
+	desc = "赋予你虚空导管，召唤一扇通往虚空本身的脉动之门。每次脉动都会冻结空气，使异信者受到虚空寒冷并昏昏欲睡。异端则会获得低压抗性。"
 
 /datum/action/cooldown/spell/conjure/void_conduit
 	desc = "开启一扇虚空之门，间歇释放脉冲，冻结周围空气，使异信者受到虚空寒冷并昏昏欲睡。\
 		受导管影响而睡着的异信者会进入深度邪异睡眠，得到治疗，但一段时间内无法行动。\
-		受影响的异教徒则会获得低压抗性。"
+		受影响的异端则会获得低压抗性。"
 
 /obj/structure/void_conduit
 	var/cooling_per_pulse = 5

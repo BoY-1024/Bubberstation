@@ -169,7 +169,7 @@ function EventSection(props) {
     EVENT_PAGE_ITEMS,
   );
 
-  const sectionTitle = searchQuery ? '搜索中……' : `${category.name}事件`;
+  const sectionTitle = searchQuery ? '搜索中……' : `${category.name || '未分类'}事件`;
 
   return (
     <Section scrollable fill title={sectionTitle} buttons={<PanelOptions />}>
@@ -241,7 +241,7 @@ function EventTabs(props) {
               key={cat.icon}
               onClick={() => setCategory(cat)}
             >
-              {cat.name}
+              {cat.name || '未分类'}
             </Tabs.Tab>
           ))}
         </Tabs>

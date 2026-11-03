@@ -81,6 +81,6 @@
 	. = ..()
 
 	if (cursed)
-		. += span_boldwarning("这块超物质遭到了侍徒的诅咒。诅咒消退前，其功率输出将大幅降低。")
+		. += span_boldwarning("这块超物质遭到了异端的诅咒。诅咒消退前，其功率输出将大幅降低。")
 
 #undef POWERLESS_DURATION

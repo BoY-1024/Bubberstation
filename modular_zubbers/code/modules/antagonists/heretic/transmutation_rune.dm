@@ -13,7 +13,7 @@
 /obj/effect/heretic_rune/examine(mob/user)
 	. = ..()
 
-	. += span_notice("任何侍徒都能随时使用[EXAMINE_HINT("漫宿之握")]绘制此符文，并借此举行\
+	. += span_notice("任何异端都能随时使用[EXAMINE_HINT("漫宿之握")]绘制此符文，并借此举行\
 	作为其核心玩法的[EXAMINE_HINT("仪式")]。")
 	if (IS_HERETIC(user))
 		. += span_notice("将[EXAMINE_HINT("物品丢放")]在符文上，即可将其用作仪式材料。")

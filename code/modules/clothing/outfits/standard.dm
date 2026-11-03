@@ -114,7 +114,7 @@
 	shoes = /obj/item/clothing/shoes/magboots/advance
 
 /datum/outfit/heretic_hallucination
-	name = "异教徒幻象"
+	name = "异端幻象"
 
 	uniform = /obj/item/clothing/under/color/grey
 	suit = /obj/item/clothing/suit/hooded/cultrobes/eldritch/rust

@@ -118,7 +118,7 @@
 /datum/barsign/skyrat/fourtheemprah
 	name = "为了帝皇"
 	icon_state = "4theemprah"
-	desc = "狂热者、异教徒和脑损伤顾客都爱光顾。"
+	desc = "狂热者、异端和脑损伤顾客都爱光顾。"
 	neon_color = "#E5AF1C"
 
 /datum/barsign/skyrat/ishimura

@@ -31,7 +31,7 @@
 %A% %ADJECTIVE% 枪
 %A% %ADJECTIVE% 遗传学家
 %A% %ADJECTIVE% 帽子
-%A% %ADJECTIVE% 异教徒
+%A% %ADJECTIVE% 异端
 %A% %ADJECTIVE% 藏身处
 %A% %ADJECTIVE% ID 卡
 %A% %ADJECTIVE% 冒充者

@@ -42,9 +42,9 @@
 
 /datum/opposing_force_equipment/uplink/heretic
 	item_type = /obj/item/antag_granter/heretic
-	name = "异教徒之书"
-	description = "一本封面带有诡异眼睛的紫色书籍，能使人成为\"异教徒\"，与被遗忘的诸神合而为一。"
-	admin_note = "赋予异教徒反派身份。"
+	name = "异端之书"
+	description = "一本封面带有诡异眼睛的紫色书籍，能使人成为\"异端\"，与被遗忘的诸神合而为一。"
+	admin_note = "赋予异端反派身份。"
 
 /datum/opposing_force_equipment/uplink/clock_cult
 	item_type = /obj/item/antag_granter/clock_cultist

@@ -998,7 +998,7 @@
 
 /datum/outfit/deathmatch_loadout/heresy/warrior
 	name = "Deathmatch: Heretic Warrior"
-	display_name = "异教徒战士"
+	display_name = "异端战士"
 	desc = "证明漫宿的狂怒之力！"
 
 	head = /obj/item/clothing/head/hooded/cult_hoodie/eldritch/blade
@@ -1042,7 +1042,7 @@
 
 /datum/outfit/deathmatch_loadout/heresy/scribe
 	name = "Deathmatch: Heretic Scribe"
-	display_name = "异教徒抄写员"
+	display_name = "异端抄写员"
 	desc = "揭示漫宿被遗忘的知识。"
 
 	head = /obj/item/clothing/head/helmet/chaplain/witchunter_hat
@@ -1084,7 +1084,7 @@
 /datum/outfit/deathmatch_loadout/holy_crusader
 	name = "Deathmatch: Holy Crusader"
 	display_name = "神圣十字军"
-	desc = "痛击异教徒！！"
+	desc = "痛击异端！！"
 	//species_override = /datum/species/plasmaman
 
 	head = /obj/item/clothing/head/helmet/chaplain

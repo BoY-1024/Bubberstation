@@ -1,13 +1,13 @@
 /datum/heretic_knowledge/spell/paranoias_eye
 	name = "妄念之眼"
-	desc = "迫使附近的异信者产生幻觉，将周围所有人（包括你）看作危险的异教徒。完全掩盖身份，持续一分钟。（无需施法媒介）"
+	desc = "迫使附近的异信者产生幻觉，将周围所有人（包括你）看作危险的异端。完全掩盖身份，持续一分钟。（无需施法媒介）"
 	gain_text = "敞开之路的耀眼光芒使他们失明。若非意志坚定，我也会失明。"
 	drafting_tier = 1
 	action_to_add = /datum/action/cooldown/spell/paranoias_eye
 
 /datum/action/cooldown/spell/paranoias_eye
 	name = "妄念之眼"
-	desc = "迫使附近的异信者产生幻觉，将周围所有人（包括你）看作危险的异教徒。范围广且能穿墙，持续一分钟。（无需施法媒介）"
+	desc = "迫使附近的异信者产生幻觉，将周围所有人（包括你）看作危险的异端。范围广且能穿墙，持续一分钟。（无需施法媒介）"
 	background_icon_state = "bg_heretic"
 	overlay_icon_state = "bg_heretic_border"
 	button_icon = 'icons/mob/actions/actions_animal.dmi'

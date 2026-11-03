@@ -326,7 +326,7 @@
 /datum/hallucination/delusion/preset/heretic
 	dynamic_delusion = TRUE
 	random_hallucination_weight = 0
-	delusion_name = "异教徒"
+	delusion_name = "异端"
 	affects_others = TRUE
 	affects_us = FALSE
 	duration = 11 SECONDS

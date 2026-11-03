@@ -39,8 +39,8 @@
 /datum/opposing_force_equipment/antagonist_powers/heretic
 	item_type = /obj/item/antag_granter/heretic
 	name = "异端之书"
-	description = "一本带有邪异之眼的紫色书籍，能让人成为与遗忘诸神同行的“异教徒”。"
-	admin_note = "异教徒反派授予器。"
+	description = "一本带有邪异之眼的紫色书籍，能让人成为与遗忘诸神同行的“异端”。"
+	admin_note = "异端反派授予器。"
 
 // Clock Cultist
 /datum/opposing_force_equipment/antagonist_powers/clock_cult

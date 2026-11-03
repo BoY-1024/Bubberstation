@@ -477,7 +477,7 @@
 		return ..()
 		// SKYRAT EDIT ADDITION START
 	else if(IS_CLOCK(target))
-		to_chat(user, span_warning("某种比你更强大的力量介入！[target]受到异教徒拉特瓦的庇护！"))
+		to_chat(user, span_warning("某种比你更强大的力量介入！[target]受到异端拉特瓦的庇护！"))
 		to_chat(target, span_warning("你对拉特瓦的信仰庇护着你！"))
 		var/old_color = target.color
 		target.color = rgb(190, 135, 0)

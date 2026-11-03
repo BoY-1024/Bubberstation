@@ -69,7 +69,7 @@ const IntroductionSection = (props) => {
   return (
     <Stack justify="space-evenly" height="100%" width="100%">
       <Stack.Item grow>
-        <Section title="你是侍徒！" fill fontSize="14px">
+        <Section title="你是异端！" fill fontSize="14px">
           <Stack vertical>
             <FlavorSection />
             <Stack.Divider />

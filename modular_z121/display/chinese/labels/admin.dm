@@ -18,3 +18,13 @@
 	for(var/value in values)
 		display_values += chinese_batch_four_admin_display(value)
 	return jointext(display_values, separator)
+
+/proc/chinese_force_event_name(datum/round_event_control/event_control)
+	if(event_control.name)
+		return chinese_batch_four_admin_display(event_control.name)
+	switch(event_control.type)
+		if(/datum/round_event_control/antagonist/solo)
+			return "单人反派事件（基础模板）"
+		if(/datum/round_event_control/antagonist/team)
+			return "团队反派事件（基础模板）"
+	return "未命名事件（[event_control.type]）"

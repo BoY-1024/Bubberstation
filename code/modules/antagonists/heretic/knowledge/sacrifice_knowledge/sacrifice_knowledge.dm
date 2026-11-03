@@ -53,15 +53,15 @@
 #ifndef UNIT_TESTS // This is a decently hefty thing to generate while unit testing, so we should skip it.
 	if(!heretic_level_generated)
 		heretic_level_generated = TRUE
-		log_game("正在加载用于异教徒献祭的异教徒懒加载模板……")
+		log_game("正在加载用于异端献祭的异端懒加载模板……")
 		INVOKE_ASYNC(src, PROC_REF(generate_heretic_z_level))
 #endif
 
 /// Generate the sacrifice z-level.
 /datum/heretic_knowledge/hunt_and_sacrifice/proc/generate_heretic_z_level()
 	if(!SSmapping.lazy_load_template(LAZY_TEMPLATE_KEY_HERETIC_SACRIFICE))
-		log_game("异教徒献祭模板加载失败。")
-		message_admins("异教徒献祭懒加载模板加载失败。异教徒献祭将不会被传送到暗影界。\
+		log_game("异端献祭模板加载失败。")
+		message_admins("异端献祭懒加载模板加载失败。异端献祭将不会被传送到暗影界。\
 			如果你愿意，可以在某处生成一个 /obj/effect/landmark/heretic 来阻止这种情况发生。")
 		CRASH("Failed to lazy load heretic sacrifice template!")
 
@@ -264,7 +264,7 @@
 			for(var/datum/mind/mind as anything in cultist_datum.cult_team.members)
 				if(mind.current)
 					SEND_SOUND(mind.current, 'sound/effects/magic/clockwork/narsie_attack.ogg')
-					var/message = span_narsie("一名卑劣的异教徒") + \
+					var/message = span_narsie("一名卑劣的异端") + \
 					span_cult_large(span_hypnophrase("献祭了")) + \
 					span_narsie("我们的一员。在那异端夺走更多之前，摧毁并献祭它！")
 					to_chat(mind.current, message)
@@ -669,7 +669,7 @@
 	sac_target.spill_organs(DROP_ALL_REMAINS)
 	sac_target.apply_damage(250, BRUTE)
 	if(sac_target.stat != DEAD)
-		sac_target.investigate_log("已被异教徒献祭杀死。", INVESTIGATE_DEATHS)
+		sac_target.investigate_log("已被异端献祭杀死。", INVESTIGATE_DEATHS)
 		sac_target.death()
 	sac_target.visible_message(
 		span_danger("[sac_target]的器官被阴影之手从其胸腔中拽出！"),

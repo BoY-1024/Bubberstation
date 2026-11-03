@@ -7,7 +7,7 @@ export const HERETIC_MECHANICAL_DESCRIPTION = `
 
 const Heretic: Antagonist = {
   key: 'heretic',
-  name: '侍徒', // BUBBER EDIT CHANGE - renamed to Acolyte
+  name: '异端', // BUBBER EDIT CHANGE - renamed to Acolyte
   description: [
     `
       遗忘、吞噬、掏空。人类早已忘却那些掌控腐朽的

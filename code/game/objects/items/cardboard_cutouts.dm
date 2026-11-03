@@ -365,7 +365,7 @@
 /datum/cardboard_cutout/heretic
 	name = "Heretic"
 	applied_name = "未知"
-	applied_desc = "一块异教徒造型的人形纸板。"
+	applied_desc = "一块异端造型的人形纸板。"
 	outfit = /datum/outfit/heretic_hallucination
 
 /datum/cardboard_cutout/changeling

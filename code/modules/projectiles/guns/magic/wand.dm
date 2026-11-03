@@ -453,8 +453,8 @@
 			to_chat(world, "added")
 
 /obj/item/gun/magic/wand/antag/heretic
-	name = "异教徒反派之杖"
-	desc = "这根短杖运用胡扯之力，把击中的任何人变成异教徒反派"
+	name = "异端反派之杖"
+	desc = "这根短杖运用胡扯之力，把击中的任何人变成异端反派"
 	color = COLOR_GREEN
 	ammo_type = /obj/item/ammo_casing/magic/antag/heretic
 
@@ -462,7 +462,7 @@
 	projectile_type = /obj/projectile/magic/antag/heretic
 
 /obj/projectile/magic/antag/heretic
-	name = "异教徒反派之弹"
+	name = "异端反派之弹"
 	icon_state = "ion"
 	antag = /datum/antagonist/heretic
 

@@ -831,7 +831,7 @@
 	notify_ghosts(
 		"[user.real_name]完成了飞升仪式！",
 		source = user,
-		header = "一名异教徒正在飞升！",
+		header = "一名异端正在飞升！",
 	)
 	priority_announce(
 		text = replacetext(replacetext(announcement_text, "%NAME%", user.real_name), "%SPOOKY%", GLOBAL_PROC_REF(generate_heretic_text)),

@@ -13,7 +13,7 @@
 	. = ..()
 
 	chosen_mob.balloon_alert_to_viewers("受到诅咒！")
-	to_chat(chosen_mob, span_boldwarning("一名侍徒利用你的血液酊剂诅咒了你！诅咒会随时间消退，你也可以用圣西瓜防止再次被诅咒！"))
+	to_chat(chosen_mob, span_boldwarning("一名异端利用你的血液酊剂诅咒了你！诅咒会随时间消退，你也可以用圣西瓜防止再次被诅咒！"))
 
 /datum/heretic_knowledge/curse/transmutation
 	duration = 5 MINUTES // infinit efor no fucking reason in tgcode oml

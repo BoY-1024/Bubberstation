@@ -20,7 +20,7 @@
 
 	sleep(2 SECONDS)
 
-	send_clock_message(null, "<b>随着纳尔西的一名异教徒被汲取殆尽，我们现在可以开启通往齿轮之城——受祝福的里比圣所——的传送门了！只需再等一小会儿……</b>", "<span class='brass'>")
+	send_clock_message(null, "<b>随着纳尔西的一名异端被汲取殆尽，我们现在可以开启通往齿轮之城——受祝福的里比圣所——的传送门了！只需再等一小会儿……</b>", "<span class='brass'>")
 
 	sleep(5 SECONDS)
 
@@ -91,7 +91,7 @@
 
 /obj/item/paper/crumpled/bloody/reebe2
 	name = "潦草的便条"
-	default_raw_text = {"异教徒们闯入了这片圣地。<br>
+	default_raw_text = {"异端们闯入了这片圣地。<br>
 	我们的许多兄弟姐妹在这场战斗中倒下了，只剩我一个。能知道自己又带走了一群纳尔西信徒，我死也甘愿。<br>
 	要是那该死的传送门能及时打开就好了……"}
 

@@ -13,12 +13,12 @@
 	///What level is our passive currently on
 	var/passive_level = HERETIC_LEVEL_START
 	/// Name of the passive, used by the UI
-	var/name = "异教徒被动"
+	var/name = "异端被动"
 	/// Describes how users of this path recharge their spells
 	var/recharge_description = "通过做各种事情来为法术充能。"
 	/// Describes the various levels of the passive
 	var/list/passive_descriptions = list(
-		"根据你的异教徒类型赋予你一项被动能力。随着你获得更多力量，这项能力会升级。",
+		"根据你的异端类型赋予你一项被动能力。随着你获得更多力量，这项能力会升级。",
 		"你的被动能力已升级，现在能做别的事情了。",
 		"你的被动能力已升级至最终形态，赋予你一项强大的新能力。",
 	)
@@ -142,7 +142,7 @@
 	recharge_description = "通过将勇敢的敌人打入濒危状态来为法术充能。\
 		（勇敢的敌人指任何先攻击你的人。）"
 	passive_descriptions = list(
-		"任一只手握着异教徒之刃时遭到攻击，会立即对攻击者发动一次免费的反击。此效果每 20 秒只能触发一次。",
+		"任一只手握着异端之刃时遭到攻击，会立即对攻击者发动一次免费的反击。此效果每 20 秒只能触发一次。",
 		"免疫坠落伤害。",
 		"反击的冷却时间缩短至 10 秒。"
 	)
